@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import PropTypes from "prop-types"
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Landing from './pages/Landing'
 import { Nav, NavItem } from 'reactstrap'
 import {
   BrowserRouter as  Router,
   Route,
   Switch
 } from 'react-router-dom'
+import { fish } from '../assets/fish.jpg'
 
 
 class App extends Component {
@@ -31,8 +33,8 @@ class App extends Component {
           sign_in_route={ this.props.sign_in_route }
           sign_out_route={ this.props.sign_out_route }
           />
+          <h3>Hello Pets</h3>
           <Switch>
-            <h3>Hello Pets</h3>
             <Route exact path="/" 
             render={ (props) =>
               <Landing 
