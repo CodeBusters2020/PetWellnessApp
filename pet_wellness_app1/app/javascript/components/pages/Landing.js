@@ -34,7 +34,7 @@ class AddPet extends Component{
                             <CardBody>
                             <CardTitle>Blurb</CardTitle>
                             <CardText>How many of you own a pet or know someone that owns a pet? We know it can be an overwhelming responsibility taking care of your pet, especially if you want to offer the best care. We have an application that can assist the specific needs of all pet owners.</CardText>
-                            <a href={ sign_up_route }> Sign Up </a>
+                            <a href={ this.props.sign_up_route }> Sign Up </a>
 
                             </CardBody>
                         </Card>
@@ -46,11 +46,6 @@ class AddPet extends Component{
                 </Row>
             </Container>
         </React.Fragment>
-
-            <React.Fragment>
-                <h3> Landing </h3>
-                { this.state.success && <Redirect to={ `/` }/> }
-            </React.Fragment>
         )
     }
 }

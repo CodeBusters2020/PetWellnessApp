@@ -13,7 +13,7 @@ import {
 import { NavLink } from 'react-router-dom'
 
 class AdoptAPet extends Component {
-    
+
     constructor(props){
         super(props)
         this.state = {
@@ -23,7 +23,7 @@ class AdoptAPet extends Component {
             },
             pets: []
         }
-    
+
     }
 
     handleChange = (e) =>{
@@ -32,7 +32,7 @@ class AdoptAPet extends Component {
         this.setState({information: newValues})
 
     }
-    
+
     handleSubmit = () => {
       fetch().then(response => {
           if(response.status === 200){
@@ -44,9 +44,9 @@ class AdoptAPet extends Component {
           console.log("index errors", errors)
       })
     }
-    
-    
-    
+
+
+
     render(){
         return (
             <>
@@ -54,22 +54,22 @@ class AdoptAPet extends Component {
             <h3>Adopt a Pet!</h3>
                 <FormGroup>
                     <Label for="zipcode">Enter Zip Code</Label>
-                    <Input 
-                    type="string" 
-                    name="zipcode" 
-                    id="zipcode" 
+                    <Input
+                    type="string"
+                    name="zipcode"
+                    id="zipcode"
                     placeholder="92156"
-                    value={this.state.form.zipcode}
+                    value={this.state.information.zipcode}
                     onChange = {this.handleChange}
                     />
                 </FormGroup>
                 <FormGroup>
                     <Label for="radius">Select Radius</Label>
-                    <Input 
+                    <Input
                     type="select"
                     name="radius"
                     id="radius"
-                    value={this.state.form.radius}
+                    value={this.state.information.radius}
                     onChange = {this.handleChange}
                     >
                     <option>5</option>
@@ -88,10 +88,10 @@ class AdoptAPet extends Component {
                 <CardTitle>Pet Name</CardTitle>
                 <CardText>
                 Breed:
-                <br/> 
-                Age: 
                 <br/>
-                Sex: 
+                Age:
+                <br/>
+                Sex:
                 <br/>
                 </CardText>
                 <Button variant="primary">See Details</Button>
