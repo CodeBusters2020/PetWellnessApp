@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import Header from '../components/Header'
 import AdoptAPet from '../components/AdoptAPet'
 import {
@@ -13,17 +14,17 @@ import {
 import { NavLink } from 'react-router-dom'
 import fishpic from '../assets/fish.jpg'
 
-class Landing extends Component{
+class AddPet extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            success: false
+        }
+    }
 
     render(){
-        const {
-        logged_in,
-        sign_in_route,
-        sign_out_route,
-        current_user,
-        sign_up_route
-    } = this.props
         return(
+
         <React.Fragment>
             <Container className="main-container" fluid>
                 <Row>
@@ -45,7 +46,12 @@ class Landing extends Component{
                 </Row>
             </Container>
         </React.Fragment>
+
+            <React.Fragment>
+                <h3> Landing </h3>
+                { this.state.success && <Redirect to={ `/` }/> }
+            </React.Fragment>
         )
     }
 }
-export default Landing
+export default AddPet
