@@ -3,6 +3,10 @@ import PropTypes from "prop-types"
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Landing from './pages/Landing'
+import MyPets from './pages/MyPets'
+import AddPet from './pages/AddPet'
+import AboutUs from './pages/AboutUs'
+import ShowPet from './pages/ShowPet'
 import { Nav, NavItem } from 'reactstrap'
 import {
   BrowserRouter as  Router,
@@ -44,9 +48,22 @@ class App extends Component {
               />
             }
             />
+            <Route
+            path="/aboutus" component={ AboutUs }
+            />
 
+        { logged_in &&
+            <Route
+            path="/mypets" component={ MyPets }
+            />
+        }
 
-
+        { logged_in &&
+            < Route path="/addpet" component={ AddPet } />
+        }
+        { logged_in &&
+            <Route path="/showpet" component={ ShowPet } />
+        }
 
           </Switch>
         </Router>
