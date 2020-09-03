@@ -52,11 +52,11 @@ class App extends Component {
             path="/aboutus" component={ AboutUs }
             />
 
-        { logged_in &&
+
             <Route
             path="/mypets" component={ MyPets }
             />
-        }
+        
 
         { logged_in &&
             < Route path="/addpet" component={ AddPet } />
