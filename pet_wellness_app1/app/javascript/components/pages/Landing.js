@@ -12,14 +12,22 @@ import {
   Button,
   Form,
   FormGroup,
-  Label, 
+  Label,
   Input
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 import fishpic from '../assets/fish.jpg'
 
 class Landing extends Component{
+
     render(){
+      const {
+      logged_in,
+      sign_in_route,
+      sign_out_route,
+      current_user,
+      sign_up
+    } = this.props
         return(
         <React.Fragment>
             <Container className="main-container" fluid>
@@ -30,15 +38,18 @@ class Landing extends Component{
                             <CardBody>
                             <CardTitle>Blurb</CardTitle>
                             <CardText>How many of you own a pet or know someone that owns a pet? We know it can be an overwhelming responsibility taking care of your pet, especially if you want to offer the best care. We have an application that can assist the specific needs of all pet owners.</CardText>
-                            <Button>Sign Up</Button>
+                          
+                            <a href={ sign_up } >Sign Up</a>
+
                             </CardBody>
                         </Card>
                     </Col>
                     <Col className="block" md="5">
                     <Form>
+                    <h3>Adopt a Pet!</h3>
                         <FormGroup>
                             <Label for="zipcode">Enter Zip Code</Label>
-                            <Input type="number" name="zipcode" id="zipcode" placeholder="92156" />
+                            <Input type="number" name="zipcode" id="zipcode" placeholder="92156" min={0} />
                         </FormGroup>
                         <FormGroup>
                             <Label for="radius">Select Radius</Label>
@@ -50,6 +61,8 @@ class Landing extends Component{
                             <option>50</option>
                             </Input>
                         </FormGroup>
+                        <Button
+                        >Search</Button>
                     </Form>
                     </Col>
                 </Row>

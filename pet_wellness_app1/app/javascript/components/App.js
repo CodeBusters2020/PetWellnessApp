@@ -9,7 +9,6 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { fish } from '../assets/fish.jpg'
 
 
 class App extends Component {
@@ -22,6 +21,7 @@ class App extends Component {
       logged_in,
       sign_in_route,
       sign_out_route,
+      sign_up,
       //passed in by index.html.erb (devise)
       current_user
     } = this.props
@@ -33,20 +33,20 @@ class App extends Component {
           sign_in_route={ this.props.sign_in_route }
           sign_out_route={ this.props.sign_out_route }
           />
-          <h3>Hello Pets</h3>
           <Switch>
-            <Route exact path="/" 
+            <Route exact path="/"
             render={ (props) =>
-              <Landing 
+              <Landing
                 logged_in={ logged_in }
                 sign_in_route={ sign_in_route }
                 sign_out_route={ sign_out_route }
+                sign_up_route={ sign_up }
               />
             }
             />
 
-            
-            
+
+
 
           </Switch>
         </Router>
