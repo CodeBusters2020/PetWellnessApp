@@ -21,7 +21,7 @@ class App extends Component {
       logged_in,
       sign_in_route,
       sign_out_route,
-      sign_up,
+      sign_up_route,
       //passed in by index.html.erb (devise)
       current_user
     } = this.props
@@ -40,7 +40,7 @@ class App extends Component {
                 logged_in={ logged_in }
                 sign_in_route={ sign_in_route }
                 sign_out_route={ sign_out_route }
-                sign_up_route={ sign_up }
+                sign_up_route={ sign_up_route }
               />
             }
             />
