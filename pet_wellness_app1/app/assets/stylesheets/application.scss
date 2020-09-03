@@ -14,3 +14,12 @@
  *= require_self
  */
  @import 'bootstrap';
+
+ .block {
+     background-color: grey;
+     margin: auto;
+    //  padding: 20px;
+ }
+ .hero {
+     background-color: lightgrey;
+ }
