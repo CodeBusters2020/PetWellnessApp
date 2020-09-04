@@ -20,6 +20,10 @@ class App extends Component {
     super(props)
     }
 
+    createNewPet = (newPet) => {
+      console.log(newPet)
+    }
+
   render () {
     const {
       logged_in,
@@ -56,11 +60,19 @@ class App extends Component {
             <Route
             path="/mypets" component={ MyPets }
             />
-        
+
 
         { logged_in &&
-            < Route path="/addpet" component={ AddPet } />
+            < Route path="/addpet"
+            render={ (props) =>
+            <AddPet
+            current_user={ current_user }
+            createNewPet={ this.createNewPet }
+            />
+            }
+            />
         }
+
         { logged_in &&
             <Route path="/showpet" component={ ShowPet } />
         }
