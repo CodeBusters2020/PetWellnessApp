@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from "prop-types"
 import Header from './components/Header'
 import Footer from './components/Footer'
-//import Landing from './pages/Landing'
+import Landing from './pages/Landing'
 import MyPets from './pages/MyPets'
 import AddPet from './pages/AddPet'
 import AboutUs from './pages/AboutUs'
@@ -100,11 +100,8 @@ class App extends Component {
               )
             }}
             />
-<<<<<<< HEAD
-
-=======
           }
->>>>>>> 05bb2d149387561a4485961cfb60674f15be05dd
+
 
         { logged_in &&
             < Route path="/addpet"

@@ -4,58 +4,59 @@ import { Redirect } from 'react-router-dom'
 import SideBar from '../components/SideBar'
 
 class AddPet extends Component{
-    constructor(props){
-        super(props)
-        this.state = {
-            form: {
-              name: "",
-              dob: "",
-              breed: "",
-              sex: "",
-              medical: "",
-              digestion: "",
-              appointment: "",
-              diary: "",
-              misc: "",
-              user_id: this.props.current_user.id
-            },
-            success: false
-        }
+  constructor(props){
+    super(props)
+    this.state = {
+      form: {
+        name: "",
+        dob: "",
+        breed: "",
+        sex: "",
+        medical: "",
+        digestion: "",
+        appointment: "",
+        diary: "",
+        misc: "",
+        user_id: this.props.current_user.id
+      },
+      success: false
     }
+  }
 
-    handleChange = (e) => {
-      let newValues = this.state.form
-      newValues[e.target.name] = e.target.value
-      this.setState({ form: newValues})
-    }
+  handleChange = (e) => {
+    let newValues = this.state.form
+    newValues[e.target.name] = e.target.value
+    this.setState({ form: newValues})
+  }
 
-    handleSubmit = () => {
-      let { name, dob, breed, sex } = this.state.form
-      if(name == ""){
-        alert("Name must be filled")
-      } else if (dob == ""){
-        alert("DOB must be filled")
-      } else if (breed == ""){
-        alert("Breed must be filled")
-      } else if (sex == ""){
-          alert("Sex must be selected")
-      } else {
+  handleSubmit = () => {
+    let { name, dob, breed, sex } = this.state.form
+    if(name == ""){
+      alert("Name must be filled")
+    } else if (dob == ""){
+      alert("DOB must be filled")
+    } else if (breed == ""){
+      alert("Breed must be filled")
+    } else if (sex == ""){
+      alert("Sex must be selected")
+    } else {
       this.props.createNewPet(this.state.form)
       this.setState({ success: true })
-      }
     }
+  }
 
-    render(){
-        return(
-        <React.Fragment>
-          <Container >
-            <Row>
-            <Col>
-              <SideBar />
-            </Col>
-            <Col>
+  render(){
+      return(
+      <React.Fragment>
+        <Container >
+          <Row>
+          <Col>
+            <SideBar />
+          </Col>
+          <Col>
             <h2>Add A New Pet</h2>
-            <Form>
+          <Form>
+            <section >
               <FormGroup>
                   <Label>Name</Label>
                   <Input
@@ -109,7 +110,10 @@ class AddPet extends Component{
                     Female
                   </Label>
                 </FormGroup>
-                </FormGroup>
+              </FormGroup>
+            </section>
+
+              <section>
                 <FormGroup>
                   <Label>Medical</Label>
                   <Input
@@ -119,17 +123,23 @@ class AddPet extends Component{
                   value = { this.state.form.medical }
                   onChange = { this.handleChange }
                   />
-              </FormGroup>
-              <FormGroup>
-                  <Label>Digestion</Label>
-                  <Input
-                  type = "text"
-                  name = "digestion"
-                  placeholder="Optional"
-                  value = { this.state.form.digestion }
-                  onChange = { this.handleChange }
-                  />
-              </FormGroup>
+                </FormGroup>
+              </section>
+
+              <section>
+                <FormGroup>
+                    <Label>Digestion</Label>
+                    <Input
+                    type = "text"
+                    name = "digestion"
+                    placeholder="Optional"
+                    value = { this.state.form.digestion }
+                    onChange = { this.handleChange }
+                    />
+                </FormGroup>
+              </section>
+
+            <section>
               <FormGroup>
                   <Label>Appointment</Label>
                   <Input
@@ -140,40 +150,49 @@ class AddPet extends Component{
                   onChange = { this.handleChange }
                   />
               </FormGroup>
-                  <FormGroup>
-                      <Label>Diary</Label>
-                      <Input
-                      type = "text"
-                      name = "diary"
-                      placeholder="Optional"
-                      value = { this.state.form.diary }
-                      onChange = { this.handleChange }
-                      />
-                  </FormGroup>
-                  <FormGroup>
-                      <Label>Miscellaneous</Label>
-                      <Input
-                      type = "text"
-                      name = "misc"
-                      placeholder="Optional"
-                      value = { this.state.form.misc }
-                      onChange = { this.handleChange }
-                      />
-                  </FormGroup>
-              <Button
-              name="submit"
-              color = "secondary"
-              onClick = {this.handleSubmit}
-              >
-                Save Pet
-              </Button>
-          </Form>
-          </Col>
+            </section>
+            
+            <section>
+              <FormGroup>
+                  <Label>Diary</Label>
+                  <Input
+                  type = "text"
+                  name = "diary"
+                  placeholder="Optional"
+                  value = { this.state.form.diary }
+                  onChange = { this.handleChange }
+                  />
+              </FormGroup>
+            </section>
+
+              <section>
+
+                <FormGroup>
+                  <Label>Miscellaneous</Label>
+                  <Input
+                  type = "text"
+                  name = "misc"
+                  placeholder="Optional"
+                  value = { this.state.form.misc }
+                  onChange = { this.handleChange }
+                  />
+                </FormGroup>
+                <Button
+                name="submit"
+                color = "secondary"
+                onClick = {this.handleSubmit}
+                >
+                  Save Pet
+                </Button>
+            </section>
+        </Form>
+      
+        </Col>
         </Row>
-        </Container>
-        { this.state.success && <Redirect to = "/mypets" /> }
-      </React.Fragment>
-        )
-    }
+      </Container>
+      { this.state.success && <Redirect to = "/mypets" /> }
+    </React.Fragment>
+      )
+  }
 }
 export default AddPet
