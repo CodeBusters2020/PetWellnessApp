@@ -25,6 +25,24 @@
      background-color: lightgrey;
  }
 
+
+ .wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: auto;
+    position: fixed;
+    padding: 20px;
+    height: 100vh;
+    z-index: 999;
+    background: #007BFF;
+    color: #fff;
+    transition: all 0.3s;
+    
+}
+
  .landing-cards {
      margin: 20px auto;
      margin-bottom: 20px;
@@ -32,3 +50,4 @@
      margin-right: auto;
      padding: auto;
  }
+

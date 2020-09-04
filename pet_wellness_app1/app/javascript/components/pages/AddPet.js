@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
-import { Container, Col, Row } from 'reactstrap'
+import React, { Component, Fragment } from 'react'
+import {Form, FormGroup, Input, Label, Button, Container} from 'reactstrap'
 import { Redirect } from 'react-router-dom'
+import SideBar from '../components/SideBar'
 
 class AddPet extends Component{
     constructor(props){
