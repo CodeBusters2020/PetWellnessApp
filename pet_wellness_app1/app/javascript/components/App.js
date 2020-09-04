@@ -36,6 +36,24 @@ class App extends Component {
       })
     }
 
+    deletePet = (id) => {
+      return fetch (`../pets/${id}`, {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "DELETE"
+      })
+      .then(response => {
+        if(response.status === 200) {
+          this.componentDidMount()
+        }
+        return response
+      })
+      .catch(errors => {
+        console.log("delete errors:", errors)
+      })
+    }
+
 
   render () {
     const {

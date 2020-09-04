@@ -15,13 +15,13 @@ class ShowPet extends Component{
             isDeleted : false
             }
         }
-        // handleClick = () => {
-        //   // Calls method from App.js, passing ID of current pet
-        //     this.props.deletePet(this.props.pets.id);
-        //     // Switches state variable
-        //     this.setState( {isDeleted: true} );
-        //     console.log("Pet deleted")
-        // }
+        handleClick = () => {
+          // Calls method from App.js, passing ID of current pet
+            this.props.deletePet(this.props.pet.id);
+            // Switches state variable
+            this.setState( {isDeleted: true} );
+            console.log("Pet deleted")
+        }
     render(){
         let { pet } = this.props
         return(
