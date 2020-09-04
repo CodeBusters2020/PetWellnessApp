@@ -47,7 +47,23 @@ class ShowPet extends Component{
                                 </Button>
                                 </>
                             }
-                            {this.state.isDeleted && <Redirect to = "/mypets" />
+                        <br/>
+                        <h5>Medical:</h5>
+                        <p>{ pet.medical }</p>
+                        <br/>
+                        <h5>Digestion:</h5>
+                        <p>{ pet.digestion }</p>
+                        <br/>
+                        <h5>Appointment:</h5>
+                        <p>{ pet.appointment }</p>
+                        <br/>
+                        <h5>Diary:</h5>
+                        <p>{ pet.diary }</p>
+                        <br/>
+                        <h5>Miscellaneous:</h5>
+                        <p>{ pet.misc }</p>
+                        
+                        {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
                         </CardTitle>
                     </Card>
