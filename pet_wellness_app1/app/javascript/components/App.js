@@ -18,10 +18,39 @@ import {
 class App extends Component {
   constructor(props){
     super(props)
+    this.state = {
+      pets: []
     }
+  }
 
+    componentDidMount(){
+      fetch("/pets")
+      .then(response => {
+          if(response.status === 200){
+              return(response.json())
+          }
+      }).then(petsArray => {
+          this.setState({ pets: petsArray })
+      }).catch(errors => {
+          console.log("index errors", errors)
+      })
+    }
+    
     createNewPet = (newPet) => {
-      console.log(newPet)
+      return fetch("/pets", {
+        body: JSON.stringify(newPet),
+        headers: { "Content-Type": "application/json" },
+        method: "POST"
+        }).then(response => {
+        if(response.status === 200){
+            this.componentDidMount()
+        } else {
+            alert("Please check your form")
+        }
+        return response
+        }).catch(errors => {
+        console.log("create errors", errors)
+    })
     }
 
   render () {

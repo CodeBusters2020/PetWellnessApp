@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import {Form, FormGroup, Input, Label, Button, Container} from 'reactstrap'
+import {Form, FormGroup, Input, Label, Button, Container, Row, Col} from 'reactstrap'
 import { Redirect } from 'react-router-dom'
 import SideBar from '../components/SideBar'
 
@@ -49,6 +49,11 @@ class AddPet extends Component{
         return(
         <React.Fragment>
           <Container >
+            <Row>
+            <Col>
+              <SideBar />
+            </Col>
+            <Col>
             <h2>Add A New Pet</h2>
             <Form>
               <FormGroup>
@@ -163,6 +168,8 @@ class AddPet extends Component{
                 Save Pet
               </Button>
           </Form>
+          </Col>
+        </Row>
         </Container>
         { this.state.success && <Redirect to = "/mypets" /> }
       </React.Fragment>
