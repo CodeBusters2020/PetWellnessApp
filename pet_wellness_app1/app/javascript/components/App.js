@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from "prop-types"
 import Header from './components/Header'
 import Footer from './components/Footer'
-//import Landing from './pages/Landing'
+import Landing from './pages/Landing'
 import MyPets from './pages/MyPets'
 import AddPet from './pages/AddPet'
 import AboutUs from './pages/AboutUs'
@@ -55,7 +55,7 @@ class App extends Component {
           sign_out_route={ this.props.sign_out_route }
           />
           <Switch>
-            {/* <Route exact path="/"
+            <Route exact path="/"
             render={ (props) =>
               <Landing
                 logged_in={ logged_in }
@@ -64,7 +64,7 @@ class App extends Component {
                 sign_up_route={ sign_up_route }
               />
             }
-            /> */}
+            />
             <Route
             path="/aboutus" component={ AboutUs }
             />
@@ -89,7 +89,21 @@ class App extends Component {
             < Route path="/addpet" component={ AddPet } />
         }
         { logged_in &&
-            <Route path="/showpet" component={ ShowPet } />
+            <Route
+            path={"/show/:id"}
+            render={ (props) => {
+              let id = props.match.params.id
+              let pet = this.state.pets.find(pet => pet.id === parseInt(id))
+              return (
+                <ShowPet 
+                logged_in={ logged_in }
+                pet={ pet }
+                current_user= { current_user } 
+                deletePet = { this.deletePet }
+                />
+              )
+            }}
+          />
         }
 
           </Switch>
