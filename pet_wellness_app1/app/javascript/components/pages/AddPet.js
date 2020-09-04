@@ -17,7 +17,7 @@ class AddPet extends Component{
     
     render(){
         return(
-            <React.Fragment>
+            <Fragment>
                 <Row>
                     <Col>
                         <SideBar/>
