@@ -1,5 +1,12 @@
-import React, { Component } from 'react'
-
+import React, { Component, Fragment } from 'react'
+import SideBar from '../components/SideBar'
+import {
+    Row,
+    Container,
+    Nav,
+    NavItem,
+    Col
+  } from 'reactstrap'
 class AddPet extends Component{
     constructor(props){
         super(props)
@@ -10,8 +17,16 @@ class AddPet extends Component{
     
     render(){
         return(
-            <React.Fragment>
-                <h3> Add a Pet </h3>
+            <Fragment>
+                <Row>
+                    <Col>
+                        <SideBar/>
+                    </Col>
+                    <Col>
+                        <h3> Add a Pet </h3>
+                    </Col>
+                </Row>
+                
                 { this.state.success && <Redirect to={ `/` }/> }
             </React.Fragment>
         )
