@@ -14,14 +14,14 @@ class SideBar extends Component{
         <React.Fragment>
 
         <div className="wrapper">
-               
+
                <nav id="sidebar">
 
 
                    <ul className="list-unstyled components">
 
                        <li className="active">
-                        <a href="#">General</a>
+                        <a href="#general">General</a>
                        </li>
                        <li>
                            <a href="#">Medical</a>
@@ -43,12 +43,12 @@ class SideBar extends Component{
                        </li>
                    </ul>
 
-               </nav>  
+               </nav>
                </div>
         </React.Fragment>
-        
+
         )
     }
-}   
+}
 
 export default SideBar

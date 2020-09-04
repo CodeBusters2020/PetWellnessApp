@@ -56,7 +56,7 @@ class AddPet extends Component{
           <Col>
             <h2>Add A New Pet</h2>
           <Form>
-            <section >
+            <section id = "general" className = "full-height" >
               <FormGroup>
                   <Label>Name</Label>
                   <Input
@@ -151,7 +151,7 @@ class AddPet extends Component{
                   />
               </FormGroup>
             </section>
-            
+
             <section>
               <FormGroup>
                   <Label>Diary</Label>
@@ -186,7 +186,7 @@ class AddPet extends Component{
                 </Button>
             </section>
         </Form>
-      
+
         </Col>
         </Row>
       </Container>
