@@ -18,12 +18,14 @@
  .block {
      background-color: grey;
      margin: auto;
-    //  padding: 20px;
+     margin-top: 20px;
+     padding: auto;
  }
  .hero {
      background-color: lightgrey;
  }
 
+<<<<<<< HEAD
  .wrapper {
     display: flex;
     width: 100%;
@@ -40,3 +42,12 @@
     transition: all 0.3s;
     
 }
+=======
+ .landing-cards {
+     margin: 20px auto;
+     margin-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: auto;
+ }
+>>>>>>> master
