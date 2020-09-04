@@ -18,7 +18,24 @@ import {
 class App extends Component {
   constructor(props){
     super(props)
+    this.state = {
+      pets: []
     }
+    }
+    
+    componentDidMount(){
+      fetch("/pets")
+      .then(response => {
+          if(response.status === 200){
+              return(response.json())
+          }
+      }).then(petsArray => {
+          this.setState({ pets: petsArray })
+      }).catch(errors => {
+          console.log("index errors", errors)
+      })
+    }
+
 
   render () {
     const {
@@ -52,11 +69,21 @@ class App extends Component {
             path="/aboutus" component={ AboutUs }
             />
 
-
+        { logged_in &&
             <Route
-            path="/mypets" component={ MyPets }
+            path="/mypets"
+            render={ (props) => {
+              let user = current_user.id
+              let myPets = this.state.pets.filter(pets => pets.user_id === user)
+              return (
+                <MyPets 
+                user_name={current_user.username}
+                myPets={ myPets } 
+                />
+              )
+            }}
             />
-        
+          }
 
         { logged_in &&
             < Route path="/addpet" component={ AddPet } />
