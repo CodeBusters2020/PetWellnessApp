@@ -51,7 +51,8 @@ class App extends Component {
         }).catch(errors => {
         console.log("create errors", errors)
     })
-    }
+  }
+
 
   render () {
     const {
@@ -85,11 +86,25 @@ class App extends Component {
             path="/aboutus" component={ AboutUs }
             />
 
-
+        { logged_in &&
             <Route
-            path="/mypets" component={ MyPets }
+            path="/mypets"
+            render={ (props) => {
+              let user = current_user.id
+              let myPets = this.state.pets.filter(pets => pets.user_id === user)
+              return (
+                <MyPets 
+                user_name={current_user.username}
+                myPets={ myPets } 
+                />
+              )
+            }}
             />
+<<<<<<< HEAD
 
+=======
+          }
+>>>>>>> 05bb2d149387561a4485961cfb60674f15be05dd
 
         { logged_in &&
             < Route path="/addpet"
