@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import PropTypes from "prop-types"
 import Header from './components/Header'
 import Footer from './components/Footer'
+//import Landing from './pages/Landing'
+import MyPets from './pages/MyPets'
+import AddPet from './pages/AddPet'
+import AboutUs from './pages/AboutUs'
+import ShowPet from './pages/ShowPet'
 import { Nav, NavItem } from 'reactstrap'
 import {
   BrowserRouter as  Router,
@@ -20,6 +25,7 @@ class App extends Component {
       logged_in,
       sign_in_route,
       sign_out_route,
+      sign_up_route,
       //passed in by index.html.erb (devise)
       current_user
     } = this.props
@@ -32,19 +38,32 @@ class App extends Component {
           sign_out_route={ this.props.sign_out_route }
           />
           <Switch>
-            <h3>Hello Pets</h3>
-            <Route exact path="/" 
+            {/* <Route exact path="/"
             render={ (props) =>
-              <Landing 
+              <Landing
                 logged_in={ logged_in }
                 sign_in_route={ sign_in_route }
                 sign_out_route={ sign_out_route }
+                sign_up_route={ sign_up_route }
               />
             }
+            /> */}
+            <Route
+            path="/aboutus" component={ AboutUs }
             />
 
-            
-            
+
+            <Route
+            path="/mypets" component={ MyPets }
+            />
+        
+
+        { logged_in &&
+            < Route path="/addpet" component={ AddPet } />
+        }
+        { logged_in &&
+            <Route path="/showpet" component={ ShowPet } />
+        }
 
           </Switch>
         </Router>
