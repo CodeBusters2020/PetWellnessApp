@@ -7,6 +7,7 @@ import MyPets from './pages/MyPets'
 import AddPet from './pages/AddPet'
 import AboutUs from './pages/AboutUs'
 import ShowPet from './pages/ShowPet'
+import EditPet from './pages/EditPet'
 import { Nav, NavItem } from 'reactstrap'
 import {
   BrowserRouter as  Router,
@@ -35,6 +36,8 @@ class App extends Component {
           console.log("index errors", errors)
       })
     }
+
+
 
     deletePet = (id) => {
       return fetch (`../pets/${id}`, {
@@ -122,6 +125,22 @@ class App extends Component {
               )
             }}
           />
+        }
+        { logged_in &&
+            < Route 
+            exact path={"/editpet/:id"}
+            render={ (props) => {
+              let id = props.match.params.id
+              let pet = this.state.pets.find(pet => pet.user_id === parseInt(id))
+              console.log(id, pet)
+              return (
+                <EditPet 
+                pet={ pet }
+                current_user= { current_user }
+                editpet={this.editpet } />
+              )
+            }} 
+            />
         }
 
           </Switch>
