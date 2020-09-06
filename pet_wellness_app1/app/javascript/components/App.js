@@ -22,7 +22,7 @@ class App extends Component {
       pets: []
     }
     }
-    
+
     componentDidMount(){
       fetch("/pets")
       .then(response => {
@@ -76,9 +76,9 @@ class App extends Component {
               let user = current_user.id
               let myPets = this.state.pets.filter(pets => pets.user_id === user)
               return (
-                <MyPets 
+                <MyPets
                 user_name={current_user.username}
-                myPets={ myPets } 
+                myPets={ myPets }
                 />
               )
             }}
@@ -91,6 +91,20 @@ class App extends Component {
         { logged_in &&
             <Route path="/showpet" component={ ShowPet } />
         }
+        { logged_in &&
+            <Route path="/editpet/:id"
+            render={ (props) => {
+            let userid = current_user.id 
+            let pets = this.state.pets.filter(value => value.user_id === userid) 
+            let id = props.match.params.id 
+            let pet = pets.find(value => value.id === parseInt(id))
+            return(
+              <EditPet
+
+              />)
+          }
+        }/>
+      }
 
           </Switch>
         </Router>
