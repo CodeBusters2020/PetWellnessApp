@@ -7,6 +7,7 @@ import MyPets from './pages/MyPets'
 import AddPet from './pages/AddPet'
 import AboutUs from './pages/AboutUs'
 import ShowPet from './pages/ShowPet'
+import EditPet from './pages/EditPet'
 import { Nav, NavItem } from 'reactstrap'
 import {
   BrowserRouter as  Router,
@@ -24,6 +25,10 @@ class App extends Component {
   }
 
     componentDidMount(){
+      this.refreshPet()
+    }
+    
+    refreshPet = () => {
       fetch("/pets")
       .then(response => {
           if(response.status === 200){
@@ -35,7 +40,7 @@ class App extends Component {
           console.log("index errors", errors)
       })
     }
-    
+
     createNewPet = (newPet) => {
       return fetch("/pets", {
         body: JSON.stringify(newPet),
@@ -43,7 +48,7 @@ class App extends Component {
         method: "POST"
         }).then(response => {
         if(response.status === 200){
-            this.componentDidMount()
+            this.refreshPet()
         } else {
             alert("Please check your form")
         }
@@ -52,6 +57,27 @@ class App extends Component {
         console.log("create errors", errors)
     })
   }
+
+    editPet = (editpet, id) => {
+      return fetch(`../pets/${id}`, {
+        body: JSON.stringify(editpet),
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "PATCH"
+      })
+      .then(response => {
+        if (response.status === 200) {
+          this.refreshPet()
+        } else {
+          alert ("Update Unsuccessful")
+        }
+        return response
+      })
+      .catch(errors => {
+        console.log("edit errors", errors)
+      })
+    }
 
     deletePet = (id) => {
       return fetch (`../pets/${id}`, {
@@ -62,7 +88,7 @@ class App extends Component {
       })
       .then(response => {
         if(response.status === 200) {
-          this.componentDidMount()
+          this.refreshPet()
         }
         return response
       })
@@ -148,6 +174,22 @@ class App extends Component {
               )
             }}
           />
+        }
+        { logged_in &&
+            < Route 
+            exact path={"/editpet/:id"}
+            render={ (props) => {
+              let id = props.match.params.id
+              let pet = this.state.pets.find(pet => pet.id === parseInt(id))
+              console.log(id, pet)
+              return (
+                <EditPet 
+                pet={ pet }
+                current_user= { current_user }
+                editPet={this.editPet } />
+              )
+            }} 
+            />
         }
 
           </Switch>
