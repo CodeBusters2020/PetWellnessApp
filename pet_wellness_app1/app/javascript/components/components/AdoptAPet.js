@@ -11,6 +11,7 @@ import {
     Input
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
+import generateAdpotAPet from '../utilities/generateAdoptAPet'
 
 class AdoptAPet extends Component {
 
@@ -30,19 +31,26 @@ class AdoptAPet extends Component {
         let newValues = this.state.information
         newValues[e.target.name] = e.target.value
         this.setState({information: newValues})
-
     }
 
     handleSubmit = () => {
-      fetch().then(response => {
-          if(response.status === 200){
-              return(response.json())
-          }
-      }).then(petsArray => {
-          this.setState({ pets: petsArray })
-      }).catch(errors => {
-          console.log("index errors", errors)
-      })
+        return fetch("https://api.rescuegroups.org/http/v2.json", {
+            body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
+            headers: { "Content-Type": "application/json" },
+            method: "POST"
+            }).then(response => {
+            if(response.status === 200){
+                return(response.json())
+            } else {
+                alert("Please check your form")
+            }
+            return response
+            }).then(petResponse => {
+                this.setState({ pets: petResponse["data"] })
+            })
+            .catch(errors => {
+            console.log("create errors", errors)
+        })
     }
 
 
@@ -87,14 +95,18 @@ class AdoptAPet extends Component {
             <CardBody>
                 <CardTitle>Pet Name</CardTitle>
                 <CardText>
-                Breed:
+                Species:
                 <br/>
-                Age:
+                Breed:
                 <br/>
                 Sex:
                 <br/>
+                Birthday:
+                <br/>
+                General Age:
+                <br/>
+                Description:
                 </CardText>
-                <Button variant="primary">See Details</Button>
             </CardBody>
             </Card>
             </>

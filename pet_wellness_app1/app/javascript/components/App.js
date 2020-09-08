@@ -27,12 +27,15 @@ class App extends Component {
     componentDidMount(){
       this.refreshPet()
     }
+
     
     refreshPet = () => {
       fetch("/pets")
       .then(response => {
           if(response.status === 200){
               return(response.json())
+          } else {
+            throw new Error(`Refresh Pet Failed. ${response.status}`)
           }
       }).then(petsArray => {
           this.setState({ pets: petsArray })
