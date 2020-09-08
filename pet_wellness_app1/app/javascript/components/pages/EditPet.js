@@ -32,7 +32,7 @@ class EditPet extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        this.props.editpet(this.state.form, this.props.current_user.id)
+        this.props.editPet(this.state.form, this.props.pet.id)
         this.setState({ success: true })
     }
 
@@ -174,7 +174,7 @@ class EditPet extends Component {
             </Form>
 
             </Col>
-                { this.state.success && <Redirect to = "/index" />}
+                { this.state.success && <Redirect to = {`/show/${this.props.pet.id}`} />}
             </div>
         )
     }

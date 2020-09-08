@@ -14,7 +14,7 @@ pets = [
     name: "Kevin",
     dob: Date.new(2017, 11, 10),
     breed: "French Bulldog",
-    sex: "female",
+    sex: "Female",
     medical: "Allergies: pollen and peanut butter.
     Veterinarian: Doctor Smith.
     Medications: Bravecto.
@@ -32,7 +32,7 @@ pets = [
     name: "Titi",
     dob: Date.new(2019, 11, 10),
     breed: "Siamese Cat",
-    sex: "male",
+    sex: "Male",
     medical: "Allergies: Avocado.
     Veterinarian: Doctor Jane.
     Medications: nil.
@@ -50,7 +50,7 @@ pets = [
     name: "Nelly",
     dob: Date.new(2017, 12, 10),
     breed: "Parakeet",
-    sex: "male",
+    sex: "Male",
     medical: "Allergies: mold.
     Veterinarian: Doctor Bill.
     Medications: nil.
@@ -89,7 +89,7 @@ pets2 = [
     name: "Ruh-ruh",
     dob: Date.new(2012, 07, 03),
     breed: "Turtle",
-    sex: "male",
+    sex: "Male",
     medical: "Allergies: dairy.
     Veterinarian: Mister Carter.
     Medications: water.

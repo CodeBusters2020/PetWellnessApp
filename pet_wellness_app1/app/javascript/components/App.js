@@ -37,7 +37,26 @@ class App extends Component {
       })
     }
 
-
+    editPet = (editpet, id) => {
+      return fetch(`../pets/${id}`, {
+        body: JSON.stringify(editpet),
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "PATCH"
+      })
+      .then(response => {
+        if (response.status === 200) {
+          this.componentDidMount()
+        } else {
+          alert ("Update Unsuccessful")
+        }
+        return response
+      })
+      .catch(errors => {
+        console.log("edit errors", errors)
+      })
+    }
 
     deletePet = (id) => {
       return fetch (`../pets/${id}`, {
@@ -131,13 +150,13 @@ class App extends Component {
             exact path={"/editpet/:id"}
             render={ (props) => {
               let id = props.match.params.id
-              let pet = this.state.pets.find(pet => pet.user_id === parseInt(id))
+              let pet = this.state.pets.find(pet => pet.id === parseInt(id))
               console.log(id, pet)
               return (
                 <EditPet 
                 pet={ pet }
                 current_user= { current_user }
-                editpet={this.editpet } />
+                editPet={this.editPet } />
               )
             }} 
             />
