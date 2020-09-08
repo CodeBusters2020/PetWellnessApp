@@ -22,8 +22,8 @@ class App extends Component {
     this.state = {
       pets: []
     }
-    }
-    
+  }
+
     componentDidMount(){
       fetch("/pets")
       .then(response => {
@@ -36,6 +36,23 @@ class App extends Component {
           console.log("index errors", errors)
       })
     }
+    
+    createNewPet = (newPet) => {
+      return fetch("/pets", {
+        body: JSON.stringify(newPet),
+        headers: { "Content-Type": "application/json" },
+        method: "POST"
+        }).then(response => {
+        if(response.status === 200){
+            this.componentDidMount()
+        } else {
+            alert("Please check your form")
+        }
+        return response
+        }).catch(errors => {
+        console.log("create errors", errors)
+    })
+  }
 
     editPet = (editpet, id) => {
       return fetch(`../pets/${id}`, {
@@ -125,9 +142,18 @@ class App extends Component {
             />
           }
 
+
         { logged_in &&
-            < Route path="/addpet" component={ AddPet } />
+            < Route path="/addpet"
+            render={ (props) =>
+            <AddPet
+            current_user={ current_user }
+            createNewPet={ this.createNewPet }
+            />
+            }
+            />
         }
+
         { logged_in &&
             <Route
             path={"/show/:id"}
