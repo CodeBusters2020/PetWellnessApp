@@ -32,8 +32,19 @@ class EditPet extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
+        let { name, dob, breed, sex } = this.state.form
+        if(name == ""){
+            alert("Name must be filled")
+        } else if (dob == ""){
+            alert("DOB must be filled")
+        } else if (breed == ""){
+            alert("Breed must be filled")
+        } else if (sex == ""){
+            alert("Sex must be selected")
+        } else {
         this.props.editPet(this.state.form, this.props.pet.id)
         this.setState({ success: true })
+        }
     }
 
     render() {
