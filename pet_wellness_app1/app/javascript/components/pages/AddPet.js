@@ -42,6 +42,7 @@ class AddPet extends Component{
     } else {
       this.props.createNewPet(this.state.form)
       this.setState({ success: true })
+
     }
   }
 

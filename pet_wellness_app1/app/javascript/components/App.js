@@ -53,6 +53,24 @@ class App extends Component {
     })
   }
 
+    deletePet = (id) => {
+      return fetch (`../pets/${id}`, {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "DELETE"
+      })
+      .then(response => {
+        if(response.status === 200) {
+          this.componentDidMount()
+        }
+        return response
+      })
+      .catch(errors => {
+        console.log("delete errors:", errors)
+      })
+    }
+
 
   render () {
     const {
@@ -72,7 +90,7 @@ class App extends Component {
           sign_out_route={ this.props.sign_out_route }
           />
           <Switch>
-            {/* <Route exact path="/"
+            <Route exact path="/"
             render={ (props) =>
               <Landing
                 logged_in={ logged_in }
@@ -81,7 +99,7 @@ class App extends Component {
                 sign_up_route={ sign_up_route }
               />
             }
-            /> */}
+            />
             <Route
             path="/aboutus" component={ AboutUs }
             />
@@ -115,7 +133,21 @@ class App extends Component {
         }
 
         { logged_in &&
-            <Route path="/showpet" component={ ShowPet } />
+            <Route
+            path={"/show/:id"}
+            render={ (props) => {
+              let id = props.match.params.id
+              let pet = this.state.pets.find(pet => pet.id === parseInt(id))
+              return (
+                <ShowPet 
+                logged_in={ logged_in }
+                pet={ pet }
+                current_user= { current_user } 
+                deletePet = { this.deletePet }
+                />
+              )
+            }}
+          />
         }
 
           </Switch>
