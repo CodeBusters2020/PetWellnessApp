@@ -25,6 +25,10 @@ class App extends Component {
   }
 
     componentDidMount(){
+      this.refreshPet()
+    }
+    
+    refreshPet = () => {
       fetch("/pets")
       .then(response => {
           if(response.status === 200){
@@ -36,7 +40,7 @@ class App extends Component {
           console.log("index errors", errors)
       })
     }
-    
+
     createNewPet = (newPet) => {
       return fetch("/pets", {
         body: JSON.stringify(newPet),
@@ -44,7 +48,7 @@ class App extends Component {
         method: "POST"
         }).then(response => {
         if(response.status === 200){
-            this.componentDidMount()
+            this.refreshPet()
         } else {
             alert("Please check your form")
         }
@@ -64,7 +68,7 @@ class App extends Component {
       })
       .then(response => {
         if (response.status === 200) {
-          this.componentDidMount()
+          this.refreshPet()
         } else {
           alert ("Update Unsuccessful")
         }
@@ -84,7 +88,7 @@ class App extends Component {
       })
       .then(response => {
         if(response.status === 200) {
-          this.componentDidMount()
+          this.refreshPet()
         }
         return response
       })
