@@ -30,11 +30,11 @@ class MyPets extends Component{
                     </p>
 
                     <p>
-                    <NavLink to={`/editpet/${myPet.id}`}>
+                    {/* <NavLink to={"send pet info hopefully!"}> */}
                         <Button color="secondary">
-                        Edit Pet Info
+                        Send Pet Info
                         </Button>
-                    </NavLink>
+                    {/* </NavLink> */}
                     </p>
 
                 </CardTitle>
