@@ -20,7 +20,7 @@ class AdoptAPet extends Component {
         this.state = {
             information: {
                 zipcode: "",
-                radius: ""
+                radius: 5
             },
             pets: []
         }
@@ -34,6 +34,7 @@ class AdoptAPet extends Component {
     }
 
     handleSubmit = () => {
+        console.log(JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)))
         return fetch("https://api.rescuegroups.org/http/v2.json", {
             body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
             headers: { "Content-Type": "application/json" },
@@ -46,8 +47,11 @@ class AdoptAPet extends Component {
             }
             return response
             }).then(petResponse => {
-                this.setState({ pets: petResponse["data"] })
-                console.log(this.state.pets)
+                if (petResponse["data"].length === 0) {
+                    this.setState({ pets: null })
+                } else {
+                    this.setState({ pets: petResponse["data"] })
+                }
             })
             .catch(errors => {
             console.log("create errors", errors)
@@ -57,6 +61,10 @@ class AdoptAPet extends Component {
 
 
     render(){
+        let {pets} = this.state
+        
+        const petArray = Object.values(pets);
+        
         return (
             <>
             <Form>
@@ -91,28 +99,36 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
-            { this.state.pets !== [] && 
-            <>
-                <Card className = "landing-cards" style={{ width: '18rem' }}>
-                <img variant="top" src="" />
-                <CardBody>
-                    <CardTitle>Pet Name</CardTitle>
-                    <CardText>
-                        {/* Species:
-                        <br/>
-                        Breed:
-                        <br/>
-                        Sex:
-                        <br/>
-                        Birthday:
-                        <br/>
-                        General Age:
-                        <br/>
-                        Description: */}
-                    </CardText>
-                </CardBody>
-                </Card>
-            </>
+
+            { (pets.length !== 0) && 
+                (petArray.map((value, index) => {
+                    return (
+                    
+                        <Card key={ index } className = "landing-cards" style={{ width: '18rem' }}>
+                        <img variant="top" src={value["animalThumbnailUrl"]}/>
+                        <CardBody>
+                            <CardTitle>{value["animalName"]}</CardTitle>
+                            <CardText>
+                                Species: {value["animalSpecies"]}
+                                <br/>
+                                Breed: {value["animalBreed"]}
+                                <br/>
+                                Sex: {value["animalSex"]}
+                                <br/>
+                                Birthday: {value["animalBirthdate"]}
+                                <br/>
+                                General Age: {value["animalGeneralAge"]}
+                                <br/>
+                                Description: <div dangerouslySetInnerHTML={{ __html: value["animalDescription"]}} /> 
+                            </CardText>
+                        </CardBody>
+                        </Card>
+                    )
+                
+                })
+                )
+
+                
             }
             </>
         )

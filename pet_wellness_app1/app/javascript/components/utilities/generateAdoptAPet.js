@@ -5,7 +5,7 @@ const generateAdoptAPet = (zip, radius) => {
         "search":
         {
             "resultStart": "0",
-            "resultLimit": "20",
+            "resultLimit": "3",
             "resultSort": "animalID",
             "resultOrder": "asc",
             "filters":
