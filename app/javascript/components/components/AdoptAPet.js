@@ -37,7 +37,7 @@ class AdoptAPet extends Component {
         if (this.state.information.zipcode== "") {alert("Zipcode must be entered!")}
         else {
             return fetch("https://api.rescuegroups.org/http/v2.json", {
-                body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
+                body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius, this.props.api_key)),
                 headers: { "Content-Type": "application/json" },
                 method: "POST"
                 }).then(response => {

@@ -44,7 +44,9 @@ class Landing extends Component{
                         {/* </Card> */}
                     </Col>
                     <Col className="block block-right" md="5">
-                        <AdoptAPet />
+                        <AdoptAPet 
+                        api_key={this.props.api_key}
+                        />
 
                     </Col>
                 </Row>
