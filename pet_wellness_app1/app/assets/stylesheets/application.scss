@@ -82,3 +82,15 @@
 .full-height {
     height: 80vh;
 }
+
+.roundPics {
+  img {
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 45px;
+  }
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
