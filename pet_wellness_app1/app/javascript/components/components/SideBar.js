@@ -7,6 +7,8 @@ import {
     Col,
     NavLink
 } from 'reactstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfo, faBriefcaseMedical, faBook, faCalendarCheck, faUtensils, faQuestion, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 class SideBar extends Component{
     render(){
@@ -21,25 +23,31 @@ class SideBar extends Component{
             </nav>
             <Nav vertical id="sideBarLinks">
               <NavItem>
-                <NavLink href="#general">General</NavLink>
+                <NavLink href="#general"><FontAwesomeIcon icon={faInfo} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#medical">Medical</NavLink>
+                <NavLink href="#medical"><FontAwesomeIcon icon={faBriefcaseMedical} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#digestion">Digestion</NavLink>
+                <NavLink href="#digestion"><FontAwesomeIcon icon={faUtensils} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#appointment">Appointments</NavLink>
+                <NavLink href="#appointment"><FontAwesomeIcon icon={faCalendarCheck} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#diary">Diary</NavLink>
+                <NavLink href="#diary"><FontAwesomeIcon icon={faBook} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#misc">Miscellaneous</NavLink>
+                <NavLink href="#misc"><FontAwesomeIcon icon={faQuestion} size="3x"/></NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="#">Send Pet Info</NavLink>
+                <NavLink href="#"><FontAwesomeIcon icon={faEnvelope} size="3x"/></NavLink>
               </NavItem>
             </Nav>
           </div>
