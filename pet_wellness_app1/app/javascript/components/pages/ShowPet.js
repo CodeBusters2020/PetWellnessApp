@@ -26,6 +26,7 @@ class ShowPet extends Component{
         let { pet } = this.props
         return(
             <React.Fragment>
+            <SideBar/>
                 <h3> Show Pet </h3>
                     <Card body>
                         <CardTitle>
@@ -62,7 +63,7 @@ class ShowPet extends Component{
                         <br/>
                         <h5>Miscellaneous:</h5>
                         <p>{ pet.misc }</p>
-                        
+
                         {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
                         </CardTitle>

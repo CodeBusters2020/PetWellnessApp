@@ -57,7 +57,7 @@ class AddPet extends Component{
           <Col>
             <h2>Add A New Pet</h2>
           <Form>
-            <section id = "general" className = "full-height" >
+            <section id = "general"  >
               <FormGroup>
                   <Label>Name</Label>
                   <Input
@@ -112,9 +112,9 @@ class AddPet extends Component{
                   </Label>
                 </FormGroup>
               </FormGroup>
-            </section>
+             </section>
 
-              <section>
+             <section id = "medical" >
                 <FormGroup>
                   <Label>Medical</Label>
                   <Input
@@ -127,7 +127,7 @@ class AddPet extends Component{
                 </FormGroup>
               </section>
 
-              <section>
+              <section id = "digestion">
                 <FormGroup>
                     <Label>Digestion</Label>
                     <Input
@@ -140,7 +140,7 @@ class AddPet extends Component{
                 </FormGroup>
               </section>
 
-            <section>
+            <section id = "appointment">
               <FormGroup>
                   <Label>Appointment</Label>
                   <Input
@@ -153,7 +153,7 @@ class AddPet extends Component{
               </FormGroup>
             </section>
 
-            <section>
+            <section id = "diary">
               <FormGroup>
                   <Label>Diary</Label>
                   <Input
@@ -166,7 +166,7 @@ class AddPet extends Component{
               </FormGroup>
             </section>
 
-              <section>
+              <section id = "misc">
 
                 <FormGroup>
                   <Label>Miscellaneous</Label>

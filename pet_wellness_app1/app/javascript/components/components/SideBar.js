@@ -4,9 +4,9 @@ import {
     Container,
     Nav,
     NavItem,
-    Col
+    Col,
+    NavLink
 } from 'reactstrap'
-import { NavLink } from 'react-router-dom'
 
 class SideBar extends Component{
     render(){
@@ -15,36 +15,34 @@ class SideBar extends Component{
 
         <div className="wrapper">
 
-               <nav id="sidebar">
+             <nav id="sidebar">
 
 
-                   <ul className="list-unstyled components">
-
-                       <li className="active">
-                        <a href="#general">General</a>
-                       </li>
-                       <li>
-                           <a href="#">Medical</a>
-                       </li>
-                       <li>
-                            <a href="#">Digestion</a>
-                       </li>
-                       <li>
-                           <a href="#">Appointments</a>
-                       </li>
-                       <li>
-                           <a href="#">Diary</a>
-                       </li>
-                       <li>
-                           <a href="#">Miscellaneous</a>
-                       </li>
-                       <li>
-                           <a href="#">Send Pet Info</a>
-                       </li>
-                   </ul>
-
-               </nav>
-               </div>
+            </nav>
+            <Nav vertical id="sideBarLinks">
+              <NavItem>
+                <NavLink href="#general">General</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#medical">Medical</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#digestion">Digestion</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#appointment">Appointments</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#diary">Diary</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#misc">Miscellaneous</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">Send Pet Info</NavLink>
+              </NavItem>
+            </Nav>
+          </div>
         </React.Fragment>
 
         )
