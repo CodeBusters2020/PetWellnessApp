@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Col, Row} from 'reactstrap'
+import {Container, Col, Row} from 'reactstrap'
 import ryan from '../assets/Ryan.jpg'
 import selam from '../assets/Selam2.jpeg'
 import erica from '../assets/Erica.png'
@@ -11,6 +11,7 @@ class AboutUs extends Component{
     render(){
         return(
             <React.Fragment>
+              <Container>
                 <h3> About Us </h3>
                 <p> Welcome to the Pet Wellness App! The creators of this application make a team of four full stack developers from LEARN Academy. Together we call ourselves, <strong>Code Busters</strong>! We are passionate about creating technologies that make life easier. Sharing that frame of mind, we have found a common mission in delivering an application that can serve as your personal pet assistant.</p>
                 <br/>
@@ -47,6 +48,7 @@ class AboutUs extends Component{
                   </div>
                   </Col>
                 </Row>
+                </Container>
             </React.Fragment>
         )
     }

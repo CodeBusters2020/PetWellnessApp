@@ -3,7 +3,10 @@ import SideBar from '../components/SideBar'
 import {
     Card,
     CardTitle,
+    Container,
     Button,
+    Row, 
+    Col
 } from 'reactstrap'
 import { NavLink, Redirect } from 'react-router-dom'
 
@@ -26,15 +29,22 @@ class ShowPet extends Component{
         let { pet } = this.props
         return(
             <React.Fragment>
-            <SideBar/>
+                <Container>
+                    <Row>
+                        <Col>
+                            <SideBar />
+                        </Col>
+                    <Col>
                 <h3> Show Pet </h3>
                     <Card body>
                         <CardTitle>
+                        <section id = "general">
                         <h5>Name:</h5>
                         <p>{ pet.name }</p>
                         <h5>DOB:</h5><p>{ pet.dob }</p>
                         <h5>Breed:</h5><p>{ pet.breed }</p>
                         <h5>Sex:</h5><p>{ pet.sex }</p>
+                        </section>
                         { !this.props.logged_in ?
                             <p>Login to see more options</p>
                             : this.props.current_user.id === pet.user_id &&
@@ -48,26 +58,39 @@ class ShowPet extends Component{
                                 </Button>
                                 </>
                             }
+                        
                         <br/>
                         <h5>Medical:</h5>
+                        <section id = "medical">
                         <p>{ pet.medical }</p>
+                        </section>
                         <br/>
                         <h5>Digestion:</h5>
+                        <section id = "digestion">
                         <p>{ pet.digestion }</p>
+                        </section>
                         <br/>
+                        <section id= "appointment">
                         <h5>Appointment:</h5>
                         <p>{ pet.appointment }</p>
+                        </section>
                         <br/>
                         <h5>Diary:</h5>
+                        <section id="diary">
                         <p>{ pet.diary }</p>
+                        </section>
                         <br/>
                         <h5>Miscellaneous:</h5>
+                        <section id="misc">
                         <p>{ pet.misc }</p>
-
+                        </section>
                         {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
                         </CardTitle>
                     </Card>
+                    </Col>
+                    </Row>
+                    </Container>
                 { this.state.success && <Redirect to={ `/` }/> }
             </React.Fragment>
         )

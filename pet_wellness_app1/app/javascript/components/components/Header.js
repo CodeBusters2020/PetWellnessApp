@@ -27,7 +27,7 @@ class Header extends Component{
             <Col md="6" className="header-lead">
                 <Container fluid>
                 <a href="/">
-                    <h1 >Pet Wellness App</h1>
+                    <h1 className="headerh1">Pet Wellness App</h1>
                 </a>
                     <p className="lead">Your place to find <i>your</i> own personal pet assistant.</p>
             </Container>

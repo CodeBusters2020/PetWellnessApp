@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import {Form, FormGroup, Input, Label, Button, Col } from 'reactstrap';
+import {Form, FormGroup, Container, Input, Label, Button, Row, Col } from 'reactstrap';
 import {Redirect, NavLink} from 'react-router-dom'
+import SideBar from '../components/SideBar'
+
 
 class EditPet extends Component {
     constructor(props){
@@ -49,11 +51,17 @@ class EditPet extends Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
+                <Container>
+                <Row>
+                    <Col>
+                    <SideBar />
+                    </Col>
+
                 <Col>
             <h2>Edit Pet</h2>
             <Form>
-                <section id = "general" className = "full-height" >
+                <section id = "general">
                 <FormGroup>
                     <Label>Name</Label>
                     <Input
@@ -110,7 +118,7 @@ class EditPet extends Component {
                 </FormGroup>
                 </section>
 
-                <section>
+                <section id= "medical">
                     <FormGroup>
                     <Label>Medical</Label>
                     <Input
@@ -123,7 +131,7 @@ class EditPet extends Component {
                     </FormGroup>
                 </section>
 
-                <section>
+                <section id= "digestion">
                     <FormGroup>
                         <Label>Digestion</Label>
                         <Input
@@ -136,7 +144,7 @@ class EditPet extends Component {
                     </FormGroup>
                 </section>
 
-                <section>
+                <section id= "appointment">
                 <FormGroup>
                     <Label>Appointment</Label>
                     <Input
@@ -149,7 +157,7 @@ class EditPet extends Component {
                 </FormGroup>
                 </section>
 
-                <section>
+                <section id= "diary">
                 <FormGroup>
                     <Label>Diary</Label>
                     <Input
@@ -162,7 +170,7 @@ class EditPet extends Component {
                 </FormGroup>
                 </section>
 
-                <section>
+                <section id= "misc">
 
                     <FormGroup>
                     <Label>Miscellaneous</Label>
@@ -185,8 +193,10 @@ class EditPet extends Component {
             </Form>
 
             </Col>
+            </Row>
+            </Container>
                 { this.state.success && <Redirect to = {`/show/${this.props.pet.id}`} />}
-            </div>
+            </React.Fragment>
         )
     }
 }

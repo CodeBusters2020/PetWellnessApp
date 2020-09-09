@@ -15,19 +15,49 @@
  */
  @import 'bootstrap';
 
- .block {
-     background-color: grey;
-     margin: auto;
-     margin-top: 20px;
-     padding: auto;
- }
+
+
+.body {
+  background-color: #CAF0F8;
+}
+
+.main-container{
+  background-color: #CAF0F8;
+}
+
+.block {
+    background-color: #90e0ef;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+      img {
+        border-radius: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+      }
+}
+.landing-card {
+  background-color: #CAF0F8;
+  border-radius: 25px;
+}
  .hero {
-     background-color: lightgrey;
-     position:relative;
- }
+    background-color: #00B4D8;
+    color: white;
+    position:relative;
+}
+.headerh1 {
+  color: white;
+}
+
+.home-link {
+  color: white;
+}
 
 
- .wrapper {
+.wrapper {
     display: flex;
     width: 100%;
     z-index:500;
@@ -50,7 +80,9 @@
   align-items: center;
   justify-content: center;
 }
-
+body {
+  background-color: #CAF0F8;
+}
 #sidebar {
     a, li, ul {
       z-index:500;
@@ -61,23 +93,26 @@
     padding: 20px;
     height: 200vh;
     z-index: -1;
-    background: grey;
+    background: #0077b6;
     color: #fff;
     transition: all 0.3s;
     margin-top: -350px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
- .landing-cards {
-     margin: 20px auto;
-     margin-bottom: 20px;
-     margin-left: auto;
-     margin-right: auto;
-     padding: auto;
- }
+.icon {
+  color: white;
+}
+
+.landing-cards {
+    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
 
 .full-height {
     height: 80vh;
@@ -93,4 +128,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landingback {
+  background-color: caf0f8;
 }
