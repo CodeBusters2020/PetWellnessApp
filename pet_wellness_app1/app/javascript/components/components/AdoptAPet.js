@@ -20,7 +20,7 @@ class AdoptAPet extends Component {
         this.state = {
             information: {
                 zipcode: "",
-                radius: ""
+                radius: 5
             },
             pets: []
         }
@@ -34,6 +34,7 @@ class AdoptAPet extends Component {
     }
 
     handleSubmit = () => {
+        console.log(JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)))
         return fetch("https://api.rescuegroups.org/http/v2.json", {
             body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
             headers: { "Content-Type": "application/json" },
@@ -46,8 +47,11 @@ class AdoptAPet extends Component {
             }
             return response
             }).then(petResponse => {
-                this.setState({ pets: petResponse["data"] })
-                console.log(this.state.pets)
+                if (petResponse["data"].length === 0) {
+                    this.setState({ pets: null })
+                } else {
+                    this.setState({ pets: petResponse["data"] })
+                }
             })
             .catch(errors => {
             console.log("create errors", errors)
@@ -58,11 +62,9 @@ class AdoptAPet extends Component {
 
     render(){
         let {pets} = this.state
-        console.log("pets inside render: ", pets)
+        
         const petArray = Object.values(pets);
-        console.log("petArray: ", petArray)
-        let firstPet = petArray[0]
-        console.log("firstPet: ", firstPet)
+        
         return (
             <>
             <Form>
@@ -97,6 +99,7 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
+
             { (pets.length !== 0) && 
                 (petArray.map((value, index) => {
                     return (
@@ -116,7 +119,7 @@ class AdoptAPet extends Component {
                                 <br/>
                                 General Age: {value["animalGeneralAge"]}
                                 <br/>
-                                Description: {value["animalDescription"]}
+                                Description: <div dangerouslySetInnerHTML={{ __html: value["animalDescription"]}} /> 
                             </CardText>
                         </CardBody>
                         </Card>
