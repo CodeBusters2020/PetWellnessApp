@@ -44,6 +44,7 @@ class MyPets extends Component{
         })}
     </Row>
                 { this.state.success && <Redirect to={ `/` }/> }
+            
             </React.Fragment>
         )
     }
