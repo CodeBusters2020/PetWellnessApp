@@ -57,6 +57,12 @@ class AdoptAPet extends Component {
 
 
     render(){
+        let {pets} = this.state
+        console.log("pets inside render: ", pets)
+        const petArray = Object.values(pets);
+        console.log("petArray: ", petArray)
+        let firstPet = petArray[0]
+        console.log("firstPet: ", firstPet)
         return (
             <>
             <Form>
@@ -91,28 +97,35 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
-            { this.state.pets !== [] && 
-            <>
-                <Card className = "landing-cards" style={{ width: '18rem' }}>
-                <img variant="top" src="" />
-                <CardBody>
-                    <CardTitle>Pet Name</CardTitle>
-                    <CardText>
-                        {/* Species:
-                        <br/>
-                        Breed:
-                        <br/>
-                        Sex:
-                        <br/>
-                        Birthday:
-                        <br/>
-                        General Age:
-                        <br/>
-                        Description: */}
-                    </CardText>
-                </CardBody>
-                </Card>
-            </>
+            { (pets.length !== 0) && 
+                (petArray.map((value, index) => {
+                    return (
+                    
+                        <Card key={ index } className = "landing-cards" style={{ width: '18rem' }}>
+                        <img variant="top" src={value["animalThumbnailUrl"]}/>
+                        <CardBody>
+                            <CardTitle>{value["animalName"]}</CardTitle>
+                            <CardText>
+                                Species: {value["animalSpecies"]}
+                                <br/>
+                                Breed: {value["animalBreed"]}
+                                <br/>
+                                Sex: {value["animalSex"]}
+                                <br/>
+                                Birthday: {value["animalBirthdate"]}
+                                <br/>
+                                General Age: {value["animalGeneralAge"]}
+                                <br/>
+                                Description: {value["animalDescription"]}
+                            </CardText>
+                        </CardBody>
+                        </Card>
+                    )
+                
+                })
+                )
+
+                
             }
             </>
         )
