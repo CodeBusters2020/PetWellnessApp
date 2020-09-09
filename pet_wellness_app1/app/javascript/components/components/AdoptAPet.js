@@ -20,7 +20,7 @@ class AdoptAPet extends Component {
         this.state = {
             information: {
                 zipcode: "",
-                radius: 5
+                radius: "5"
             },
             pets: []
         }
@@ -34,37 +34,38 @@ class AdoptAPet extends Component {
     }
 
     handleSubmit = () => {
-        console.log(JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)))
-        return fetch("https://api.rescuegroups.org/http/v2.json", {
-            body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
-            headers: { "Content-Type": "application/json" },
-            method: "POST"
-            }).then(response => {
-            if(response.status === 200){
-                return(response.json())
-            } else {
-                alert("Please check your form")
-            }
-            return response
-            }).then(petResponse => {
-                if (petResponse["data"].length === 0) {
-                    this.setState({ pets: null })
+        if (this.state.information.zipcode== "") {alert("Zipcode must be entered!")}
+        else {
+            return fetch("https://api.rescuegroups.org/http/v2.json", {
+                body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
+                headers: { "Content-Type": "application/json" },
+                method: "POST"
+                }).then(response => {
+                if(response.status === 200){
+                    return(response.json())
                 } else {
-                    this.setState({ pets: petResponse["data"] })
+                    alert("Please check your form")
                 }
+                return response
+                }).then(petResponse => {
+                    if (petResponse["data"].length === 0) {
+                        this.setState({ pets: null })
+                    } else {
+                        this.setState({ pets: petResponse["data"] })
+                    }
+                })
+                .catch(errors => {
+                console.log("create errors", errors)
             })
-            .catch(errors => {
-            console.log("create errors", errors)
-        })
+    }
     }
 
 
 
     render(){
         let {pets} = this.state
-        
-        const petArray = Object.values(pets);
-        
+        var petArray = []
+        if (pets !== null) {petArray = Object.values(pets)}
         return (
             <>
             <Form>
@@ -99,13 +100,14 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
+            { pets == null && <p>No results found. Try a different zipcode/radius!</p>}
 
-            { (pets.length !== 0) && 
+            { pets !== null && (pets.length !== 0) && 
                 (petArray.map((value, index) => {
                     return (
                     
-                        <Card key={ index } className = "landing-cards" style={{ width: '18rem' }}>
-                        <img variant="top" src={value["animalThumbnailUrl"]}/>
+                        <Card key={ index } className = "landing-cards" style={{ padding: "10px" }}>
+                        <img variant="top" src={value["animalThumbnailUrl"]} style={{ width: '200px', margin: "auto" }}/>
                         <CardBody>
                             <CardTitle>{value["animalName"]}</CardTitle>
                             <CardText>
@@ -116,6 +118,8 @@ class AdoptAPet extends Component {
                                 Sex: {value["animalSex"]}
                                 <br/>
                                 Birthday: {value["animalBirthdate"]}
+                                <br/>
+                                ZIP code: {value["animalLocation"]}
                                 <br/>
                                 General Age: {value["animalGeneralAge"]}
                                 <br/>
