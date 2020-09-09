@@ -33,12 +33,30 @@
     z-index:500;
 }
 
+#activeLink {
+  z-index:500;
+}
+
+#sideBarLinks{
+  display: flex;
+  width: auto;
+  position: fixed;
+  padding: 20px;
+  height: 200vh;
+  z-index: auto;
+  transition: all 0.3s;
+  margin-top: -58vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #sidebar {
     a, li, ul {
       z-index:500;
     }
     display: flex;
-    width: auto;
+    width: 122px;
     position: fixed;
     padding: 20px;
     height: 200vh;
@@ -63,4 +81,16 @@
 
 .full-height {
     height: 80vh;
+}
+
+.roundPics {
+  img {
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 45px;
+  }
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

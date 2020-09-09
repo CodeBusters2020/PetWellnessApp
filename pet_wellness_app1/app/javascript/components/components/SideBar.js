@@ -4,9 +4,11 @@ import {
     Container,
     Nav,
     NavItem,
-    Col
+    Col,
+    NavLink
 } from 'reactstrap'
-import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfo, faBriefcaseMedical, faBook, faCalendarCheck, faUtensils, faQuestion, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 class SideBar extends Component{
     render(){
@@ -15,36 +17,40 @@ class SideBar extends Component{
 
         <div className="wrapper">
 
-               <nav id="sidebar">
+             <nav id="sidebar">
 
 
-                   <ul className="list-unstyled components">
+            </nav>
+            <Nav vertical id="sideBarLinks">
+              <NavItem>
+                <NavLink href="#general"><FontAwesomeIcon icon={faInfo} size="3x"/></NavLink>
+              </NavItem>
 
-                       <li className="active">
-                        <a href="#general">General</a>
-                       </li>
-                       <li>
-                           <a href="#">Medical</a>
-                       </li>
-                       <li>
-                            <a href="#">Digestion</a>
-                       </li>
-                       <li>
-                           <a href="#">Appointments</a>
-                       </li>
-                       <li>
-                           <a href="#">Diary</a>
-                       </li>
-                       <li>
-                           <a href="#">Miscellaneous</a>
-                       </li>
-                       <li>
-                           <a href="#">Send Pet Info</a>
-                       </li>
-                   </ul>
+              <NavItem>
+                <NavLink href="#medical"><FontAwesomeIcon icon={faBriefcaseMedical} size="3x"/></NavLink>
+              </NavItem>
 
-               </nav>
-               </div>
+              <NavItem>
+                <NavLink href="#digestion"><FontAwesomeIcon icon={faUtensils} size="3x"/></NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#appointment"><FontAwesomeIcon icon={faCalendarCheck} size="3x"/></NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#diary"><FontAwesomeIcon icon={faBook} size="3x"/></NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#misc"><FontAwesomeIcon icon={faQuestion} size="3x"/></NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#"><FontAwesomeIcon icon={faEnvelope} size="3x"/></NavLink>
+              </NavItem>
+            </Nav>
+          </div>
         </React.Fragment>
 
         )

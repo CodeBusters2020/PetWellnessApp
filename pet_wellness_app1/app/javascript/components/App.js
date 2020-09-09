@@ -14,6 +14,9 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import {  } from '@fortawesome/free-solid-svg-icons'
 
 
 class App extends Component {
@@ -140,9 +143,9 @@ class App extends Component {
               let user = current_user.id
               let myPets = this.state.pets.filter(pets => pets.user_id === user)
               return (
-                <MyPets 
+                <MyPets
                 user_name={current_user.username}
-                myPets={ myPets } 
+                myPets={ myPets }
                 />
               )
             }}
@@ -168,10 +171,10 @@ class App extends Component {
               let id = props.match.params.id
               let pet = this.state.pets.find(pet => pet.id === parseInt(id))
               return (
-                <ShowPet 
+                <ShowPet
                 logged_in={ logged_in }
                 pet={ pet }
-                current_user= { current_user } 
+                current_user= { current_user }
                 deletePet = { this.deletePet }
                 />
               )
