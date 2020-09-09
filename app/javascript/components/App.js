@@ -108,9 +108,10 @@ class App extends Component {
       sign_out_route,
       sign_up_route,
       //passed in by index.html.erb (devise)
-      current_user
+      current_user,
+      api_key
     } = this.props
-    console.log("logged_in", logged_in, current_user);
+    console.log("logged_in", logged_in, current_user, api_key);
     return (
         <Router>
           <Header
