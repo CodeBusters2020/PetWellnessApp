@@ -11,7 +11,7 @@ import {
     Input
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
-import generateAdpotAPet from '../utilities/generateAdoptAPet'
+import generateAdoptAPet from '../utilities/generateAdoptAPet'
 
 class AdoptAPet extends Component {
 
@@ -47,6 +47,7 @@ class AdoptAPet extends Component {
             return response
             }).then(petResponse => {
                 this.setState({ pets: petResponse["data"] })
+                console.log(this.state.pets)
             })
             .catch(errors => {
             console.log("create errors", errors)
@@ -90,25 +91,29 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
-            <Card className = "landing-cards" style={{ width: '18rem' }}>
-            <img variant="top" src="" />
-            <CardBody>
-                <CardTitle>Pet Name</CardTitle>
-                <CardText>
-                Species:
-                <br/>
-                Breed:
-                <br/>
-                Sex:
-                <br/>
-                Birthday:
-                <br/>
-                General Age:
-                <br/>
-                Description:
-                </CardText>
-            </CardBody>
-            </Card>
+            { this.state.pets !== [] && 
+            <>
+                <Card className = "landing-cards" style={{ width: '18rem' }}>
+                <img variant="top" src="" />
+                <CardBody>
+                    <CardTitle>Pet Name</CardTitle>
+                    <CardText>
+                        {/* Species:
+                        <br/>
+                        Breed:
+                        <br/>
+                        Sex:
+                        <br/>
+                        Birthday:
+                        <br/>
+                        General Age:
+                        <br/>
+                        Description: */}
+                    </CardText>
+                </CardBody>
+                </Card>
+            </>
+            }
             </>
         )
     }
