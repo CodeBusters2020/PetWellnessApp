@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Card, CardTitle, Col, Row } from 'reactstrap'
+import { Button, Card, Container, CardTitle, Col, Row } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 
 class MyPets extends Component{
@@ -13,6 +13,7 @@ class MyPets extends Component{
     render(){
         return(
             <React.Fragment>
+                <Container>
                 <h3> View {this.props.user_name}'s Pets </h3>
                 <Row id="cards">
         { this.props.myPets.map((myPet, index) => {
@@ -43,6 +44,7 @@ class MyPets extends Component{
             )
         })}
     </Row>
+    </Container>
                 { this.state.success && <Redirect to={ `/` }/> }
             
             </React.Fragment>
