@@ -1,0 +1,135 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import 'bootstrap';
+
+
+
+.body {
+  background-color: #CAF0F8;
+}
+
+.main-container{
+  background-color: #CAF0F8;
+}
+
+.block {
+    background-color: #90e0ef;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+      img {
+        border-radius: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+      }
+}
+.landing-card {
+  background-color: #CAF0F8;
+  border-radius: 25px;
+}
+ .hero {
+    background-color: #00B4D8;
+    color: white;
+    position:relative;
+}
+.headerh1 {
+  color: white;
+}
+
+.home-link {
+  color: white;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    z-index:500;
+}
+
+#activeLink {
+  z-index:500;
+}
+
+#sideBarLinks{
+  display: flex;
+  width: auto;
+  position: fixed;
+  padding: 20px;
+  height: 200vh;
+  z-index: auto;
+  transition: all 0.3s;
+  margin-top: -58vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #CAF0F8;
+}
+#sidebar {
+    a, li, ul {
+      z-index:500;
+    }
+    display: flex;
+    width: 122px;
+    position: fixed;
+    padding: 20px;
+    height: 200vh;
+    z-index: -1;
+    background: #0077b6;
+    color: #fff;
+    transition: all 0.3s;
+    margin-top: -350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+  color: white;
+}
+
+.landing-cards {
+    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.full-height {
+    height: 80vh;
+}
+
+.roundPics {
+  img {
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 45px;
+  }
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingback {
+  background-color: caf0f8;
+}
