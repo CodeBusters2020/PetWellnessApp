@@ -1,0 +1,222 @@
+Started GET "/" for ::1 at 2020-09-10 10:05:01 -0700
+  [1m[35m (28.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 647)
+Started GET "/" for ::1 at 2020-09-10 10:05:04 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 276)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___2694947595614798092_24560 at /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/app/views/layouts/application.html.erb:8)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-09-10 10:05:47 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 268)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 88a89139ca6945331fb6
+Version: webpack 4.44.1
+Time: 106947ms
+Built at: 09/10/2020 10:07:14 AM
+                                                                   Asset      Size            Chunks                         Chunk Names
+                                  js/application-1513b7c3e9a26cbcc20b.js  3.16 MiB       application  [emitted] [immutable]  application
+                              js/application-1513b7c3e9a26cbcc20b.js.map  3.01 MiB       application  [emitted] [dev]        application
+                                  js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                              js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                             js/server_rendering-cde4c81ba86c196f9d98.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                         js/server_rendering-cde4c81ba86c196f9d98.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                           manifest.json  1.64 KiB                    [emitted]              
+      media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
+media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 KiB                    [emitted]              
+       media/components/assets/Ryan-5c111ae9e36e828446abd60e003d4f0c.jpg   268 KiB                    [emitted]              
+    media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
+   media/components/assets/bestbuds-9198e8a160bb288aa774bc72116d98ee.jpg   421 KiB                    [emitted]              
+Entrypoint application = js/application-1513b7c3e9a26cbcc20b.js js/application-1513b7c3e9a26cbcc20b.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-cde4c81ba86c196f9d98.js js/server_rendering-cde4c81ba86c196f9d98.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 878 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 215 hidden modules
+
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 88a89139ca6945331fb6
+Version: webpack 4.44.1
+Time: 107152ms
+Built at: 09/10/2020 10:07:14 AM
+                                                                   Asset      Size            Chunks                         Chunk Names
+                                  js/application-1513b7c3e9a26cbcc20b.js  3.16 MiB       application  [emitted] [immutable]  application
+                              js/application-1513b7c3e9a26cbcc20b.js.map  3.01 MiB       application  [emitted] [dev]        application
+                                  js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                              js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                             js/server_rendering-cde4c81ba86c196f9d98.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                         js/server_rendering-cde4c81ba86c196f9d98.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                           manifest.json  1.64 KiB                    [emitted]              
+      media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
+media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 KiB                    [emitted]              
+       media/components/assets/Ryan-5c111ae9e36e828446abd60e003d4f0c.jpg   268 KiB                    [emitted]              
+    media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
+   media/components/assets/bestbuds-9198e8a160bb288aa774bc72116d98ee.jpg   421 KiB                    [emitted]              
+Entrypoint application = js/application-1513b7c3e9a26cbcc20b.js js/application-1513b7c3e9a26cbcc20b.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-cde4c81ba86c196f9d98.js js/server_rendering-cde4c81ba86c196f9d98.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 878 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 215 hidden modules
+
+Completed 200 OK in 130261ms (Views: 130253.5ms | ActiveRecord: 0.0ms | Allocations: 126271)
+
+
+Completed 200 OK in 133693ms (Views: 133631.8ms | ActiveRecord: 0.0ms | Allocations: 179363)
+
+
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 88a89139ca6945331fb6
+Version: webpack 4.44.1
+Time: 73697ms
+Built at: 09/10/2020 10:07:16 AM
+                                                                   Asset      Size            Chunks                         Chunk Names
+                                  js/application-1513b7c3e9a26cbcc20b.js  3.16 MiB       application  [emitted] [immutable]  application
+                              js/application-1513b7c3e9a26cbcc20b.js.map  3.01 MiB       application  [emitted] [dev]        application
+                                  js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                              js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                             js/server_rendering-cde4c81ba86c196f9d98.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                         js/server_rendering-cde4c81ba86c196f9d98.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                           manifest.json  1.64 KiB                    [emitted]              
+      media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
+media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 KiB                    [emitted]              
+       media/components/assets/Ryan-5c111ae9e36e828446abd60e003d4f0c.jpg   268 KiB                    [emitted]              
+    media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
+   media/components/assets/bestbuds-9198e8a160bb288aa774bc72116d98ee.jpg   421 KiB                    [emitted]              
+Entrypoint application = js/application-1513b7c3e9a26cbcc20b.js js/application-1513b7c3e9a26cbcc20b.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-cde4c81ba86c196f9d98.js js/server_rendering-cde4c81ba86c196f9d98.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 878 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 215 hidden modules
+
+Completed 200 OK in 88808ms (Views: 88786.1ms | ActiveRecord: 0.0ms | Allocations: 18152)
+
+
+Started GET "/pets" for ::1 at 2020-09-10 10:07:18 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (106.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 641ms (Views: 78.6ms | ActiveRecord: 536.9ms | Allocations: 10125)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-09-10 10:09:30 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.0ms | Allocations: 596)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 95.3ms | Allocations: 7475)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 294ms (Views: 188.0ms | ActiveRecord: 14.5ms | Allocations: 21865)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-09-10 10:10:04 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"tLZh4yZRxW9P7pqJii7uuDvNUNbynX0G7mqvEnK5v27HPgmSC2aNorZmPByimNHERBYc0imIywPyRItcQSzNwA==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/mypets
+Completed 302 Found in 1204ms (ActiveRecord: 13.9ms | Allocations: 6477)
+
+
+Started GET "/mypets" for ::1 at 2020-09-10 10:10:05 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"mypets"}
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 48.9ms | Allocations: 1374)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 234.3ms | ActiveRecord: 2.0ms | Allocations: 9192)
+
+
+Started GET "/pets" for ::1 at 2020-09-10 10:10:06 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 1.3ms | Allocations: 1509)
+
+
+Started GET "/" for ::1 at 2020-09-10 10:15:44 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1193)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 60.2ms | ActiveRecord: 5.6ms | Allocations: 8897)
+
+
+Started GET "/pets" for ::1 at 2020-09-10 10:15:44 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (18.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 10.7ms | ActiveRecord: 18.6ms | Allocations: 1446)
+
+
+Started GET "/" for ::1 at 2020-09-10 10:16:00 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1192)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 54.3ms | ActiveRecord: 0.5ms | Allocations: 8884)
+
+
+Started GET "/pets" for ::1 at 2020-09-10 10:16:00 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (11.8ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 4.7ms | ActiveRecord: 11.8ms | Allocations: 1442)
+
+
+Started GET "/" for ::1 at 2020-09-10 10:17:10 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (34.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 39.0ms | Allocations: 1193)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 54.4ms | ActiveRecord: 34.2ms | Allocations: 8897)
+
+
+Started GET "/pets" for ::1 at 2020-09-10 10:17:11 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (5.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 6.1ms | ActiveRecord: 5.4ms | Allocations: 1446)
+
+
