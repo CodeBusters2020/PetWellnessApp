@@ -191,7 +191,6 @@ class EditPet extends Component {
                     </Button>
                 </section>
             </Form>
-
             </Col>
             </Row>
             </Container>

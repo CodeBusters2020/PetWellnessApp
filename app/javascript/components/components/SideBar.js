@@ -5,10 +5,19 @@ import {
     Nav,
     NavItem,
     Col,
-    NavLink
+    NavLink,
+    Link
 } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInfo, faBriefcaseMedical, faBook, faCalendarCheck, faUtensils, faQuestion, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+   faInfo,
+   faBriefcaseMedical,
+   faBook,
+   faCalendarCheck,
+   faUtensils,
+   faQuestion,
+   faEnvelope
+ } from '@fortawesome/free-solid-svg-icons'
 
 class SideBar extends Component{
     render(){
@@ -18,12 +27,10 @@ class SideBar extends Component{
         <div className="wrapper">
 
              <nav id="sidebar">
-
-
             </nav>
             <Nav vertical id="sideBarLinks">
               <NavItem>
-                <NavLink href="#general"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
+                <NavLink to="#general"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
               </NavItem>
 
               <NavItem>
