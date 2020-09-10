@@ -29,7 +29,7 @@ class SideBar extends Component{
             </nav>
             <Nav vertical id="sideBarLinks">
               <NavItem>
-                <NavLink smooth to="#general" activeClassName="selected"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
+                <NavLink smooth to="#top-of-page" activeClassName="selected"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
               </NavItem>
               <br/>
               <NavItem>
