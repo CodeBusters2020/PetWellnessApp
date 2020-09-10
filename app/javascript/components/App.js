@@ -130,6 +130,10 @@ class App extends Component {
                 sign_in_route={ sign_in_route }
                 sign_out_route={ sign_out_route }
                 sign_up_route={ sign_up_route }
+<<<<<<< HEAD
+=======
+                api_key={ api_key }
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
               />
             }
             />
