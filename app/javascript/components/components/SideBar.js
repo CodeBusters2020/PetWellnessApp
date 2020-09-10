@@ -4,9 +4,7 @@ import {
     Container,
     Nav,
     NavItem,
-    Col,
-    NavLink,
-    Link
+    Col
 } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -18,6 +16,7 @@ import {
    faQuestion,
    faEnvelope
  } from '@fortawesome/free-solid-svg-icons'
+ import { NavHashLink as NavLink } from 'react-router-hash-link'
 
 class SideBar extends Component{
     render(){
@@ -30,7 +29,7 @@ class SideBar extends Component{
             </nav>
             <Nav vertical id="sideBarLinks">
               <NavItem>
-                <NavLink to="#general"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
+                <NavLink to="#general" activeClassName="selected"><FontAwesomeIcon icon={faInfo} size="3x" className="icon"/></NavLink>
               </NavItem>
 
               <NavItem>
