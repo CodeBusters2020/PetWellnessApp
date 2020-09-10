@@ -14,9 +14,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import {  } from '@fortawesome/free-solid-svg-icons'
+
 
 
 class App extends Component {
@@ -185,7 +183,7 @@ class App extends Component {
         }
         { logged_in &&
             < Route 
-            exact path={"/editpet/:id"}
+            path={"/editpet/:id"}
             render={ (props) => {
               let id = props.match.params.id
               let pet = this.state.pets.find(pet => pet.id === parseInt(id))

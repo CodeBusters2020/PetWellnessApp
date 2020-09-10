@@ -15,7 +15,9 @@
  */
  @import 'bootstrap';
 
-
+a:hover {
+  text-decoration: none;
+}
 
 .body {
   background-color: #CAF0F8;
@@ -30,7 +32,7 @@
     border-radius: 25px;
     margin: auto;
     margin-top: 20px;
-    padding: auto;
+    padding: 20px;
       img {
         border-radius: 25px;
         display: block;
@@ -39,6 +41,8 @@
         padding: 10px;
       }
 }
+
+
 .landing-card {
   background-color: #CAF0F8;
   border-radius: 25px;

@@ -8,7 +8,8 @@ import {
     Card,
     CardTitle,
     CardText,
-    CardBody
+    CardBody,
+    Button
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 import bestbuds from '../assets/bestbuds.jpg'
@@ -39,7 +40,7 @@ class Landing extends Component{
                                 </strong>
                                 </CardTitle>
                             <CardText>We know it can be an overwhelming responsibility taking care of your pet, especially if you want to offer the best care. We have an application that can assist the specific needs of all pet owners.</CardText>
-                            <a href={ this.props.sign_up_route }> Sign Up </a>
+                            <Button  size="lg"><a className="headerh1" href={ this.props.sign_up_route }> Sign Up </a></Button>
                             {/* </CardBody> */}
                         {/* </Card> */}
                     </Col>
