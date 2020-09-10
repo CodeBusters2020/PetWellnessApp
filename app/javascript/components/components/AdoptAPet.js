@@ -20,11 +20,7 @@ class AdoptAPet extends Component {
         this.state = {
             information: {
                 zipcode: "",
-<<<<<<< HEAD
-                radius: 5
-=======
                 radius: "5"
->>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
             },
             pets: []
         }
@@ -38,30 +34,6 @@ class AdoptAPet extends Component {
     }
 
     handleSubmit = () => {
-<<<<<<< HEAD
-        console.log(JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)))
-        return fetch("https://api.rescuegroups.org/http/v2.json", {
-            body: JSON.stringify(generateAdoptAPet(this.state.information.zipcode, this.state.information.radius)),
-            headers: { "Content-Type": "application/json" },
-            method: "POST"
-            }).then(response => {
-            if(response.status === 200){
-                return(response.json())
-            } else {
-                alert("Please check your form")
-            }
-            return response
-            }).then(petResponse => {
-                if (petResponse["data"].length === 0) {
-                    this.setState({ pets: null })
-                } else {
-                    this.setState({ pets: petResponse["data"] })
-                }
-            })
-            .catch(errors => {
-            console.log("create errors", errors)
-        })
-=======
         if (this.state.information.zipcode== "") {alert("Zipcode must be entered!")}
         else {
             return fetch("https://api.rescuegroups.org/http/v2.json", {
@@ -85,22 +57,17 @@ class AdoptAPet extends Component {
                 .catch(errors => {
                 console.log("create errors", errors)
             })
-    }
->>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+        }
+
     }
 
 
 
     render(){
         let {pets} = this.state
-<<<<<<< HEAD
-        
-        const petArray = Object.values(pets);
-        
-=======
         var petArray = []
         if (pets !== null) {petArray = Object.values(pets)}
->>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+
         return (
             <>
             <Form>
@@ -135,15 +102,6 @@ class AdoptAPet extends Component {
                 <Button onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
-<<<<<<< HEAD
-
-            { (pets.length !== 0) && 
-                (petArray.map((value, index) => {
-                    return (
-                    
-                        <Card key={ index } className = "landing-cards" style={{ width: '18rem' }}>
-                        <img variant="top" src={value["animalThumbnailUrl"]}/>
-=======
             { pets == null && <p>No results found. Try a different zipcode/radius!</p>}
 
             { pets !== null && (pets.length !== 0) && 
@@ -152,7 +110,6 @@ class AdoptAPet extends Component {
                     
                         <Card key={ index } className = "landing-cards" style={{ padding: "10px" }}>
                         <img variant="top" src={value["animalThumbnailUrl"]} style={{ width: '200px', margin: "auto" }}/>
->>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                         <CardBody>
                             <CardTitle>{value["animalName"]}</CardTitle>
                             <CardText>
@@ -164,11 +121,8 @@ class AdoptAPet extends Component {
                                 <br/>
                                 Birthday: {value["animalBirthdate"]}
                                 <br/>
-<<<<<<< HEAD
-=======
                                 ZIP code: {value["animalLocation"]}
                                 <br/>
->>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                 General Age: {value["animalGeneralAge"]}
                                 <br/>
                                 Description: <div dangerouslySetInnerHTML={{ __html: value["animalDescription"]}} /> 

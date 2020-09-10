@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
   [1m[35m (638.9ms)[0m  [1m[35mCREATE DATABASE "pet_wellness_app_development" ENCODING = 'unicode'[0m
   [1m[35m (295.4ms)[0m  [1m[35mCREATE DATABASE "pet_wellness_app_test" ENCODING = 'unicode'[0m
   [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
@@ -262,6 +263,8 @@ Entrypoint server_rendering = js/server_rendering-490d1b5e4e14f309309a.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
   [1m[35m (650.0ms)[0m  [1m[35mCREATE DATABASE "pet_wellness_app_development" ENCODING = 'unicode'[0m
   [1m[35m (484.3ms)[0m  [1m[35mCREATE DATABASE "pet_wellness_app_test" ENCODING = 'unicode'[0m
   [1m[35m (198.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
@@ -375,11 +378,15 @@ Entrypoint server_rendering = js/server_rendering-49ed57cb5b808c4679aa.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -417,6 +424,8 @@ Entrypoint server_rendering = js/server_rendering-2eebcb8aaf0913f763ab.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 48310ms (Views: 48299.6ms | ActiveRecord: 0.0ms | Allocations: 96641)
@@ -450,11 +459,15 @@ Entrypoint server_rendering = js/server_rendering-bade44b181ae8d8f2ab9.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -492,6 +505,8 @@ Entrypoint server_rendering = js/server_rendering-08bcbba329ee556967a0.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 14646ms (Views: 14644.2ms | ActiveRecord: 0.0ms | Allocations: 9290)
@@ -525,11 +540,15 @@ Entrypoint server_rendering = js/server_rendering-4b82c42bd07dcd098814.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -583,6 +602,8 @@ Entrypoint server_rendering = js/server_rendering-e1b1c0b72169f47e358b.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 16070ms (Views: 16035.7ms | ActiveRecord: 0.0ms | Allocations: 9288)
@@ -624,11 +645,15 @@ Entrypoint server_rendering = js/server_rendering-ac63d008a7c4d90f0a48.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -666,6 +691,8 @@ Entrypoint server_rendering = js/server_rendering-61701b50b1ba95614088.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 14867ms (Views: 14864.3ms | ActiveRecord: 0.0ms | Allocations: 9272)
@@ -699,11 +726,15 @@ Entrypoint server_rendering = js/server_rendering-53a06e91d5f1cb3d65c4.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -781,6 +812,8 @@ Entrypoint server_rendering = js/server_rendering-3ee7ed1590678ecfc61f.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 17158ms (Views: 17155.0ms | ActiveRecord: 0.0ms | Allocations: 69734)
@@ -846,11 +879,15 @@ Entrypoint server_rendering = js/server_rendering-8c6f7c5c1fca3d4ebe4f.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 204 hidden modules
 
@@ -888,6 +925,8 @@ Entrypoint server_rendering = js/server_rendering-4161c18324b00f3123a0.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 13527ms (Views: 13525.8ms | ActiveRecord: 0.0ms | Allocations: 9403)
@@ -921,11 +960,15 @@ Entrypoint server_rendering = js/server_rendering-af1bd9d7eba42e545d0f.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -966,6 +1009,11 @@ Entrypoint server_rendering = js/server_rendering-cf8500dee62943759d1b.js js/ser
     + 203 hidden modules
 
 Completed 200 OK in 14926ms (Views: 14923.3ms | ActiveRecord: 0.0ms | Allocations: 9350)
+=======
+    + 203 hidden modules
+
+Completed 200 OK in 14926ms (Views: 14923.3ms | ActiveRecord: 0.0ms | Allocations: 9350)
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 
 
 Started GET "/" for ::1 at 2020-09-02 14:58:31 -0700
@@ -996,11 +1044,15 @@ Entrypoint server_rendering = js/server_rendering-e73bd5b2d31ca330d9da.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -1038,6 +1090,8 @@ Entrypoint server_rendering = js/server_rendering-b4d22a86bc5b8db3ddaf.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 10796ms (Views: 10793.2ms | ActiveRecord: 0.0ms | Allocations: 9355)
@@ -1071,11 +1125,15 @@ Entrypoint server_rendering = js/server_rendering-c4ac62dd4bdf15f3de9e.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -1113,6 +1171,8 @@ Entrypoint server_rendering = js/server_rendering-c3c0f7c786d719f56505.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 16434ms (Views: 16432.8ms | ActiveRecord: 0.0ms | Allocations: 9371)
@@ -1184,11 +1244,15 @@ Entrypoint server_rendering = js/server_rendering-43831cb45560071cd456.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 592 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -1226,6 +1290,8 @@ Entrypoint server_rendering = js/server_rendering-c0b438c8e6f80f21d639.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 203 hidden modules
 
 Completed 200 OK in 17039ms (Views: 17036.5ms | ActiveRecord: 0.0ms | Allocations: 9362)
@@ -1298,11 +1364,15 @@ Entrypoint server_rendering = js/server_rendering-b044206e100778e7501e.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 632 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -1340,6 +1410,8 @@ Entrypoint server_rendering = js/server_rendering-2567e94358fef2b70ba8.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 204 hidden modules
 
 Completed 200 OK in 18583ms (Views: 18579.2ms | ActiveRecord: 0.0ms | Allocations: 9413)
@@ -1412,11 +1484,15 @@ Entrypoint server_rendering = js/server_rendering-3d8d499563abd11eaf5d.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 632 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 205 hidden modules
 
@@ -1457,6 +1533,8 @@ Entrypoint server_rendering = js/server_rendering-d0fa3fe02ad9cd2ee231.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 204 hidden modules
 
 Completed 200 OK in 15511ms (Views: 15509.2ms | ActiveRecord: 0.0ms | Allocations: 9389)
@@ -1527,11 +1605,15 @@ Entrypoint server_rendering = js/server_rendering-d0fcf7f52db3ea42c590.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 632 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -1539,17 +1621,23 @@ ERROR in ./app/javascript/components/App.js
 Module not found: Error: Can't resolve './pages/Landing' in '/Users/learnacademy/Desktop/capstone/PetWellnessApp/pet_wellness_app1/app/javascript/components'
  @ ./app/javascript/components/App.js 27:0-38 86:50-57
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 204 hidden modules
 
 ERROR in ./app/javascript/components/App.js
 Module not found: Error: Can't resolve '../assets/fish.jpg' in '/Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/app/javascript/components'
  @ ./app/javascript/components/App.js 30:0-42
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
  @ ./app/javascript/components sync ^\.\/.*$
  @ ./app/javascript/packs/application.js
 
 
 warning ../package.json: No license field
+<<<<<<< HEAD
 <<<<<<< HEAD
 warning ../../../../package.json: No license field
 
@@ -1579,6 +1667,8 @@ Entrypoint server_rendering = js/server_rendering-d0fa3fe02ad9cd2ee231.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 
 Completed 200 OK in 15635ms (Views: 15631.9ms | ActiveRecord: 0.0ms | Allocations: 9211)
 
@@ -1611,11 +1701,15 @@ Entrypoint server_rendering = js/server_rendering-7a7bdecc87916295509e.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 632 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -1623,17 +1717,23 @@ ERROR in ./app/javascript/components/App.js
 Module not found: Error: Can't resolve './pages/Landing' in '/Users/learnacademy/Desktop/capstone/PetWellnessApp/pet_wellness_app1/app/javascript/components'
  @ ./app/javascript/components/App.js 27:0-38 86:50-57
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 204 hidden modules
 
 ERROR in ./app/javascript/components/App.js
 Module not found: Error: Can't resolve '../assets/fish.jpg' in '/Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/app/javascript/components'
  @ ./app/javascript/components/App.js 30:0-42
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
  @ ./app/javascript/components sync ^\.\/.*$
  @ ./app/javascript/packs/application.js
 
 
 warning ../package.json: No license field
+<<<<<<< HEAD
 <<<<<<< HEAD
 warning ../../../../package.json: No license field
 
@@ -1673,6 +1773,8 @@ Entrypoint server_rendering = js/server_rendering-ddcf6a8d648a3a28ac8e.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 
 Completed 200 OK in 18919ms (Views: 18911.2ms | ActiveRecord: 0.0ms | Allocations: 23770)
 
@@ -1704,11 +1806,15 @@ Entrypoint server_rendering = js/server_rendering-fb48b91dd3329fbee185.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 632 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -1806,6 +1912,8 @@ Entrypoint server_rendering = js/server_rendering-fcd68fee08daa51b51e0.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 204 hidden modules
 
 ERROR in ./app/javascript/components/App.js
@@ -1948,11 +2056,15 @@ Entrypoint server_rendering = js/server_rendering-de2207fed2f4e74fc4c9.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -2026,6 +2138,8 @@ Entrypoint server_rendering = js/server_rendering-a1812e626ee7e8aa2a3a.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 205 hidden modules
 
 Completed 200 OK in 25407ms (Views: 25385.3ms | ActiveRecord: 0.0ms | Allocations: 86057)
@@ -2069,11 +2183,15 @@ Entrypoint server_rendering = js/server_rendering-cc7a97afdbaf4e39a6c1.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -2114,6 +2232,8 @@ Entrypoint server_rendering = js/server_rendering-d0ab62d2cc03ebba758d.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 205 hidden modules
 
 Completed 200 OK in 16151ms (Views: 16146.8ms | ActiveRecord: 0.0ms | Allocations: 10102)
@@ -2148,11 +2268,15 @@ Entrypoint server_rendering = js/server_rendering-f9f501dfb85b79a01452.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -2194,6 +2318,8 @@ Entrypoint server_rendering = js/server_rendering-514a0ea4397dbf7c59d3.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 205 hidden modules
 
 Completed 200 OK in 12614ms (Views: 12607.2ms | ActiveRecord: 0.0ms | Allocations: 10089)
@@ -2333,11 +2459,15 @@ Entrypoint server_rendering = js/server_rendering-4f17948604506eb7fb40.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -2397,6 +2527,16 @@ Completed 200 OK in 18393ms (Views: 18334.3ms | ActiveRecord: 54.2ms | Allocatio
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/application
   [1m[36mUser Load (26.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+=======
+    + 205 hidden modules
+
+Completed 200 OK in 18393ms (Views: 18334.3ms | ActiveRecord: 54.2ms | Allocations: 16637)
+
+
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (26.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
   ↳ app/views/home/index.html.erb:2
   Rendered home/index.html.erb within layouts/application (Duration: 65.3ms | Allocations: 6003)
 [Webpacker] Everything's up-to-date. Nothing to do
@@ -2441,11 +2581,15 @@ Entrypoint server_rendering = js/server_rendering-10b4292b70af98500d2d.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 203 hidden modules
 
@@ -2584,6 +2728,8 @@ Entrypoint application = js/application-38646a6016981ee8944d.js js/application-3
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-6cf186bf987bb590c4f0.js js/server_rendering-6cf186bf987bb590c4f0.js.map
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 205 hidden modules
 
 Completed 200 OK in 16524ms (Views: 16513.8ms | ActiveRecord: 2.2ms | Allocations: 15798)
@@ -2632,13 +2778,20 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-3a07440a86ca7ae9d5a1.js js/application-3a07440a86ca7ae9d5a1.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
 Entrypoint server_rendering = js/server_rendering-3c4579bab9d262dc194d.js js/server_rendering-3c4579bab9d262dc194d.js.map
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -2648,6 +2801,7 @@ Entrypoint server_rendering = js/server_rendering-3c4579bab9d262dc194d.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 205 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 10145ms (Views: 10128.4ms | ActiveRecord: 9.6ms | Allocations: 93096)
 
@@ -2841,6 +2995,8 @@ Entrypoint application = js/application-70c29e9ef92d6730ab1e.js js/application-7
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-7c0d4efbc2a6af76d523.js js/server_rendering-7c0d4efbc2a6af76d523.js.map
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 18048ms (Views: 17991.7ms | ActiveRecord: 50.6ms | Allocations: 15907)
 
 
@@ -2877,13 +3033,20 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-a817cb218b78b3be46a8.js js/application-a817cb218b78b3be46a8.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
 Entrypoint server_rendering = js/server_rendering-45749fd24155a0bafb72.js js/server_rendering-45749fd24155a0bafb72.js.map
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -2893,6 +3056,7 @@ Entrypoint server_rendering = js/server_rendering-45749fd24155a0bafb72.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 205 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 8096ms (Views: 8071.3ms | ActiveRecord: 19.1ms | Allocations: 15896)
 
@@ -3062,6 +3226,58 @@ Entrypoint server_rendering = js/server_rendering-b68f8a413afdbdd7d533.js js/ser
     + 205 hidden modules
 
 Completed 200 OK in 17247ms (Views: 17224.7ms | ActiveRecord: 16.7ms | Allocations: 16591)
+=======
+Completed 200 OK in 16222ms (Views: 16203.2ms | ActiveRecord: 13.5ms | Allocations: 15875)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 14:25:09 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (40.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 162ms (Views: 64.1ms | ActiveRecord: 89.5ms | Allocations: 9148)
+
+
+Started GET "/show/1" for ::1 at 2020-09-04 14:26:40 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"show/1"}
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 75.4ms | Allocations: 6039)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-09-04 14:26:49 -0700
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 5bc851e90731f99ca6ab
+Version: webpack 4.44.1
+Time: 12203ms
+Built at: 09/04/2020 2:26:57 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-c7093bef367c69fc7614.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-c7093bef367c69fc7614.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-b68f8a413afdbdd7d533.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-b68f8a413afdbdd7d533.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-c7093bef367c69fc7614.js js/application-c7093bef367c69fc7614.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-b68f8a413afdbdd7d533.js js/server_rendering-b68f8a413afdbdd7d533.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 17247ms (Views: 17224.7ms | ActiveRecord: 16.7ms | Allocations: 16591)
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 
 
 Processing by HomeController#index as HTML
@@ -3123,13 +3339,20 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-23577d4c0355fb2cb21d.js js/application-23577d4c0355fb2cb21d.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
 Entrypoint server_rendering = js/server_rendering-78062f311b826b207849.js js/server_rendering-78062f311b826b207849.js.map
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -3139,6 +3362,7 @@ Entrypoint server_rendering = js/server_rendering-78062f311b826b207849.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 205 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 WARNING in ./app/javascript/components/App.js
 Module build failed (from ./node_modules/babel-loader/lib/index.js):
@@ -3208,6 +3432,8 @@ Entrypoint application = js/application-6e570d525d311061445c.js js/application-6
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-30d3a9afa57f905a8d21.js js/server_rendering-30d3a9afa57f905a8d21.js.map
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 22080ms (Views: 22007.7ms | ActiveRecord: 56.2ms | Allocations: 15992)
 
 
@@ -3244,13 +3470,20 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-3b2bdf6818d88868ecf1.js js/application-3b2bdf6818d88868ecf1.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
 Entrypoint server_rendering = js/server_rendering-0d6c523ca1bab477dbf7.js js/server_rendering-0d6c523ca1bab477dbf7.js.map
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -3260,6 +3493,7 @@ Entrypoint server_rendering = js/server_rendering-0d6c523ca1bab477dbf7.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 205 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 WARNING in ./app/javascript/components/App.js
 Module build failed (from ./node_modules/babel-loader/lib/index.js):
@@ -3336,6 +3570,8 @@ Entrypoint application = js/application-8624604600371d56fe20.js js/application-8
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-ac08871dc45eb506067a.js js/server_rendering-ac08871dc45eb506067a.js.map
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 19270ms (Views: 19193.1ms | ActiveRecord: 64.7ms | Allocations: 15769)
 
 
@@ -3372,13 +3608,20 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-bd9348c34f145111197f.js js/application-bd9348c34f145111197f.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
 Entrypoint server_rendering = js/server_rendering-5ac3b0c70af9cf5553b6.js js/server_rendering-5ac3b0c70af9cf5553b6.js.map
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -3388,6 +3631,7 @@ Entrypoint server_rendering = js/server_rendering-5ac3b0c70af9cf5553b6.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 205 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 9639ms (Views: 9596.0ms | ActiveRecord: 39.3ms | Allocations: 15966)
 
@@ -3771,15 +4015,390 @@ media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB     
 Entrypoint application = js/application-31e8e8e93f4452d0cea8.js js/application-31e8e8e93f4452d0cea8.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-a6831593a8ca71ea5cd0.js js/server_rendering-a6831593a8ca71ea5cd0.js.map
+=======
+Completed 200 OK in 13934ms (Views: 13920.9ms | ActiveRecord: 6.7ms | Allocations: 15889)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:15:13 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 142ms (Views: 105.1ms | ActiveRecord: 31.1ms | Allocations: 9160)
+
+
+Started GET "/show/1" for ::1 at 2020-09-04 15:16:49 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"show/1"}
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 59.1ms | Allocations: 6022)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: cf0128c690783a89377d
+Version: webpack 4.44.1
+Time: 11921ms
+Built at: 09/04/2020 3:17:05 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-b3d7060652beb3a05797.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-b3d7060652beb3a05797.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-bd35825156db617f551f.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-bd35825156db617f551f.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-b3d7060652beb3a05797.js js/application-b3d7060652beb3a05797.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-bd35825156db617f551f.js js/server_rendering-bd35825156db617f551f.js.map
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
-[./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 16408ms (Views: 16387.9ms | ActiveRecord: 14.3ms | Allocations: 15880)
+
+
+Started GET "/" for ::1 at 2020-09-04 15:17:29 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 45.3ms | Allocations: 6019)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 98ms (Views: 76.1ms | ActiveRecord: 17.9ms | Allocations: 14449)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:17:30 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (2.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 85ms (Views: 42.5ms | ActiveRecord: 35.5ms | Allocations: 9207)
+
+
+Started GET "/" for ::1 at 2020-09-04 15:18:31 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (6.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 69.0ms | Allocations: 6019)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: af9b65eab5c86517ab6e
+Version: webpack 4.44.1
+Time: 10245ms
+Built at: 09/04/2020 3:18:47 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-abbf9a3f9d7f67c77ead.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-abbf9a3f9d7f67c77ead.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-c9aa31b3eeef08ae2b5c.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-c9aa31b3eeef08ae2b5c.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-abbf9a3f9d7f67c77ead.js js/application-abbf9a3f9d7f67c77ead.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-c9aa31b3eeef08ae2b5c.js js/server_rendering-c9aa31b3eeef08ae2b5c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 16165ms (Views: 16125.9ms | ActiveRecord: 33.3ms | Allocations: 15873)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:18:49 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 91ms (Views: 40.0ms | ActiveRecord: 44.1ms | Allocations: 9129)
+
+
+Started GET "/show/1" for ::1 at 2020-09-04 15:31:00 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"show/1"}
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 41.6ms | Allocations: 5909)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-09-04 15:31:06 -0700
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: cf0128c690783a89377d
+Version: webpack 4.44.1
+Time: 8767ms
+Built at: 09/04/2020 3:31:13 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-b3d7060652beb3a05797.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-b3d7060652beb3a05797.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-bd35825156db617f551f.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-bd35825156db617f551f.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-b3d7060652beb3a05797.js js/application-b3d7060652beb3a05797.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-bd35825156db617f551f.js js/server_rendering-bd35825156db617f551f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 13080ms (Views: 13073.7ms | ActiveRecord: 1.2ms | Allocations: 16457)
+
+
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (13.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 160.7ms | Allocations: 6052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 208ms (Views: 93.2ms | ActiveRecord: 109.3ms | Allocations: 14544)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:31:15 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 131ms (Views: 86.5ms | ActiveRecord: 37.7ms | Allocations: 9259)
+
+
+Started GET "/" for ::1 at 2020-09-04 15:42:41 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 60.9ms | Allocations: 5949)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 1327486fe775d9ba9fee
+Version: webpack 4.44.1
+Time: 10427ms
+Built at: 09/04/2020 3:42:56 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-d939e23f00855f60e0eb.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-d939e23f00855f60e0eb.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-7b8147cdd766ea211e63.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-7b8147cdd766ea211e63.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-d939e23f00855f60e0eb.js js/application-d939e23f00855f60e0eb.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-7b8147cdd766ea211e63.js js/server_rendering-7b8147cdd766ea211e63.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 15033ms (Views: 14988.9ms | ActiveRecord: 25.6ms | Allocations: 15796)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:42:57 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (19.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 80ms (Views: 53.9ms | ActiveRecord: 19.0ms | Allocations: 8966)
+
+
+Started GET "/" for ::1 at 2020-09-04 15:44:01 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 54.1ms | Allocations: 6026)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 738e40a69adcc16e3fd8
+Version: webpack 4.44.1
+Time: 10900ms
+Built at: 09/04/2020 3:44:16 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-917d5c961dc337a13a1b.js   2.2 MiB       application  [emitted] [immutable]  application
+                       js/application-917d5c961dc337a13a1b.js.map  2.15 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-75af017becd369fe1cd7.js  2.08 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-75af017becd369fe1cd7.js.map  2.02 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-917d5c961dc337a13a1b.js js/application-917d5c961dc337a13a1b.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-75af017becd369fe1cd7.js js/server_rendering-75af017becd369fe1cd7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 205 hidden modules
+
+Completed 200 OK in 15672ms (Views: 15641.0ms | ActiveRecord: 25.6ms | Allocations: 15759)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:44:17 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (5.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 106ms (Views: 57.3ms | ActiveRecord: 42.6ms | Allocations: 9829)
+
+
+Started DELETE "/pets/2" for ::1 at 2020-09-04 15:44:29 -0700
+Processing by PetsController#destroy as */*
+  Parameters: {"id"=>"2", "pet"=>{}}
+  [1m[36mPet Load (0.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets" WHERE "pets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:16:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pets_controller.rb:17:in `destroy'
+  [1m[36mPet Destroy (27.9ms)[0m  [1m[31mDELETE FROM "pets" WHERE "pets"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/pets_controller.rb:17:in `destroy'
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pets_controller.rb:17:in `destroy'
+Completed 200 OK in 57ms (Views: 1.0ms | ActiveRecord: 31.3ms | Allocations: 3177)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 15:44:29 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (23.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 4.1ms | ActiveRecord: 23.0ms | Allocations: 1803)
+
+
+Started GET "/" for ::1 at 2020-09-04 16:38:23 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 59.1ms | Allocations: 1318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 125ms (Views: 108.6ms | ActiveRecord: 4.5ms | Allocations: 8968)
+
+
+Started GET "/pets" for ::1 at 2020-09-04 16:38:24 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.9ms | Allocations: 1857)
+
+
+Started GET "/" for ::1 at 2020-09-05 11:02:40 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 1318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 94ms (Views: 82.3ms | ActiveRecord: 2.0ms | Allocations: 8965)
+
+
+Started GET "/pets" for ::1 at 2020-09-05 11:02:41 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (4.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 4.0ms | Allocations: 1869)
+
+
+Started GET "/" for ::1 at 2020-09-05 11:03:09 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1198)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.7ms | ActiveRecord: 2.0ms | Allocations: 8762)
+
+
+Started GET "/pets" for ::1 at 2020-09-05 11:03:09 -0700
+Processing by PetsController#index as */*
+  [1m[36mPet Load (5.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 5.2ms | ActiveRecord: 5.3ms | Allocations: 1797)
+
+
+Started GET "/" for ::1 at 2020-09-08 15:25:53 -0700
+  [1m[35m (5.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:2
+  Rendered home/index.html.erb within layouts/application (Duration: 109.7ms | Allocations: 7142)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb__726088390784335689_24680 at /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/app/views/layouts/application.html.erb:8)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/PetWellnessApp/pet_wellness_app1/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: 9fc5aa88c3611c709e26
+Version: webpack 4.44.1
+Time: 13053ms
+Built at: 09/08/2020 3:26:18 PM
+                                                            Asset      Size            Chunks                         Chunk Names
+                           js/application-c13b4cf17419411bce4d.js  2.24 MiB       application  [emitted] [immutable]  application
+                       js/application-c13b4cf17419411bce4d.js.map  2.17 MiB       application  [emitted] [dev]        application
+                           js/hello_react-f8d343333582d20d08ff.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+                       js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+                      js/server_rendering-6eafb352bd62ff844ce3.js  2.12 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                  js/server_rendering-6eafb352bd62ff844ce3.js.map  2.04 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                    manifest.json  1.16 KiB                    [emitted]              
+media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
+Entrypoint application = js/application-c13b4cf17419411bce4d.js js/application-c13b4cf17419411bce4d.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-6eafb352bd62ff844ce3.js js/server_rendering-6eafb352bd62ff844ce3.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 689 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+<<<<<<< HEAD
+[./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
     + 205 hidden modules
 
 Completed 200 OK in 11050ms (Views: 11008.2ms | ActiveRecord: 35.5ms | Allocations: 16025)
@@ -7112,6 +7731,10 @@ Entrypoint server_rendering = js/server_rendering-c94fb83f76df5c7ef49a.js js/ser
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
 =======
+=======
+    + 205 hidden modules
+
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 25283ms (Views: 25230.1ms | ActiveRecord: 38.4ms | Allocations: 94940)
 
 
@@ -7249,11 +7872,15 @@ Entrypoint server_rendering = js/server_rendering-2ec0ecb22bacd1f6103a.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 760 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 [./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
 [./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+<<<<<<< HEAD
 <<<<<<< HEAD
     + 216 hidden modules
 
@@ -7276,6 +7903,8 @@ Built at: 09/09/2020 11:43:34 AM
                              js/server_rendering-c94fb83f76df5c7ef49a.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-c94fb83f76df5c7ef49a.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
     + 206 hidden modules
 
 Completed 200 OK in 11675ms (Views: 11643.8ms | ActiveRecord: 28.2ms | Allocations: 15892)
@@ -7312,6 +7941,9 @@ Built at: 09/09/2020 11:27:28 AM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-1538b3d408b93c826e7d.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-1538b3d408b93c826e7d.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -7320,9 +7952,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-b1c06f32747c75d847be.js js/application-b1c06f32747c75d847be.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-c94fb83f76df5c7ef49a.js js/server_rendering-c94fb83f76df5c7ef49a.js.map
+=======
+Entrypoint application = js/application-a569e006b5d8fdffeef0.js js/application-a569e006b5d8fdffeef0.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-1538b3d408b93c826e7d.js js/server_rendering-1538b3d408b93c826e7d.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-a569e006b5d8fdffeef0.js js/application-a569e006b5d8fdffeef0.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -7333,7 +7971,11 @@ Entrypoint server_rendering = js/server_rendering-1538b3d408b93c826e7d.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -7343,6 +7985,7 @@ Entrypoint server_rendering = js/server_rendering-1538b3d408b93c826e7d.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 9579ms (Views: 9576.4ms | ActiveRecord: 1.6ms | Allocations: 12889)
 
@@ -7509,6 +8152,8 @@ Built at: 09/09/2020 11:51:12 AM
                              js/server_rendering-2c79553028138a3c3ab5.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-2c79553028138a3c3ab5.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 25639ms (Views: 25556.0ms | ActiveRecord: 62.4ms | Allocations: 94284)
 
 
@@ -7708,6 +8353,9 @@ Built at: 09/09/2020 2:01:39 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-d92fe0425d1dbedb63a0.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-d92fe0425d1dbedb63a0.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -7716,9 +8364,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-d4208c489a39ff7a6c9c.js js/application-d4208c489a39ff7a6c9c.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-2c79553028138a3c3ab5.js js/server_rendering-2c79553028138a3c3ab5.js.map
+=======
+Entrypoint application = js/application-934ea6a93886fa9e459f.js js/application-934ea6a93886fa9e459f.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-d92fe0425d1dbedb63a0.js js/server_rendering-d92fe0425d1dbedb63a0.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-934ea6a93886fa9e459f.js js/application-934ea6a93886fa9e459f.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -7729,7 +8383,11 @@ Entrypoint server_rendering = js/server_rendering-d92fe0425d1dbedb63a0.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -7739,6 +8397,7 @@ Entrypoint server_rendering = js/server_rendering-d92fe0425d1dbedb63a0.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 10283ms (Views: 10269.1ms | ActiveRecord: 8.7ms | Allocations: 16003)
 
@@ -7807,6 +8466,8 @@ Built at: 09/09/2020 12:03:56 PM
                              js/server_rendering-573f1e005ed63f354d1b.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-573f1e005ed63f354d1b.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 10995ms (Views: 10981.3ms | ActiveRecord: 8.1ms | Allocations: 15943)
 
 
@@ -7882,6 +8543,9 @@ Built at: 09/09/2020 2:04:09 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-fa3042522dd0037e21cc.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-fa3042522dd0037e21cc.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -7890,9 +8554,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-1b08271bd89d13cd0e00.js js/application-1b08271bd89d13cd0e00.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-573f1e005ed63f354d1b.js js/server_rendering-573f1e005ed63f354d1b.js.map
+=======
+Entrypoint application = js/application-18989322155f5e565d17.js js/application-18989322155f5e565d17.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-fa3042522dd0037e21cc.js js/server_rendering-fa3042522dd0037e21cc.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-18989322155f5e565d17.js js/application-18989322155f5e565d17.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -7903,7 +8573,11 @@ Entrypoint server_rendering = js/server_rendering-fa3042522dd0037e21cc.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -7913,6 +8587,7 @@ Entrypoint server_rendering = js/server_rendering-fa3042522dd0037e21cc.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 7896ms (Views: 7877.5ms | ActiveRecord: 15.4ms | Allocations: 16159)
 
@@ -7947,6 +8622,8 @@ Built at: 09/09/2020 12:04:56 PM
                              js/server_rendering-7176c86dfbd9e551deae.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-7176c86dfbd9e551deae.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 16422ms (Views: 16404.3ms | ActiveRecord: 14.0ms | Allocations: 15888)
 
 
@@ -7979,6 +8656,9 @@ Built at: 09/09/2020 2:05:59 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-4fdb37edfc78f952c1e2.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-4fdb37edfc78f952c1e2.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -7987,9 +8667,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-f239e72d99aed3e8e94a.js js/application-f239e72d99aed3e8e94a.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-7176c86dfbd9e551deae.js js/server_rendering-7176c86dfbd9e551deae.js.map
+=======
+Entrypoint application = js/application-59e01c9d124f0337f6ed.js js/application-59e01c9d124f0337f6ed.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-4fdb37edfc78f952c1e2.js js/server_rendering-4fdb37edfc78f952c1e2.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-59e01c9d124f0337f6ed.js js/application-59e01c9d124f0337f6ed.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8000,7 +8686,11 @@ Entrypoint server_rendering = js/server_rendering-4fdb37edfc78f952c1e2.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8010,6 +8700,7 @@ Entrypoint server_rendering = js/server_rendering-4fdb37edfc78f952c1e2.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 9515ms (Views: 9508.5ms | ActiveRecord: 3.9ms | Allocations: 16047)
 
@@ -8063,6 +8754,8 @@ Built at: 09/09/2020 12:07:21 PM
                              js/server_rendering-74bbc297629d2517925c.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-74bbc297629d2517925c.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 19477ms (Views: 19443.0ms | ActiveRecord: 30.3ms | Allocations: 29513)
 
 
@@ -8103,6 +8796,9 @@ Built at: 09/09/2020 2:06:58 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-5dee9b8e08d77c2410c5.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-5dee9b8e08d77c2410c5.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -8111,9 +8807,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-7e715a5717a70198389e.js js/application-7e715a5717a70198389e.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-74bbc297629d2517925c.js js/server_rendering-74bbc297629d2517925c.js.map
+=======
+Entrypoint application = js/application-4540515c8b6a91d2acbb.js js/application-4540515c8b6a91d2acbb.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-5dee9b8e08d77c2410c5.js js/server_rendering-5dee9b8e08d77c2410c5.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-4540515c8b6a91d2acbb.js js/application-4540515c8b6a91d2acbb.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8124,7 +8826,11 @@ Entrypoint server_rendering = js/server_rendering-5dee9b8e08d77c2410c5.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8134,6 +8840,7 @@ Entrypoint server_rendering = js/server_rendering-5dee9b8e08d77c2410c5.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 8066ms (Views: 8058.1ms | ActiveRecord: 4.1ms | Allocations: 16042)
 
@@ -8168,6 +8875,8 @@ Built at: 09/09/2020 12:11:03 PM
                              js/server_rendering-b3b9ad1d2da120f27a99.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-b3b9ad1d2da120f27a99.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 11171ms (Views: 11136.9ms | ActiveRecord: 29.8ms | Allocations: 16001)
 
 
@@ -8199,6 +8908,9 @@ Built at: 09/09/2020 2:08:47 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-66d2d2b791ff6ac91a10.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-66d2d2b791ff6ac91a10.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -8207,9 +8919,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-c05d38a1e076686dac91.js js/application-c05d38a1e076686dac91.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-b3b9ad1d2da120f27a99.js js/server_rendering-b3b9ad1d2da120f27a99.js.map
+=======
+Entrypoint application = js/application-10ff1f492420b8a1bb41.js js/application-10ff1f492420b8a1bb41.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-66d2d2b791ff6ac91a10.js js/server_rendering-66d2d2b791ff6ac91a10.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-10ff1f492420b8a1bb41.js js/application-10ff1f492420b8a1bb41.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8220,7 +8938,11 @@ Entrypoint server_rendering = js/server_rendering-66d2d2b791ff6ac91a10.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8230,6 +8952,7 @@ Entrypoint server_rendering = js/server_rendering-66d2d2b791ff6ac91a10.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 7272ms (Views: 7264.7ms | ActiveRecord: 3.5ms | Allocations: 16038)
 
@@ -8282,6 +9005,8 @@ Built at: 09/09/2020 12:16:20 PM
                              js/server_rendering-5b5f36460d10161b7021.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-5b5f36460d10161b7021.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 13634ms (Views: 13600.2ms | ActiveRecord: 27.8ms | Allocations: 16002)
 
 
@@ -8313,6 +9038,9 @@ Built at: 09/09/2020 2:10:22 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-563790578cb7a39f3888.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-563790578cb7a39f3888.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -8321,9 +9049,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-8991fa0e02876a51d236.js js/application-8991fa0e02876a51d236.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-5b5f36460d10161b7021.js js/server_rendering-5b5f36460d10161b7021.js.map
+=======
+Entrypoint application = js/application-57524e39f1dc6bc31c4f.js js/application-57524e39f1dc6bc31c4f.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-563790578cb7a39f3888.js js/server_rendering-563790578cb7a39f3888.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-57524e39f1dc6bc31c4f.js js/application-57524e39f1dc6bc31c4f.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8334,7 +9068,11 @@ Entrypoint server_rendering = js/server_rendering-563790578cb7a39f3888.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8344,6 +9082,7 @@ Entrypoint server_rendering = js/server_rendering-563790578cb7a39f3888.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 7319ms (Views: 7311.8ms | ActiveRecord: 4.8ms | Allocations: 16028)
 
@@ -8378,6 +9117,8 @@ Built at: 09/09/2020 12:19:05 PM
                              js/server_rendering-b3b9ad1d2da120f27a99.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-b3b9ad1d2da120f27a99.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 14571ms (Views: 14548.5ms | ActiveRecord: 16.3ms | Allocations: 16000)
 
 
@@ -8409,6 +9150,9 @@ Built at: 09/09/2020 2:11:54 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-ddcfd3e7a2ecc629d8b5.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-ddcfd3e7a2ecc629d8b5.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -8417,9 +9161,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-c05d38a1e076686dac91.js js/application-c05d38a1e076686dac91.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-b3b9ad1d2da120f27a99.js js/server_rendering-b3b9ad1d2da120f27a99.js.map
+=======
+Entrypoint application = js/application-2fadbb42a6c88a69fc00.js js/application-2fadbb42a6c88a69fc00.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-ddcfd3e7a2ecc629d8b5.js js/server_rendering-ddcfd3e7a2ecc629d8b5.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-2fadbb42a6c88a69fc00.js js/application-2fadbb42a6c88a69fc00.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8430,7 +9180,11 @@ Entrypoint server_rendering = js/server_rendering-ddcfd3e7a2ecc629d8b5.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8440,6 +9194,7 @@ Entrypoint server_rendering = js/server_rendering-ddcfd3e7a2ecc629d8b5.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 7208ms (Views: 7175.7ms | ActiveRecord: 29.1ms | Allocations: 16027)
 
@@ -8474,6 +9229,8 @@ Built at: 09/09/2020 12:22:44 PM
                              js/server_rendering-5b5f36460d10161b7021.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-5b5f36460d10161b7021.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 10932ms (Views: 10913.3ms | ActiveRecord: 14.3ms | Allocations: 15999)
 
 
@@ -8505,6 +9262,9 @@ Built at: 09/09/2020 2:20:01 PM
                               js/hello_react-f8d343333582d20d08ff.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
                              js/server_rendering-3e89504f344d6c1293ae.js  3.04 MiB  server_rendering  [emitted] [immutable]  server_rendering
                          js/server_rendering-3e89504f344d6c1293ae.js.map  2.88 MiB  server_rendering  [emitted] [dev]        server_rendering
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
                                                            manifest.json  1.63 KiB                    [emitted]              
       media/components/assets/Erica-e648e8421fc11a3b6288eb31c3075c14.png  6.43 MiB                    [emitted]              
@@ -8513,9 +9273,15 @@ media/components/assets/JakobAvatar-bab342c982b546e2676351def666b0f7.png  78.3 K
     media/components/assets/Selam2-0ec9e68dcdb8e561dce2cc415486c950.jpeg   461 KiB                    [emitted]              
        media/components/assets/fish-91760d3baa1673f4a1659671d71c7440.jpg  35.2 KiB                    [emitted]              
 <<<<<<< HEAD
+<<<<<<< HEAD
 Entrypoint application = js/application-8991fa0e02876a51d236.js js/application-8991fa0e02876a51d236.js.map
 Entrypoint hello_react = js/hello_react-96cecb1a4f225eecdd0c.js js/hello_react-96cecb1a4f225eecdd0c.js.map
 Entrypoint server_rendering = js/server_rendering-5b5f36460d10161b7021.js js/server_rendering-5b5f36460d10161b7021.js.map
+=======
+Entrypoint application = js/application-5d0ed6f78a3e22cfb28f.js js/application-5d0ed6f78a3e22cfb28f.js.map
+Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
+Entrypoint server_rendering = js/server_rendering-3e89504f344d6c1293ae.js js/server_rendering-3e89504f344d6c1293ae.js.map
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 Entrypoint application = js/application-5d0ed6f78a3e22cfb28f.js js/application-5d0ed6f78a3e22cfb28f.js.map
 Entrypoint hello_react = js/hello_react-f8d343333582d20d08ff.js js/hello_react-f8d343333582d20d08ff.js.map
@@ -8526,7 +9292,11 @@ Entrypoint server_rendering = js/server_rendering-3e89504f344d6c1293ae.js js/ser
 [./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 941 bytes {application} {server_rendering} [built]
 [./app/javascript/packs/application.js] 968 bytes {application} [built]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+=======
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 =======
 [./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
@@ -8536,6 +9306,7 @@ Entrypoint server_rendering = js/server_rendering-3e89504f344d6c1293ae.js js/ser
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
     + 216 hidden modules
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Completed 200 OK in 7963ms (Views: 7946.0ms | ActiveRecord: 10.1ms | Allocations: 16058)
 
@@ -8548,6 +9319,8 @@ Completed 200 OK in 82ms (Views: 43.4ms | ActiveRecord: 33.1ms | Allocations: 93
 
 
 =======
+=======
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
 Completed 200 OK in 17716ms (Views: 17702.2ms | ActiveRecord: 10.0ms | Allocations: 15953)
 
 
@@ -8638,4 +9411,7 @@ puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.5) lib/puma/server.rb:472:in `process_client'
 puma (4.3.5) lib/puma/server.rb:328:in `block in run'
 puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+<<<<<<< HEAD
+>>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
+=======
 >>>>>>> 01ec34ee408bd6c0ec75a49c8478c0a887216312
