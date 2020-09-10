@@ -185,7 +185,7 @@ class App extends Component {
         }
         { logged_in &&
             < Route 
-            exact path={"/editpet/:id"}
+            path={"/editpet/:id"}
             render={ (props) => {
               let id = props.match.params.id
               let pet = this.state.pets.find(pet => pet.id === parseInt(id))
