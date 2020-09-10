@@ -122,7 +122,7 @@ class EditPet extends Component {
                     <FormGroup>
                     <Label>Medical</Label>
                     <Input
-                    style={{height: '500px'}}
+                    style={{height: '80vh'}}
                     type = "textarea"
                     name = "medical"
                     placeholder="Optional"
@@ -136,7 +136,7 @@ class EditPet extends Component {
                     <FormGroup>
                         <Label>Digestion</Label>
                         <Input
-                        style={{height: '500px'}}
+                        style={{height: '80vh'}}
                         type = "textarea"
                         name = "digestion"
                         placeholder="Optional"
@@ -150,7 +150,7 @@ class EditPet extends Component {
                 <FormGroup>
                     <Label>Appointment</Label>
                     <Input
-                    style={{height: '500px'}}
+                    style={{height: '80vh'}}
                     type = "textarea"
                     name = "appointment"
                     placeholder="Optional"
@@ -164,7 +164,7 @@ class EditPet extends Component {
                 <FormGroup>
                     <Label>Diary</Label>
                     <Input
-                    style={{height: '500px'}}
+                    style={{height: '80vh'}}
                     type = "textarea"
                     name = "diary"
                     placeholder="Optional"
@@ -178,7 +178,7 @@ class EditPet extends Component {
                     <FormGroup>
                     <Label>Miscellaneous</Label>
                     <Input
-                    style={{height: '500px'}}
+                    style={{height: '80vh'}}
                     type = "textarea"
                     name = "misc"
                     placeholder="Optional"

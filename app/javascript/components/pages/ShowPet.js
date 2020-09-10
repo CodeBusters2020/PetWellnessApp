@@ -27,6 +27,21 @@ class ShowPet extends Component{
         }
     render(){
         let { pet } = this.props
+        let newMedicalText = pet.medical.split('\n').map((item, i) => {
+            return <p key={i}>{item}</p>;
+        });
+        let newDiaryText = pet.diary.split('\n').map((item, i) => {
+            return <p key={i}>{item}</p>;
+        });
+        let newAppointmentText = pet.appointment.split('\n').map((item, i) => {
+            return <p key={i}>{item}</p>;
+        });
+        let newMiscText = pet.misc.split('\n').map((item, i) => {
+            return <p key={i}>{item}</p>;
+        });
+        let newDigestionText = pet.digestion.split('\n').map((item, i) => {
+            return <p key={i}>{item}</p>;
+        });
         return(
             <React.Fragment>
                 <Container>
@@ -51,7 +66,6 @@ class ShowPet extends Component{
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button>Edit Pet</Button>
                                 </NavLink>
-
                                 <Button onClick = {this.handleClick}>
                                     Delete Pet
                                 </Button>
@@ -62,27 +76,28 @@ class ShowPet extends Component{
                         <br/>
                         <section id = "medical">
                         <h5>Medical:</h5>
-                        <p>{ pet.medical }</p>
+                       
+                        { newMedicalText }
                         </section>
                         <br/>
                         <section id = "digestion">
                         <h5>Digestion:</h5>
-                        <p>{ pet.digestion }</p>
+                        <p>{ newDigestionText }</p>
                         </section>
                         <br/>
                         <section id= "appointment">
                         <h5>Appointment:</h5>
-                        <p>{ pet.appointment }</p>
+                        <p>{ newAppointmentText }</p>
                         </section>
                         <br/>
                         <section id="diary">
                         <h5>Diary:</h5>
-                        <p>{ pet.diary }</p>
+                        <p>{ newDiaryText }</p>
                         </section>
                         <br/>
                         <section id="misc">
                         <h5>Miscellaneous:</h5>
-                        <p>{ pet.misc }</p>
+                        <p>{ newMiscText }</p>
                         </section>
                         {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
