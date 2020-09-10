@@ -33,6 +33,7 @@ a:hover {
     margin: auto;
     margin-top: 20px;
     padding: 20px;
+    justify-content: center;
       img {
         border-radius: 25px;
         display: block;
@@ -52,6 +53,28 @@ a:hover {
     color: white;
     position:relative;
 }
+
+.blurb {
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.button1 {
+  background-color: #00b4d8;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.button2 {
+  background-color: #6abfd0;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
 .headerh1 {
   color: white;
 }
@@ -84,6 +107,7 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
 body {
   background-color: #CAF0F8;
 }
@@ -97,7 +121,7 @@ body {
     padding: 20px;
     height: 200vh;
     z-index: -1;
-    background: #0077b6;
+    background: #118ab2;
     color: #fff;
     transition: all 0.3s;
     margin-top: -350px;
@@ -118,6 +142,22 @@ body {
     padding: auto;
 }
 
+.index-container {
+  background-color: #90e0ef;
+  height: 100vh;
+}
+
+.card-body {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.pages-header {
+  padding: 20px;
+  color: white;
+}
+
 .full-height {
     height: 80vh;
 }
@@ -136,4 +176,12 @@ body {
 
 .landingback {
   background-color: caf0f8;
+}
+
+.about-us {
+  background-color: #90e0ef;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: large;
 }

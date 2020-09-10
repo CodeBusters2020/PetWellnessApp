@@ -35,7 +35,7 @@ class ShowPet extends Component{
                             <SideBar />
                         </Col>
                     <Col>
-                <h3> Show Pet </h3>
+                <h3 className="pages-header"> Show Pet </h3>
                     <Card body>
                         <CardTitle>
                         <section id = "general">
@@ -50,7 +50,7 @@ class ShowPet extends Component{
                             : this.props.current_user.id === pet.user_id &&
                                 <>
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
-                                    <Button>Edit Pet</Button>
+                                    <Button className="button1">Edit Pet</Button>
                                 </NavLink>
 
                                 <Button onClick = {this.handleClick}>
