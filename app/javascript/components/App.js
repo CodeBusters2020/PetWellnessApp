@@ -30,12 +30,15 @@ class App extends Component {
     componentDidMount(){
       this.refreshPet()
     }
+
     
     refreshPet = () => {
       fetch("/pets")
       .then(response => {
           if(response.status === 200){
               return(response.json())
+          } else {
+            throw new Error(`Refresh Pet Failed. ${response.status}`)
           }
       }).then(petsArray => {
           this.setState({ pets: petsArray })
@@ -127,6 +130,7 @@ class App extends Component {
                 sign_in_route={ sign_in_route }
                 sign_out_route={ sign_out_route }
                 sign_up_route={ sign_up_route }
+                api_key={ api_key }
               />
             }
             />
