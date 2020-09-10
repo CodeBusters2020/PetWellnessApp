@@ -35,20 +35,19 @@ class ShowPet extends Component{
                             <SideBar />
                         </Col>
                     <Col>
-                <h3> Show Pet </h3>
                     <Card body>
                         <CardTitle>
                         <section id = "general">
+                        <h3> Show Pet </h3>
                         <h5>Name:</h5>
                         <p>{ pet.name }</p>
                         <h5>DOB:</h5><p>{ pet.dob }</p>
                         <h5>Breed:</h5><p>{ pet.breed }</p>
                         <h5>Sex:</h5><p>{ pet.sex }</p>
-                        </section>
                         { !this.props.logged_in ?
                             <p>Login to see more options</p>
                             : this.props.current_user.id === pet.user_id &&
-                                <>
+                            <>
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button>Edit Pet</Button>
                                 </NavLink>
@@ -58,15 +57,16 @@ class ShowPet extends Component{
                                 </Button>
                                 </>
                             }
+                            </section>
                         
                         <br/>
-                        <h5>Medical:</h5>
                         <section id = "medical">
+                        <h5>Medical:</h5>
                         <p>{ pet.medical }</p>
                         </section>
                         <br/>
-                        <h5>Digestion:</h5>
                         <section id = "digestion">
+                        <h5>Digestion:</h5>
                         <p>{ pet.digestion }</p>
                         </section>
                         <br/>
@@ -75,13 +75,13 @@ class ShowPet extends Component{
                         <p>{ pet.appointment }</p>
                         </section>
                         <br/>
-                        <h5>Diary:</h5>
                         <section id="diary">
+                        <h5>Diary:</h5>
                         <p>{ pet.diary }</p>
                         </section>
                         <br/>
-                        <h5>Miscellaneous:</h5>
                         <section id="misc">
+                        <h5>Miscellaneous:</h5>
                         <p>{ pet.misc }</p>
                         </section>
                         {this.state.isDeleted && <Redirect to = "/mypets" />
