@@ -41,7 +41,7 @@ class EditPet extends Component {
             alert("DOB must be filled")
         } else if (breed == ""){
             alert("Breed must be filled")
-        } else if (sex == ""){
+        } else if (sex !== "Male" && sex !== "Female"){
             alert("Sex must be selected")
         } else {
         this.props.editPet(this.state.form, this.props.pet.id)
@@ -62,6 +62,7 @@ class EditPet extends Component {
             <h2 className="pages-header">Edit Pet</h2>
             <Form>
                 <section id = "general">
+                <h2>Edit Pet</h2>
                 <FormGroup>
                     <Label>Name</Label>
                     <Input
@@ -122,7 +123,8 @@ class EditPet extends Component {
                     <FormGroup>
                     <Label>Medical</Label>
                     <Input
-                    type = "text"
+                    style={{height: '80vh'}}
+                    type = "textarea"
                     name = "medical"
                     placeholder="Optional"
                     value = { this.state.form.medical }
@@ -135,7 +137,8 @@ class EditPet extends Component {
                     <FormGroup>
                         <Label>Digestion</Label>
                         <Input
-                        type = "text"
+                        style={{height: '80vh'}}
+                        type = "textarea"
                         name = "digestion"
                         placeholder="Optional"
                         value = { this.state.form.digestion }
@@ -148,7 +151,8 @@ class EditPet extends Component {
                 <FormGroup>
                     <Label>Appointment</Label>
                     <Input
-                    type = "text"
+                    style={{height: '80vh'}}
+                    type = "textarea"
                     name = "appointment"
                     placeholder="Optional"
                     value = { this.state.form.appointment }
@@ -161,7 +165,8 @@ class EditPet extends Component {
                 <FormGroup>
                     <Label>Diary</Label>
                     <Input
-                    type = "text"
+                    style={{height: '80vh'}}
+                    type = "textarea"
                     name = "diary"
                     placeholder="Optional"
                     value = { this.state.form.diary }
@@ -171,11 +176,11 @@ class EditPet extends Component {
                 </section>
 
                 <section id= "misc">
-
                     <FormGroup>
                     <Label>Miscellaneous</Label>
                     <Input
-                    type = "text"
+                    style={{height: '80vh'}}
+                    type = "textarea"
                     name = "misc"
                     placeholder="Optional"
                     value = { this.state.form.misc }

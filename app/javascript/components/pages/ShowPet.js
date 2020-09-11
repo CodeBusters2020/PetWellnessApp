@@ -27,6 +27,12 @@ class ShowPet extends Component{
         }
     render(){
         let { pet } = this.props
+
+        const removeNewLineChar = (target) => {
+            return pet[target].split('\n').map((item, i) => {
+               return <p key={i}>{item}</p>
+            })
+         }      
         return(
             <React.Fragment>
                 <Container>
@@ -39,50 +45,51 @@ class ShowPet extends Component{
                     <Card body>
                         <CardTitle>
                         <section id = "general">
+                        <h3> Show Pet </h3>
                         <h5>Name:</h5>
                         <p>{ pet.name }</p>
                         <h5>DOB:</h5><p>{ pet.dob }</p>
                         <h5>Breed:</h5><p>{ pet.breed }</p>
                         <h5>Sex:</h5><p>{ pet.sex }</p>
-                        </section>
                         { !this.props.logged_in ?
                             <p>Login to see more options</p>
                             : this.props.current_user.id === pet.user_id &&
-                                <>
+                            <>
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button className="button1">Edit Pet</Button>
                                 </NavLink>
-
                                 <Button onClick = {this.handleClick}>
                                     Delete Pet
                                 </Button>
                                 </>
                             }
+                            </section>
                         
                         <br/>
-                        <h5>Medical:</h5>
                         <section id = "medical">
-                        <p>{ pet.medical }</p>
+                        <h5>Medical:</h5>
+        
+                        { removeNewLineChar("medical") }
                         </section>
                         <br/>
-                        <h5>Digestion:</h5>
                         <section id = "digestion">
-                        <p>{ pet.digestion }</p>
+                        <h5>Digestion:</h5>
+                        { removeNewLineChar("digestion") }
                         </section>
                         <br/>
                         <section id= "appointment">
                         <h5>Appointment:</h5>
-                        <p>{ pet.appointment }</p>
+                        { removeNewLineChar("appointment") }
                         </section>
                         <br/>
-                        <h5>Diary:</h5>
                         <section id="diary">
-                        <p>{ pet.diary }</p>
+                        <h5>Diary:</h5>
+                        { removeNewLineChar("diary") }
                         </section>
                         <br/>
-                        <h5>Miscellaneous:</h5>
                         <section id="misc">
-                        <p>{ pet.misc }</p>
+                        <h5>Miscellaneous:</h5>
+                        { removeNewLineChar("misc") }
                         </section>
                         {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
