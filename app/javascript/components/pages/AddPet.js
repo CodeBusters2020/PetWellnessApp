@@ -37,7 +37,7 @@ class AddPet extends Component{
       alert("DOB must be filled")
     } else if (breed == ""){
       alert("Breed must be filled")
-    } else if (sex == ""){
+    } else if (sex !== "Male" && sex !== "Female"){
       alert("Sex must be selected")
     } else {
       this.props.createNewPet(this.state.form)
@@ -55,9 +55,10 @@ class AddPet extends Component{
             <SideBar />
           </Col>
           <Col>
-            <h2>Add A New Pet</h2>
+            <h2 className="pages-header">Add A New Pet</h2>
           <Form>
-            <section id = "general"  >
+            <section id = "general" >
+            <h2>Add A New Pet</h2>
               <FormGroup>
                   <Label>Name</Label>
                   <Input
@@ -118,7 +119,8 @@ class AddPet extends Component{
                 <FormGroup>
                   <Label>Medical</Label>
                   <Input
-                  type = "text"
+                  style={{height: '80vh'}}
+                  type = "textarea"
                   name = "medical"
                   placeholder="Optional"
                   value = { this.state.form.medical }
@@ -131,7 +133,8 @@ class AddPet extends Component{
                 <FormGroup>
                     <Label>Digestion</Label>
                     <Input
-                    type = "text"
+                    style={{height: '80vh'}}
+                    type = "textarea"
                     name = "digestion"
                     placeholder="Optional"
                     value = { this.state.form.digestion }
@@ -144,7 +147,8 @@ class AddPet extends Component{
               <FormGroup>
                   <Label>Appointment</Label>
                   <Input
-                  type = "text"
+                  style={{height: '80vh'}}
+                  type = "textarea"
                   name = "appointment"
                   placeholder="Optional"
                   value = { this.state.form.appointment }
@@ -157,7 +161,8 @@ class AddPet extends Component{
               <FormGroup>
                   <Label>Diary</Label>
                   <Input
-                  type = "text"
+                  style={{height: '80vh'}}
+                  type = "textarea"
                   name = "diary"
                   placeholder="Optional"
                   value = { this.state.form.diary }
@@ -171,7 +176,8 @@ class AddPet extends Component{
                 <FormGroup>
                   <Label>Miscellaneous</Label>
                   <Input
-                  type = "text"
+                  style={{height: '80vh'}}
+                  type = "textarea"
                   name = "misc"
                   placeholder="Optional"
                   value = { this.state.form.misc }
@@ -180,7 +186,7 @@ class AddPet extends Component{
                 </FormGroup>
                 <Button
                 name="submit"
-                color = "secondary"
+                className="button1"
                 onClick = {this.handleSubmit}
                 >
                   Save Pet
