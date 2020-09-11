@@ -71,7 +71,7 @@ class AdoptAPet extends Component {
         return (
             <>
             <Form>
-            <h3>Adopt a Pet!</h3>
+            <h3 className="pages-header">Adopt a Pet!</h3>
                 <FormGroup>
                     <Label for="zipcode">Enter Zip Code</Label>
                     <Input
@@ -99,7 +99,7 @@ class AdoptAPet extends Component {
                     <option>50</option>
                     </Input>
                 </FormGroup>
-                <Button onClick = {this.handleSubmit}
+                <Button className="button1" onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
             { pets == null && <p>No results found. Try a different zipcode/radius!</p>}

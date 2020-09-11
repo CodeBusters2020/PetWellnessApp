@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Card, Container, CardTitle, Col, Row } from 'reactstrap'
+import { Button, Card, Container, CardImg, CardTitle, Col, Row } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 
 class MyPets extends Component{
@@ -13,18 +13,19 @@ class MyPets extends Component{
     render(){
         return(
             <React.Fragment>
-                <Container>
-                <h3> View {this.props.user_name}'s Pets </h3>
+                <Container className="index-container">
+                <h3 className="pages-header" align="center"> View {this.props.user_name}'s Pets </h3>
                 <Row id="cards">
         { this.props.myPets.map((myPet, index) => {
             return (
             <Col sm="4" key={ index }>
-                <Card body>
+                <Card body className="card-body">
+                <CardImg />
                 <CardTitle>
                     <h5>{ myPet.name }</h5>
                     <p>
                     <NavLink to={`/show/${myPet.id}`}>
-                        <Button color="secondary">
+                        <Button className="button1">
                         Preview Pet Info
                         </Button>
                     </NavLink>
@@ -32,7 +33,7 @@ class MyPets extends Component{
 
                     <p>
                     {/* <NavLink to={"send pet info hopefully!"}> */}
-                        <Button color="secondary">
+                        <Button className="button2">
                         Send Pet Info
                         </Button>
                     {/* </NavLink> */}
