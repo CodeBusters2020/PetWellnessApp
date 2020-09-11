@@ -27,21 +27,12 @@ class ShowPet extends Component{
         }
     render(){
         let { pet } = this.props
-        let newMedicalText = pet.medical.split('\n').map((item, i) => {
-            return <p key={i}>{item}</p>;
-        });
-        let newDiaryText = pet.diary.split('\n').map((item, i) => {
-            return <p key={i}>{item}</p>;
-        });
-        let newAppointmentText = pet.appointment.split('\n').map((item, i) => {
-            return <p key={i}>{item}</p>;
-        });
-        let newMiscText = pet.misc.split('\n').map((item, i) => {
-            return <p key={i}>{item}</p>;
-        });
-        let newDigestionText = pet.digestion.split('\n').map((item, i) => {
-            return <p key={i}>{item}</p>;
-        });
+
+        const removeNewLineChar = (target) => {
+            return pet[target].split('\n').map((item, i) => {
+               return <p key={i}>{item}</p>
+            })
+         }      
         return(
             <React.Fragment>
                 <Container>
@@ -76,28 +67,28 @@ class ShowPet extends Component{
                         <br/>
                         <section id = "medical">
                         <h5>Medical:</h5>
-                       
-                        { newMedicalText }
+        
+                        { removeNewLineChar("medical") }
                         </section>
                         <br/>
                         <section id = "digestion">
                         <h5>Digestion:</h5>
-                        <p>{ newDigestionText }</p>
+                        { removeNewLineChar("digestion") }
                         </section>
                         <br/>
                         <section id= "appointment">
                         <h5>Appointment:</h5>
-                        <p>{ newAppointmentText }</p>
+                        { removeNewLineChar("appointment") }
                         </section>
                         <br/>
                         <section id="diary">
                         <h5>Diary:</h5>
-                        <p>{ newDiaryText }</p>
+                        { removeNewLineChar("diary") }
                         </section>
                         <br/>
                         <section id="misc">
                         <h5>Miscellaneous:</h5>
-                        <p>{ newMiscText }</p>
+                        { removeNewLineChar("misc") }
                         </section>
                         {this.state.isDeleted && <Redirect to = "/mypets" />
                         }
