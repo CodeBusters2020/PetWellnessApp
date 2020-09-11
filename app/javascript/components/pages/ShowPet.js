@@ -56,6 +56,9 @@ class ShowPet extends Component{
                                 <Button onClick = {this.handleClick}>
                                     Delete Pet
                                 </Button>
+                                <NavLink to = {`/sendpet/ryan.koch13@gmail.com/${this.props.pet.id}`}>
+                                    Send Pet
+                                </NavLink>
                                 </>
                             }
                         
