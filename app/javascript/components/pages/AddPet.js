@@ -55,6 +55,7 @@ class AddPet extends Component{
             <SideBar />
           </Col>
           <Col>
+            <h2 className="pages-header">Add A New Pet</h2>
           <Form>
             <section id = "general" >
             <h2>Add A New Pet</h2>
@@ -185,7 +186,7 @@ class AddPet extends Component{
                 </FormGroup>
                 <Button
                 name="submit"
-                color = "secondary"
+                className="button1"
                 onClick = {this.handleSubmit}
                 >
                   Save Pet

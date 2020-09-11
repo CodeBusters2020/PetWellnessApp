@@ -59,6 +59,7 @@ class EditPet extends Component {
                     </Col>
 
                 <Col>
+            <h2 className="pages-header">Edit Pet</h2>
             <Form>
                 <section id = "general">
                 <h2>Edit Pet</h2>

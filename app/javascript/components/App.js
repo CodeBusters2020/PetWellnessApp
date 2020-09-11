@@ -14,9 +14,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import {  } from '@fortawesome/free-solid-svg-icons'
+
 
 
 class App extends Component {
