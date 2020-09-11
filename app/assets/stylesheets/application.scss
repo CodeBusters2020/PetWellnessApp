@@ -134,7 +134,9 @@ body {
   background-color: caf0f8;
 }
 
-#general {
+#general, #medical, #digestion, #diary, #misc {
+    height: 100vh;
+}
   height: 100vh;
 }
 
