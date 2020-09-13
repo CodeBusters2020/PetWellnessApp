@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import {Form, FormGroup, Container, Input, Label, Button, Row, Col } from 'reactstrap';
-import {Redirect, NavLink} from 'react-router-dom'
+import {Redirect} from 'react-router-dom'
 import SideBar from '../components/SideBar'
-
-
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 class EditPet extends Component {
     constructor(props){
         super(props)
@@ -117,6 +116,11 @@ class EditPet extends Component {
                     </Label>
                     </FormGroup>
                 </FormGroup>
+                <NavLink smooth to="#medical" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
                 </section>
 
                 <section id= "medical">
@@ -131,6 +135,11 @@ class EditPet extends Component {
                     onChange = { this.handleChange }
                     />
                     </FormGroup>
+                    <NavLink smooth to="#digestion" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Next
+                    </Button>
+                    </NavLink>
                 </section>
 
                 <section id= "digestion">
@@ -145,6 +154,12 @@ class EditPet extends Component {
                         onChange = { this.handleChange }
                         />
                     </FormGroup>
+                  
+                    <NavLink smooth to="#appointment" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Next
+                    </Button>
+                    </NavLink>
                 </section>
 
                 <section id= "appointment">
@@ -159,6 +174,11 @@ class EditPet extends Component {
                     onChange = { this.handleChange }
                     />
                 </FormGroup>
+                    <NavLink smooth to="#diary" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Next
+                    </Button>
+                    </NavLink>
                 </section>
 
                 <section id= "diary">
@@ -187,6 +207,12 @@ class EditPet extends Component {
                     onChange = { this.handleChange }
                     />
                     </FormGroup>
+                 
+                    <NavLink smooth to="#top-of-page" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Back to Top
+                    </Button>
+                    </NavLink>
                     <Button
                     name="submit"
                     color = "secondary"
