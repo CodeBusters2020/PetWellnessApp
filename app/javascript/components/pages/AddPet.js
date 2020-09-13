@@ -56,9 +56,9 @@ class AddPet extends Component{
             <SideBar />
           </Col>
           <Col>
-            <h2 className="pages-header">Add A New Pet</h2>
           <Form>
             <section id = "general" >
+            <h2 className="pages-header">Add A New Pet</h2>
               <FormGroup>
                   <Label>Name</Label>
                   <Input
