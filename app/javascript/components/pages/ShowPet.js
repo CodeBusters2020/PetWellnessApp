@@ -17,8 +17,7 @@ class ShowPet extends Component{
         super(props)
         this.state = {
             // Is switched if delete button is pressed, rendering redirect to index
-            isDeleted : false,
-            modal: false
+            isDeleted : false
 
             }
         }
