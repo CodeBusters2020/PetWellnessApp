@@ -21,7 +21,6 @@ class ShowPet extends Component{
             modal: false
 
             }
-            this.toggle = this.toggle.bind(this)
         }
 
         handleClick = () => {
@@ -49,11 +48,10 @@ class ShowPet extends Component{
                             <SideBar />
                         </Col>
                     <Col>
-                <h3 className="pages-header"> Show Pet </h3>
+                    <h3 className="pages-header"> Show Pet </h3>
                     <Card body>
                         <CardTitle>
                         <section id = "general">
-                        <h3> Show Pet </h3>
                         <h5>Name:</h5>
                         <p>{ pet.name }</p>
                         <h5>DOB:</h5><p>{ pet.dob }</p>
