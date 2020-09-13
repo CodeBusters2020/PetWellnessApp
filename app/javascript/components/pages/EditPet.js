@@ -59,10 +59,10 @@ class EditPet extends Component {
                     </Col>
 
                 <Col>
-            <h2 className="pages-header">Edit Pet</h2>
+           
             <Form>
                 <section id = "general">
-                <h2>Edit Pet</h2>
+                <h2 className="pages-header">Edit Pet</h2>
                 <FormGroup>
                     <Label>Name</Label>
                     <Input
@@ -191,6 +191,7 @@ class EditPet extends Component {
                     name="submit"
                     color = "secondary"
                     onClick = {this.handleSubmit}
+                    size="lg"
                     >
                     Save Pet
                     </Button>
