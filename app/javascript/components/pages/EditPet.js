@@ -193,6 +193,11 @@ class EditPet extends Component {
                     onChange = { this.handleChange }
                     />
                 </FormGroup>
+                <NavLink smooth to="#misc" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Next
+                    </Button>
+                    </NavLink>
                 </section>
 
                 <section id= "misc">
@@ -217,6 +222,7 @@ class EditPet extends Component {
                     name="submit"
                     color = "secondary"
                     onClick = {this.handleSubmit}
+                    className="button1"
                     size="lg"
                     >
                     Save Pet

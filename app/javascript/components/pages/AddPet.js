@@ -219,6 +219,7 @@ class AddPet extends Component{
                 <Button
                 name="submit"
                 className="button1"
+                size="lg"
                 onClick = {this.handleSubmit}
                 >
                   Save Pet
