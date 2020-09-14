@@ -1,5 +1,6 @@
 import React, { Component} from 'react'
 import SideBar from '../components/SideBar'
+import DeleteModal from '../components/DeleteModal'
 import {
     Card,
     CardTitle,
@@ -62,10 +63,10 @@ class ShowPet extends Component{
                             <>
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button className="button1">Edit Pet</Button>
-                                </NavLink>
-                                <Button onClick = {this.handleClick} color="danger" className="hvr-float">
-                                    Delete Pet
-                                </Button>
+                                </NavLink>                           
+                                <DeleteModal 
+                                handleClick = {this.handleClick}
+                                />
                             </>
                         }
                             </section>

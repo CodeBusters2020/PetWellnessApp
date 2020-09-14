@@ -65,7 +65,7 @@ a:hover {
   background-color: #00b4d8;
   border: none;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; 
   margin-right: 20px;
   transition-duration: 0.4s;
 }
@@ -73,6 +73,8 @@ a:hover {
 .button1:hover {
   background-color: #0092af !important;
   color: lightcyan !important;
+  padding:7px;
+
 }
 
 .button2 {
