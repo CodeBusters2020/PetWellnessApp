@@ -17,6 +17,7 @@
 
 a:hover {
   text-decoration: none;
+  color: lightcyan;
 }
 
 .body {
@@ -49,7 +50,7 @@ a:hover {
   border-radius: 25px;
 }
  .hero {
-    background-color: #00B4D8;
+  background-color: #118ab2;
     color: white;
     position:relative;
 }
@@ -64,8 +65,16 @@ a:hover {
   background-color: #00b4d8;
   border: none;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; 
   margin-right: 20px;
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #0092af !important;
+  color: lightcyan !important;
+  padding:7px;
+
 }
 
 .button2 {
@@ -73,6 +82,30 @@ a:hover {
   border: none;
   text-align: center;
   text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #5da9b8 !important;
+  color: lightcyan !important;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .add-button {
@@ -91,8 +124,15 @@ a:hover {
 
 .home-link {
   color: white;
+  transition-duration: 0.4s;
+}
+.home-link:hover {
+  color: lightcyan;
 }
 
+.hero-row {
+  align-items: flex-end;
+}
 
 .wrapper {
     display: flex;
@@ -173,8 +213,8 @@ body {
   border-radius: 25px;
 }
 .pages-header {
-  padding: 20px;
-  color: white;
+  padding: 20px 0px;
+  color: #118ab2;
 }
 
 .full-height {
@@ -197,7 +237,7 @@ body {
   background-color: caf0f8;
 }
 
-#general, #medical, #digestion, #diary, #misc {
+#general, #medical, #digestion, #diary, #misc, #appointment {
   height: 100vh;
 }
 

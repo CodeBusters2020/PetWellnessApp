@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import {
-  Row,
-  Container,
-  Nav,
-  NavItem,
-  Col
+    Row,
+    Container,
+    Nav,
+    NavItem,
+    Col
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 
@@ -29,7 +29,6 @@ class Header extends Component{
                 <a href="/">
                     <h1 className="headerh1">Pet Wellness App</h1>
                 </a>
-                    <p className="lead">Your place to find <i>your</i> own personal pet assistant.</p>
             </Container>
             </Col>
             <Col md="6" className="header-icons">

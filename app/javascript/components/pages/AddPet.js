@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import {Form, FormGroup, Input, Label, Button, Container, Row, Col} from 'reactstrap'
 import { Redirect } from 'react-router-dom'
 import SideBar from '../components/SideBar'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 
 class AddPet extends Component{
   constructor(props){
@@ -55,10 +56,9 @@ class AddPet extends Component{
             <SideBar />
           </Col>
           <Col>
-            <h2 className="pages-header">Add A New Pet</h2>
           <Form>
             <section id = "general" >
-            <h2>Add A New Pet</h2>
+            <h2 className="pages-header">Add A New Pet</h2>
               <FormGroup>
                   <Label>Name</Label>
                   <Input
@@ -113,6 +113,11 @@ class AddPet extends Component{
                   </Label>
                 </FormGroup>
               </FormGroup>
+                <NavLink smooth to="#medical" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
              </section>
 
              <section id = "medical" >
@@ -122,11 +127,16 @@ class AddPet extends Component{
                   style={{height: '80vh'}}
                   type = "textarea"
                   name = "medical"
-                  placeholder="Optional"
+                  placeholder={"(Optional)\nAllergies: pollen and peanut butter.\nVeterinarian: Doctor Smith.\nMedications: Bravecto.\nWeight: 30 pounds"}
                   value = { this.state.form.medical }
                   onChange = { this.handleChange }
                   />
                 </FormGroup>
+                <NavLink smooth to="#digestion" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
               </section>
 
               <section id = "digestion">
@@ -136,11 +146,18 @@ class AddPet extends Component{
                     style={{height: '80vh'}}
                     type = "textarea"
                     name = "digestion"
-                    placeholder="Optional"
+                    placeholder={"(Optional)\nFeed: Blue Buffalo standard\nAmount: 1 cup twice a day\nFeeding time: 10 a.m and 7p.m.\nBM times: Usually right after breakfast."}
                     value = { this.state.form.digestion }
                     onChange = { this.handleChange }
                     />
                 </FormGroup>
+               
+                <NavLink smooth to="#appointment" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
+                
               </section>
 
             <section id = "appointment">
@@ -150,11 +167,16 @@ class AddPet extends Component{
                   style={{height: '80vh'}}
                   type = "textarea"
                   name = "appointment"
-                  placeholder="Optional"
+                  placeholder={"(Optional)\nGroomer: 12 p.m with Sarah at Petco in La Mesa"}
                   value = { this.state.form.appointment }
                   onChange = { this.handleChange }
                   />
               </FormGroup>
+                  <NavLink smooth to="#diary" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
             </section>
 
             <section id = "diary">
@@ -164,11 +186,16 @@ class AddPet extends Component{
                   style={{height: '80vh'}}
                   type = "textarea"
                   name = "diary"
-                  placeholder="Optional"
+                  placeholder={"(Optional)\nKevin played fetch for 20 minutes today.\nKevin loves going to the dog park in Ocean Beach"}
                   value = { this.state.form.diary }
                   onChange = { this.handleChange }
                   />
               </FormGroup>
+                  <NavLink smooth to="#misc" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Next
+                  </Button>
+                </NavLink>
             </section>
 
               <section id = "misc">
@@ -179,11 +206,16 @@ class AddPet extends Component{
                   style={{height: '80vh'}}
                   type = "textarea"
                   name = "misc"
-                  placeholder="Optional"
+                  placeholder={"(Optional)\nKevin REALLY loves peanut butter so make sure to lock it away when you leave."}
                   value = { this.state.form.misc }
                   onChange = { this.handleChange }
                   />
                 </FormGroup>
+                <NavLink smooth to="#top-of-page" activeClassName="selected">
+                  <Button name="submit" className="button1">
+                    Back to Top
+                  </Button>
+                </NavLink>
                 <Button
                 name="submit"
                 className="button1"

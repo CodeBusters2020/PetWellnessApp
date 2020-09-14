@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import SideBar from '../components/SideBar'
+import DeleteModal from '../components/DeleteModal'
 import {
     Card,
     CardTitle,
@@ -8,7 +9,9 @@ import {
     Row, 
     Col
 } from 'reactstrap'
+ 
 import { NavLink, Redirect } from 'react-router-dom'
+
 
 class ShowPet extends Component{
     constructor(props){
@@ -16,8 +19,10 @@ class ShowPet extends Component{
         this.state = {
             // Is switched if delete button is pressed, rendering redirect to index
             isDeleted : false
+
             }
         }
+
         handleClick = () => {
           // Calls method from App.js, passing ID of current pet
             this.props.deletePet(this.props.pet.id);
@@ -25,6 +30,8 @@ class ShowPet extends Component{
             this.setState( {isDeleted: true} );
             console.log("Pet deleted")
         }
+
+
     render(){
         let { pet } = this.props
 
@@ -46,7 +53,6 @@ class ShowPet extends Component{
                     <Card body className="card-body1">
                         <CardTitle>
                         <section id = "general">
-                        <h3> Show Pet </h3>
                         <h5>Name:</h5>
                         <p>{ pet.name }</p>
                         <h5>DOB:</h5><p>{ pet.dob }</p>
@@ -58,13 +64,14 @@ class ShowPet extends Component{
                             <>
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button className="button1">Edit Pet</Button>
-                                </NavLink>
-                                <Button onClick = {this.handleClick}>
-                                    Delete Pet
-                                </Button>
-                                </>
-                            }
+                                </NavLink>                           
+                                <DeleteModal 
+                                handleClick = {this.handleClick}
+                                />
+                            </>
+                        }
                             </section>
+                            
                         
                         <br/>
                         <section id = "medical">
