@@ -106,6 +106,16 @@ a:hover {
   transform: translateY(-5px);
 }
 
+.add-button {
+  background-color: #00b4d8;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: center;
+}
+
 .headerh1 {
   color: white;
 }
@@ -184,13 +194,26 @@ body {
   background-color: #90e0ef;
   height: 100vh;
 }
+.index-container1 {
+  background-color: #90e0ef;
+  height: 100%;
+}
+
+.form-size {
+  width: 150%;
+}
 
 .card-body {
   background-color: white;
   margin-bottom: 20px;
   border-radius: 25px;
 }
-
+.card-body1 {
+  background-color: white;
+  margin-bottom: 20px;
+  width: 150%;
+  border-radius: 25px;
+}
 .pages-header {
   padding: 20px 0px;
   color: #118ab2;

@@ -17,7 +17,7 @@ class AboutUs extends Component{
                 <p> Welcome to the Pet Wellness App! The creators of this application make a team of four full stack developers from LEARN Academy. Together we call ourselves, <strong>Code Busters</strong>! We are passionate about creating technologies that make life easier. Sharing that frame of mind, we have found a common mission in delivering an application that can serve as your personal pet assistant.</p>
                 </div>
                 <br/>
-                <div className="index-container">
+                <div className="index-container1">
                   <h3 className="pages-header"> Meet The Team!</h3>
                   <Row>
                     <Col xs="12" md={{size:6, offset:2}}>
