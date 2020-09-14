@@ -15,6 +15,14 @@
  */
  @import 'bootstrap';
 
+@font-face {
+  font-family: 'Monteserrat-Light';
+  src: font_url('fonts/Monteserrat-Light.ttf');
+}
+
+html * {
+  font-family: 'Monteserrat-Light';
+}
 a:hover {
   text-decoration: none;
   color: lightcyan;
