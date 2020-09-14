@@ -17,7 +17,7 @@ class DeleteModal extends Component {
     return (
       <div>
           <br/>
-        <Button color="danger" onClick={this.toggle} className="button1 hvr-float">Delete Pet</Button>
+        <Button color="danger" onClick={this.toggle} className="hvr-float">Delete Pet</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} >
           <ModalHeader toggle={this.toggle}>Confirm</ModalHeader>
           <ModalBody>
