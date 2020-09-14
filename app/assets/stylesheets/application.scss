@@ -57,7 +57,7 @@ a:hover {
   background-color: #CAF0F8;
   border-radius: 25px;
 }
- .hero {
+.hero {
   background-color: #118ab2;
     color: white;
     position:relative;
@@ -67,6 +67,10 @@ a:hover {
   color: white;
   font-size: x-large;
   font-weight: 600;
+}
+
+.card-body {
+  padding: 40px;
 }
 
 .button1 {

@@ -47,11 +47,11 @@ class AdoptAPet extends Component {
                     alert("Please check your form")
                 }
                 return response
-                }).then(petResponse => {
-                    if (petResponse["data"].length === 0) {
+                }).then(response => {
+                    if (response["data"]== []) {
                         this.setState({ pets: null })
                     } else {
-                        this.setState({ pets: petResponse["data"] })
+                        this.setState({ pets: response["data"] })
                     }
                 })
                 .catch(errors => {
@@ -66,7 +66,7 @@ class AdoptAPet extends Component {
     render(){
         let {pets} = this.state
         var petArray = []
-        if (pets !== null) {petArray = Object.values(pets)}
+        if (pets !== undefined) {petArray = Object.values(pets)}
 
         return (
             <>
@@ -102,9 +102,9 @@ class AdoptAPet extends Component {
                 <Button className="button1" onClick = {this.handleSubmit}
                 >Search</Button>
             </Form>
-            { pets == null && <p>No results found. Try a different zipcode/radius!</p>}
+            { pets == undefined && <p>No results found. Try a different zipcode/radius!</p>}
 
-            { pets !== null && (pets.length !== 0) && 
+            { pets !== undefined && (pets.length !== 0) && 
                 (petArray.map((value, index) => {
                     return (
                     
