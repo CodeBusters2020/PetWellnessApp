@@ -15,6 +15,16 @@ class MyPets extends Component{
             <React.Fragment>
                 <Container className="index-container">
                 <h3 className="pages-header" align="center"> View {this.props.user_name}'s Pets </h3>
+                <Row>
+                <Col>
+                    <NavLink to={"/addpet"}>
+                        <Button className="add-button" size="lg">
+                        Add a Pet!
+                        </Button>
+                    </NavLink>
+                </Col>
+                </Row>
+                <br/>
                 <Row id="cards">
         { this.props.myPets.map((myPet, index) => {
             return (

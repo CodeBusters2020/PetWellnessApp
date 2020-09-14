@@ -5,20 +5,23 @@
 After cloning the repo:
 
 If your yarn packages are out of date run:
-* yarn install --check-files
+* $yarn install --check-files
 
-* System dependencies
+* Request an API key from: https://rescuegroups.org/services/request-an-api-key/
 
-* Configuration
+* Add API Key to credentials using $EDITOR="vi" bin/rails credentials:edit
 
-* Database creation
+* Add to views/Home/index.html.erb:
+  Rails.application.credentials.api_keys[:adopt_a_pet] 
 
-* Database initialization
+* Create a master key and add it to your config file
 
-* How to run the test suite
+* $bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+* $rails db:create
 
-* Deployment instructions
+* $rails db:migrate
 
-* ...
+* $rails s
+
+* navigate to localhost:3000

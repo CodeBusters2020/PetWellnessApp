@@ -57,9 +57,9 @@ class EditPet extends Component {
                     <SideBar />
                     </Col>
 
-                <Col>
+                <Col xs={6}>
            
-            <Form>
+            <Form className="form-size">
                 <section id = "general">
                 <h2 className="pages-header">Edit Pet</h2>
                 <FormGroup>
@@ -193,6 +193,11 @@ class EditPet extends Component {
                     onChange = { this.handleChange }
                     />
                 </FormGroup>
+                <NavLink smooth to="#misc" activeClassName="selected">
+                    <Button name="submit" className="button1">
+                    Next
+                    </Button>
+                    </NavLink>
                 </section>
 
                 <section id= "misc">
@@ -217,6 +222,7 @@ class EditPet extends Component {
                     name="submit"
                     color = "secondary"
                     onClick = {this.handleSubmit}
+                    className="button1"
                     size="lg"
                     >
                     Save Pet
@@ -224,6 +230,10 @@ class EditPet extends Component {
                 </section>
             </Form>
             </Col>
+           
+            <Col>
+            </Col>
+
             </Row>
             </Container>
                 { this.state.success && <Redirect to = {`/show/${this.props.pet.id}`} />}
