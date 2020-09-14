@@ -18,7 +18,8 @@ class AboutUs extends Component{
                 </div>
                 <br/>
                 <div className="index-container1">
-                  <h3 className="pages-header"> Meet The Team!</h3>
+                  <h3 className="pages-header" id="meet-team"> Meet The Team!</h3>
+                  <br/>
                   <Row>
                     <Col xs="12" md={{size:6, offset:2}}>
                     <div className="roundPics">

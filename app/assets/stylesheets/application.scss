@@ -41,7 +41,7 @@ a:hover {
     border-radius: 25px;
     margin: auto;
     margin-top: 20px;
-    padding: 20px;
+    padding: 60px;
     justify-content: center;
       img {
         border-radius: 25px;
@@ -205,6 +205,10 @@ body {
 .index-container1 {
   background-color: #90e0ef;
   height: 100%;
+  padding: 40px;
+}
+#meet-team {
+  padding-left: 160px;
 }
 
 .form-size {
@@ -255,6 +259,6 @@ body {
   background-color: #90e0ef;
   margin-top: 20px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 60px;
   font-size: large;
 }
