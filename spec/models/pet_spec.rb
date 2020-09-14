@@ -18,7 +18,7 @@ RSpec.describe Pet, type: :model do
     expect(pet.errors[:sex]).to_not be_empty
   end
   it "should validate presence of user_id" do
-    pet = Pet.create name: 'Buster', Date.new(2008, 10, 19), breed: 'dragon', sex: 'Male'
+    pet = Pet.create name: 'Buster', dob: Date.new(2008, 10, 19), breed: 'dragon', sex: 'Male'
     expect(pet.errors[:user_id]).to_not be_empty
   end
   it "dob should be a type date" do
@@ -60,10 +60,4 @@ RSpec.describe Pet, type: :model do
     pet.destroy
     expect(Pet.find_by(id: pet.id)).to be_nil
   end
-
-  # Show tests
-#   it "should show a pet" do
-#   pet = Pet.create name: 'Buster', dob: Date.new(2008, 10, 19), breed: 'dragon', sex: 'Female', user_id: 1
-#   expect(Pet.all).to respond_with 200
-#   end
 end

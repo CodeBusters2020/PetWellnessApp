@@ -14,7 +14,7 @@
       <img src="./assets/0.12.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-09-11T16:37:12-07:00">2020-09-11T16:37:12-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-09-14T08:50:20-07:00">2020-09-14T08:50:20-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  98.51%
+  91.29%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.99
+         0.98
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>25</b> files in total.
+    <b>27</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>134</b> relevant lines,
-    <span class="green"><b>132</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed. </span>
+    <b>241</b> relevant lines,
+    <span class="green"><b>220</b> lines covered</span> and
+    <span class="red"><b>21</b> lines missed. </span>
     (<span class="green">
-  98.51%
+  91.29%
 </span>
 )
   </div>
@@ -69,6 +69,28 @@
         </tr>
       </thead>
       <tbody>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#b1eaa8fcc0a85ddeeadfcd2105d51a890b370d03" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">75.00 %</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">0.75</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#75f08fb4e228c0d47fd34faed9c2ac7c58fb984e" class="src_link" title="app/controllers/pets_controller.rb">app/controllers/pets_controller.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">60.87 %</td>
+            <td class="cell--number">38</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">1.30</td>
+            
+          </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#5b2a6ec38e1c46954290d9d9e65b7b019da5ab79" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
@@ -304,7 +326,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#ea01ddd72da113170b235a900f5daafc2f4b4ba8" class="src_link" title="spec/models/pet_spec.rb">spec/models/pet_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">69</td>
+            <td class="cell--number">63</td>
             <td class="cell--number">44</td>
             <td class="cell--number">44</td>
             <td class="cell--number">0</td>
@@ -315,9 +337,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#342a52b777710ad1f930af4f5e4016e59084df49" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">5</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">2</td>
+            <td class="cell--number">42</td>
+            <td class="cell--number">28</td>
+            <td class="cell--number">28</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -336,12 +358,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#27e27b529888b09f8a98b9d6d612ad58d9dae553" class="src_link" title="spec/requests/pets_request_spec.rb">spec/requests/pets_request_spec.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">138</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0.00</td>
+            <td class="yellow strong cell--number t-file__coverage">84.00 %</td>
+            <td class="cell--number">146</td>
+            <td class="cell--number">50</td>
+            <td class="cell--number">42</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">0.84</td>
             
           </tr>
         
@@ -361,6 +383,673 @@
       </div>
 
       <div class="source_files">
+      
+        <div class="source_table" id="b1eaa8fcc0a85ddeeadfcd2105d51a890b370d03">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4>
+      <span class="red">
+  75.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>8</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  skip_before_action :verify_authenticity_token</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def after_sign_in_path_for(resource)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">   &#39;/mypets&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before_action :configure_permitted_parameters, if: :devise_controller?</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  protected</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def configure_permitted_parameters</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">   devise_parameter_sanitizer.permit(:sign_up, keys: [:username])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="75f08fb4e228c0d47fd34faed9c2ac7c58fb984e">
+  <div class="header">
+    <h3>app/controllers/pets_controller.rb</h3>
+    <h4>
+      <span class="red">
+  60.87%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>23</b> relevant lines.
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>9</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class PetsController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def index</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    pets = Pet.all</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: pets</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="8">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">      pet = Pet.create(pet_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="9">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">      if pet.valid?</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">          render json: pet</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">      else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="12">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">          render json: pet.errors, status: :unprocessable_entity</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">        end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def update</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">        pet = Pet.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">        pet.update(pet_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">        if pet.valid?</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">            render json: pet</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">        else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">            render json: pet.errors</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">        end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">        pet = Pet.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby">        if pet.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">            render json: pet</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby">        else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">            render json: pet.errors</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">        end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="34">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def pet_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="36">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">        params.require(:pet).permit(:name, :dob, :breed, :medical, :digestion, :appointment,:diary, :misc, :sex, :user_id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
       
         <div class="source_table" id="5b2a6ec38e1c46954290d9d9e65b7b019da5ab79">
   <div class="header">
@@ -7162,7 +7851,7 @@
 
             
 
-            <code class="ruby">    pet = Pet.create name: &#39;Buster&#39;, dob: &#39;this is a string&#39;, breed: &#39;dragon&#39;, sex: &#39;Male&#39;</code>
+            <code class="ruby">    pet = Pet.create name: &#39;Buster&#39;, dob: Date.new(2008, 10, 19), breed: &#39;dragon&#39;, sex: &#39;Male&#39;</code>
           </li>
         </div>
       
@@ -7173,7 +7862,7 @@
 
             
 
-            <code class="ruby">    expect(pet.errors[:dob]).to_not be_empty</code>
+            <code class="ruby">    expect(pet.errors[:user_id]).to_not be_empty</code>
           </li>
         </div>
       
@@ -7492,7 +8181,7 @@
 
             
 
-            <code class="ruby">  it &quot;should not update dob without date type&quot; do</code>
+            <code class="ruby">  it &quot;should not update dob without date&quot; do</code>
           </li>
         </div>
       
@@ -7569,7 +8258,7 @@
 
             
 
-            <code class="ruby">  it &quot;dob should be a type date&quot; do</code>
+            <code class="ruby">  it &quot;should destroy a user&quot; do</code>
           </li>
         </div>
       
@@ -7624,72 +8313,6 @@
 
             
 
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="64">
-            
-            
-
-            
-
-            <code class="ruby">  # Show tests</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="65">
-            
-            
-
-            
-
-            <code class="ruby">#   it &quot;should show a pet&quot; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="66">
-            
-            
-
-            
-
-            <code class="ruby">#   pet = Pet.create name: &#39;Buster&#39;, dob: Date.new(2008, 10, 19), breed: &#39;dragon&#39;, sex: &#39;Female&#39;, user_id: 1</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="67">
-            
-            
-
-            
-
-            <code class="ruby">#   expect(Pet.all).to respond_with 200</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="68">
-            
-            
-
-            
-
-            <code class="ruby">#   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="69">
-            
-            
-
-            
-
             <code class="ruby">end</code>
           </li>
         </div>
@@ -7713,8 +8336,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>28</b> relevant lines.
+      <span class="green"><b>28</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -7759,18 +8382,425 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  # pending &quot;add some examples to (or delete) #{__FILE__}&quot;</code>
+            
+
+            <code class="ruby">  it &quot;should validate presence of username&quot; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:username]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should validate presence of password&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:password]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"># Update test</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should not update a pet without a username&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user.update(username: &#39;&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:username]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should not update a pet without an email&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user.update(email: &#39;&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:email]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should not update a pet without a password&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user.update(password: &#39;&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:password]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="30">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should not update a pet without a password confirmation&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="31">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="32">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user.update(password_confirmation: &#39;&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.errors[:password_confirmation]).to_not be_empty</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">  # Delete tests</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="37">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;should destroy a user&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="38">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create username: &quot;ryank&quot;, email: &quot;ryank@test.com&quot;, password: &quot;test123&quot;, password_confirmation: &quot;test123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="39">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(User.find_by(id: user.id)).to be_nil</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="42">
             
             
 
@@ -8524,8 +9554,8 @@
   <div class="header">
     <h3>spec/requests/pets_request_spec.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="yellow">
+  84.0%
 </span>
 
       lines covered
@@ -8534,9 +9564,9 @@
     
 
     <div class="t-line-summary">
-      <b>0</b> relevant lines.
-      <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>50</b> relevant lines.
+      <span class="green"><b>42</b> lines covered</span> and
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
 
     
@@ -8547,35 +9577,35 @@
     <ol>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="1">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"># require &#39;rails_helper&#39;</code>
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="2">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"># RSpec.describe &quot;Pets&quot;, type: :request do</code>
+            
+
+            <code class="ruby">RSpec.describe &quot;Pets&quot;, type: :request do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     it &quot;gets a list of Pets&quot; do</code>
+            
+
+            <code class="ruby">    it &quot;gets a list of Pets&quot; do</code>
           </li>
         </div>
       
@@ -8586,18 +9616,18 @@
 
             
 
-            <code class="ruby">#         # Create a new cat in the Test Database (this is not the same one as development)</code>
+            <code class="ruby">        # Create a new cat in the Test Database (this is not the same one as development)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         Pet.create(name: &#39;Buster&#39;, dob: Date.new(2008, 10, 19), breed: &#39;dragon&#39;, sex: &#39;Female&#39;, user_id: 1)</code>
+            
+
+            <code class="ruby">        Pet.create(name: &#39;Buster&#39;, dob: Date.new(2008, 10, 19), breed: &#39;dragon&#39;, sex: &#39;Female&#39;, user_id: 1)</code>
           </li>
         </div>
       
@@ -8608,18 +9638,18 @@
 
             
 
-            <code class="ruby">#         # Make a request to the API</code>
+            <code class="ruby">        # Make a request to the API</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="7">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         get &#39;/pets&#39;</code>
+            
+
+            <code class="ruby">        get &#39;/pets&#39;</code>
           </li>
         </div>
       
@@ -8630,18 +9660,18 @@
 
             
 
-            <code class="ruby">#         # Convert the response into a Ruby Hash</code>
+            <code class="ruby">        # Convert the response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            
+
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -8652,18 +9682,18 @@
 
             
 
-            <code class="ruby">#         # Assure that we got a successful response</code>
+            <code class="ruby">        # Assure that we got a successful response</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         expect(response).to have_http_status(:ok)</code>
+            
+
+            <code class="ruby">        expect(response).to have_http_status(:ok)</code>
           </li>
         </div>
       
@@ -8674,18 +9704,18 @@
 
             
 
-            <code class="ruby">#         # Assure that we got one result back as expected</code>
+            <code class="ruby">        # Assure that we got one result back as expected</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="13">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         expect(json.length).to eq 1</code>
+            
+
+            <code class="ruby">        expect(json.length).to eq 1</code>
           </li>
         </div>
       
@@ -8696,18 +9726,18 @@
 
             
 
-            <code class="ruby">#     end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="15">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     it &quot;creates a pet&quot; do</code>
+            
+
+            <code class="ruby">    it &quot;creates a pet&quot; do</code>
           </li>
         </div>
       
@@ -8718,7 +9748,7 @@
 
             
 
-            <code class="ruby">#         # The params we are going to send with the request</code>
+            <code class="ruby">        # The params we are going to send with the request</code>
           </li>
         </div>
       
@@ -8729,18 +9759,18 @@
 
             
 
-            <code class="ruby">#         cat_params = {</code>
+            <code class="ruby">        cat_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         cat: {</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -8751,7 +9781,7 @@
 
             
 
-            <code class="ruby">#             firstName: &#39;Buster&#39;,</code>
+            <code class="ruby">                name: &#39;Buster&#39;, </code>
           </li>
         </div>
       
@@ -8762,7 +9792,7 @@
 
             
 
-            <code class="ruby">#             lastName: &#39;Rhymes&#39;,</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -8773,7 +9803,7 @@
 
             
 
-            <code class="ruby">#             age: 4,</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -8784,7 +9814,7 @@
 
             
 
-            <code class="ruby">#             enjoys: &#39;Meow Mix, and plenty of sunshine.&#39;</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -8795,7 +9825,7 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -8806,7 +9836,7 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -8817,7 +9847,7 @@
 
             
 
-            <code class="ruby">#         # Send the request to the server</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -8828,18 +9858,18 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">        # Send the request to the server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="27">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Assure that we get a success back</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: cat_params</code>
           </li>
         </div>
       
@@ -8850,18 +9880,18 @@
 
             
 
-            <code class="ruby">#         expect(response).to have_http_status(:ok)</code>
+            <code class="ruby">        # Assure that we get a success back</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Look up the cat we expect to be created in the Database</code>
+            
+
+            <code class="ruby">        expect(response).to have_http_status(:ok)</code>
           </li>
         </div>
       
@@ -8872,18 +9902,18 @@
 
             
 
-            <code class="ruby">#         cat = Cat.first</code>
+            <code class="ruby">        # Look up the cat we expect to be created in the Database</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="31">
+          <li class="missed" data-hits="0" data-linenumber="31">
             
             
 
             
 
-            <code class="ruby">#         # Assure that the created cat has the correct attributes</code>
+            <code class="ruby">        pet = Pet.first</code>
           </li>
         </div>
       
@@ -8894,18 +9924,18 @@
 
             
 
-            <code class="ruby">#         expect(cat.firstName).to eq &#39;Buster&#39;</code>
+            <code class="ruby">        # Assure that the created cat has the correct attributes</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="33">
+          <li class="missed" data-hits="0" data-linenumber="33">
             
             
 
             
 
-            <code class="ruby">#     end</code>
+            <code class="ruby">        expect(pet.name).to eq &#39;Buster&#39;</code>
           </li>
         </div>
       
@@ -8916,18 +9946,18 @@
 
             
 
-            <code class="ruby">#     it &quot;doesn&#39;t create a cat without a first name&quot; do</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="35">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         cat_params = {</code>
+            
+
+            <code class="ruby">    it &quot;doesn&#39;t create a cat without a name&quot; do</code>
           </li>
         </div>
       
@@ -8938,18 +9968,18 @@
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">        pet_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="37">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 age: 2,</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -8960,7 +9990,7 @@
 
             
 
-            <code class="ruby">#                 enjoys: &#39;Walks in the park&#39;</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -8971,7 +10001,7 @@
 
             
 
-            <code class="ruby">#             }</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -8982,7 +10012,7 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -8993,7 +10023,7 @@
 
             
 
-            <code class="ruby">#         # Send the request to the  server</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -9004,7 +10034,7 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -9015,7 +10045,7 @@
 
             
 
-            <code class="ruby">#         # expect an error if the cat_params does not have a name</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -9026,18 +10056,18 @@
 
             
 
-            <code class="ruby">#         expect(response.status).to eq 422</code>
+            <code class="ruby">        # Send the request to the  server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="45">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Convert the JSON response into a Ruby Hash</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: pet_params</code>
           </li>
         </div>
       
@@ -9048,18 +10078,18 @@
 
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            <code class="ruby">        # expect an error if the cat_params does not have a name</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="47">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
+            
+
+            <code class="ruby">        expect(response.status).to eq 422</code>
           </li>
         </div>
       
@@ -9070,18 +10100,18 @@
 
             
 
-            <code class="ruby">#         expect(json[&#39;firstName&#39;]).to include &quot;can&#39;t be blank&quot;</code>
+            <code class="ruby">        # Convert the JSON response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="49">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="49">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     end</code>
+            
+
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -9092,18 +10122,18 @@
 
             
 
-            <code class="ruby">#     it &quot;doesn&#39;t create a cat without a last name&quot; do</code>
+            <code class="ruby">        # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="51">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         cat_params = {</code>
+            
+
+            <code class="ruby">        expect(json[&#39;name&#39;]).to include &quot;can&#39;t be blank&quot;</code>
           </li>
         </div>
       
@@ -9114,18 +10144,18 @@
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="53">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="53">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 age: 2,</code>
+            
+
+            <code class="ruby">    it &quot;doesn&#39;t create a pet without a dob&quot; do</code>
           </li>
         </div>
       
@@ -9136,18 +10166,18 @@
 
             
 
-            <code class="ruby">#                 enjoys: &#39;Walks in the park&#39;</code>
+            <code class="ruby">        pet_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="55">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="55">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#             }</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -9158,7 +10188,7 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">                name: &quot;Buster&quot;,</code>
           </li>
         </div>
       
@@ -9169,7 +10199,7 @@
 
             
 
-            <code class="ruby">#         # Send the request to the  server</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -9180,7 +10210,7 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -9191,7 +10221,7 @@
 
             
 
-            <code class="ruby">#         # expect an error if the cat_params does not have a name</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -9202,7 +10232,7 @@
 
             
 
-            <code class="ruby">#         expect(response.status).to eq 422</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -9213,7 +10243,7 @@
 
             
 
-            <code class="ruby">#         # Convert the JSON response into a Ruby Hash</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -9224,18 +10254,18 @@
 
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            <code class="ruby">        # Send the request to the  server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="63">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="63">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: pet_params</code>
           </li>
         </div>
       
@@ -9246,18 +10276,18 @@
 
             
 
-            <code class="ruby">#         expect(json[&#39;lastName&#39;]).to include &quot;can&#39;t be blank&quot;</code>
+            <code class="ruby">        # expect an error if the cat_params does not have a name</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="65">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="65">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     end</code>
+            
+
+            <code class="ruby">        expect(response.status).to eq 422</code>
           </li>
         </div>
       
@@ -9268,18 +10298,18 @@
 
             
 
-            <code class="ruby">#     it &quot;doesn&#39;t create a cat without an age&quot; do</code>
+            <code class="ruby">        # Convert the JSON response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="67">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="67">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         cat_params = {</code>
+            
+
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -9290,18 +10320,18 @@
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">        # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="69">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="69">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 firstName: &#39;Buster&#39;,</code>
+            
+
+            <code class="ruby">        expect(json[&#39;dob&#39;]).to include &quot;can&#39;t be blank&quot;</code>
           </li>
         </div>
       
@@ -9312,18 +10342,18 @@
 
             
 
-            <code class="ruby">#                 lastName: &#39;Rhymes&#39;,</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="71">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="71">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 enjoys: &#39;Walks in the park&#39;</code>
+            
+
+            <code class="ruby">    it &quot;doesn&#39;t create a pet without a breed&quot; do</code>
           </li>
         </div>
       
@@ -9334,18 +10364,18 @@
 
             
 
-            <code class="ruby">#             }</code>
+            <code class="ruby">        cat_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="73">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="73">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         }</code>
+            
+
+            <code class="ruby">            cat: {</code>
           </li>
         </div>
       
@@ -9356,7 +10386,7 @@
 
             
 
-            <code class="ruby">#         # Send the request to the  server</code>
+            <code class="ruby">                name: &quot;Buster&quot;,</code>
           </li>
         </div>
       
@@ -9367,7 +10397,7 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -9378,7 +10408,7 @@
 
             
 
-            <code class="ruby">#         # expect an error if the cat_params does not have a name</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -9389,7 +10419,7 @@
 
             
 
-            <code class="ruby">#         expect(response.status).to eq 422</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -9400,7 +10430,7 @@
 
             
 
-            <code class="ruby">#         # Convert the JSON response into a Ruby Hash</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -9411,7 +10441,7 @@
 
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -9422,18 +10452,18 @@
 
             
 
-            <code class="ruby">#         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
+            <code class="ruby">        # Send the request to the  server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="81">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="81">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         expect(json[&#39;age&#39;]).to include &quot;can&#39;t be blank&quot;</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: pet_params</code>
           </li>
         </div>
       
@@ -9444,18 +10474,18 @@
 
             
 
-            <code class="ruby">#     end</code>
+            <code class="ruby">        # expect an error if the cat_params does not have a name</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="83">
+          <li class="missed" data-hits="0" data-linenumber="83">
             
             
 
             
 
-            <code class="ruby">#     it &quot;doesn&#39;t create a cat without an enjoys&quot; do</code>
+            <code class="ruby">        expect(response.status).to eq 422</code>
           </li>
         </div>
       
@@ -9466,18 +10496,18 @@
 
             
 
-            <code class="ruby">#         cat_params = {</code>
+            <code class="ruby">        # Convert the JSON response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="85">
+          <li class="missed" data-hits="0" data-linenumber="85">
             
             
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -9488,18 +10518,18 @@
 
             
 
-            <code class="ruby">#                 firstName: &#39;Buster&#39;,</code>
+            <code class="ruby">        # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="87">
+          <li class="missed" data-hits="0" data-linenumber="87">
             
             
 
             
 
-            <code class="ruby">#                 lastName: &#39;Rhymes&#39;,</code>
+            <code class="ruby">        expect(json[&#39;breed&#39;]).to include &quot;can&#39;t be blank&quot;</code>
           </li>
         </div>
       
@@ -9510,18 +10540,18 @@
 
             
 
-            <code class="ruby">#                 age: 4</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="89">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="89">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#             }</code>
+            
+
+            <code class="ruby">    it &quot;doesn&#39;t create a pet without a sex&quot; do</code>
           </li>
         </div>
       
@@ -9532,18 +10562,18 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">        pet_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="91">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="91">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Send the request to the  server</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -9554,7 +10584,7 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">                name: &quot;Buster&quot;,</code>
           </li>
         </div>
       
@@ -9565,7 +10595,7 @@
 
             
 
-            <code class="ruby">#         # expect an error if the cat_params does not have a name</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -9576,7 +10606,7 @@
 
             
 
-            <code class="ruby">#         expect(response.status).to eq 422</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -9587,7 +10617,7 @@
 
             
 
-            <code class="ruby">#         # Convert the JSON response into a Ruby Hash</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -9598,7 +10628,7 @@
 
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -9609,7 +10639,7 @@
 
             
 
-            <code class="ruby">#         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -9620,18 +10650,18 @@
 
             
 
-            <code class="ruby">#         expect(json[&#39;enjoys&#39;]).to include &quot;can&#39;t be blank&quot;</code>
+            <code class="ruby">        # Send the request to the  server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="99">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="99">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     end</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: pet_params</code>
           </li>
         </div>
       
@@ -9642,18 +10672,18 @@
 
             
 
-            <code class="ruby">#     it &quot;doesn&#39;t create a cat without a minimum of 10 characters for enjoys&quot; do</code>
+            <code class="ruby">        # expect an error if the cat_params does not have a name</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="101">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="101">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         cat_params = {</code>
+            
+
+            <code class="ruby">        expect(response.status).to eq 422</code>
           </li>
         </div>
       
@@ -9664,18 +10694,18 @@
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">        # Convert the JSON response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="103">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="103">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 firstName: &#39;Buster&#39;,</code>
+            
+
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -9686,18 +10716,18 @@
 
             
 
-            <code class="ruby">#                 lastName: &#39;Rhymes&#39;,</code>
+            <code class="ruby">        # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="105">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="105">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 enjoys: &#39;walks&#39;,</code>
+            
+
+            <code class="ruby">        expect(json[&#39;sex&#39;]).to include &quot;can&#39;t be blank&quot;</code>
           </li>
         </div>
       
@@ -9708,18 +10738,18 @@
 
             
 
-            <code class="ruby">#                 age: 4</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="107">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="107">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#             }</code>
+            
+
+            <code class="ruby">    it &quot;doesn&#39;t create a cat without a user_id&quot; do</code>
           </li>
         </div>
       
@@ -9730,18 +10760,18 @@
 
             
 
-            <code class="ruby">#         }</code>
+            <code class="ruby">        pet_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="109">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="109">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         # Send the request to the  server</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -9752,7 +10782,7 @@
 
             
 
-            <code class="ruby">#         post &#39;/cats&#39;, params: cat_params</code>
+            <code class="ruby">                name: &quot;Buster&quot;,</code>
           </li>
         </div>
       
@@ -9763,7 +10793,7 @@
 
             
 
-            <code class="ruby">#         # expect an error if the cat_params does not have a name</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -9774,7 +10804,7 @@
 
             
 
-            <code class="ruby">#         expect(response.status).to eq 422</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -9785,7 +10815,7 @@
 
             
 
-            <code class="ruby">#         # Convert the JSON response into a Ruby Hash</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -9796,7 +10826,7 @@
 
             
 
-            <code class="ruby">#         json = JSON.parse(response.body)</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -9807,7 +10837,7 @@
 
             
 
-            <code class="ruby">#         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
+            <code class="ruby">        }</code>
           </li>
         </div>
       
@@ -9818,18 +10848,18 @@
 
             
 
-            <code class="ruby">#         expect(json[&#39;enjoys&#39;]).to include &quot;is too short (minimum is 10 characters)&quot;</code>
+            <code class="ruby">        # Send the request to the  server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="117">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="117">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#     end</code>
+            
+
+            <code class="ruby">        post &#39;/pets&#39;, params: pet_params</code>
           </li>
         </div>
       
@@ -9840,18 +10870,18 @@
 
             
 
-            <code class="ruby">#     # update test</code>
+            <code class="ruby">        # expect an error if the cat_params does not have a name</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="119">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="119">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#         it &quot;updates a cat&quot; do</code>
+            
+
+            <code class="ruby">        expect(response.status).to eq 422</code>
           </li>
         </div>
       
@@ -9862,18 +10892,18 @@
 
             
 
-            <code class="ruby">#             # The params we are going to send with the request</code>
+            <code class="ruby">        # Convert the JSON response into a Ruby Hash</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="121">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="121">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#             cat_params = {</code>
+            
+
+            <code class="ruby">        json = JSON.parse(response.body)</code>
           </li>
         </div>
       
@@ -9884,18 +10914,18 @@
 
             
 
-            <code class="ruby">#             cat: {</code>
+            <code class="ruby">        # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="123">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="123">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 firstName: &#39;Buster&#39;,</code>
+            
+
+            <code class="ruby">        expect(json[&#39;user_id&#39;]).to include &quot;can&#39;t be blank&quot;</code>
           </li>
         </div>
       
@@ -9906,7 +10936,7 @@
 
             
 
-            <code class="ruby">#                 lastName: &#39;Rhymes&#39;,</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -9917,18 +10947,18 @@
 
             
 
-            <code class="ruby">#                 age: 4,</code>
+            <code class="ruby">    # update test</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="126">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="126">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#                 enjoys: &#39;Meow Mix, and plenty of sunshine.&#39;</code>
+            
+
+            <code class="ruby">        it &quot;updates a pet&quot; do</code>
           </li>
         </div>
       
@@ -9939,7 +10969,7 @@
 
             
 
-            <code class="ruby">#             }</code>
+            <code class="ruby">            # The params we are going to send with the request</code>
           </li>
         </div>
       
@@ -9950,18 +10980,18 @@
 
             
 
-            <code class="ruby">#             }</code>
+            <code class="ruby">            pet_params = {</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="129">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="129">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#             # Send the request to the server</code>
+            
+
+            <code class="ruby">            pet: {</code>
           </li>
         </div>
       
@@ -9972,7 +11002,7 @@
 
             
 
-            <code class="ruby">#             put &#39;/cats/:id&#39;, params: cat_params</code>
+            <code class="ruby">                name: &quot;Buster&quot;,</code>
           </li>
         </div>
       
@@ -9983,7 +11013,7 @@
 
             
 
-            <code class="ruby">#             # Assure that we get a success back</code>
+            <code class="ruby">                dob: Date.new(2008, 10, 19), </code>
           </li>
         </div>
       
@@ -9994,7 +11024,7 @@
 
             
 
-            <code class="ruby">#             expect(response).to have_http_status(:ok)</code>
+            <code class="ruby">                breed: &#39;dragon&#39;, </code>
           </li>
         </div>
       
@@ -10005,7 +11035,7 @@
 
             
 
-            <code class="ruby">#             # Look up the cat we expect to be created in the Database</code>
+            <code class="ruby">                sex: &#39;Female&#39;, </code>
           </li>
         </div>
       
@@ -10016,7 +11046,7 @@
 
             
 
-            <code class="ruby">#             cat = Cat.first</code>
+            <code class="ruby">                user_id: 1</code>
           </li>
         </div>
       
@@ -10027,7 +11057,7 @@
 
             
 
-            <code class="ruby">#             # Assure that the created cat has the correct attributes</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -10038,7 +11068,7 @@
 
             
 
-            <code class="ruby">#             expect(cat.firstName).to eq &#39;Buster&#39;</code>
+            <code class="ruby">            }</code>
           </li>
         </div>
       
@@ -10049,18 +11079,106 @@
 
             
 
-            <code class="ruby">#         end</code>
+            <code class="ruby">            # Send the request to the server</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="138">
+          <li class="covered" data-hits="1" data-linenumber="138">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">            put &#39;/pets/:id&#39;, params: pet_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="139">
             
             
 
             
 
-            <code class="ruby"># end</code>
+            <code class="ruby">            # Assure that we get a success back</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="140">
+            
+            
+
+            
+
+            <code class="ruby">            expect(response).to have_http_status(:ok)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="141">
+            
+            
+
+            
+
+            <code class="ruby">            # Look up the cat we expect to be created in the Database</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="142">
+            
+            
+
+            
+
+            <code class="ruby">            pet = Pet.first</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="143">
+            
+            
+
+            
+
+            <code class="ruby">            # Assure that the created cat has the correct attributes</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="144">
+            
+            
+
+            
+
+            <code class="ruby">            expect(pet.fname).to eq &#39;Buster&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="145">
+            
+            
+
+            
+
+            <code class="ruby">        end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="146">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
           </li>
         </div>
       

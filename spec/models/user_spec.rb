@@ -3,19 +3,11 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   it "should validate presence of username" do
     user = User.create email: "ryank@test.com", password: "test123", password_confirmation: "test123"
-    expect(pet.errors[:name]).to_not be_empty
-  end
-  it "should validate presence of email" do
-    user = User.create username: "ryank", email: "ryank@test.com", password: "test123", password_confirmation: "test123"
-    expect(user.errors[:dob]).to_not be_empty
+    expect(user.errors[:username]).to_not be_empty
   end
   it "should validate presence of password" do
     user = User.create username: "ryank", email: "ryank@test.com", password_confirmation: "test123"
-    expect(user.errors[:breed]).to_not be_empty
-  end
-  it "should validate presence of password confirmation" do
-    user = User.create username: "ryank", email: "ryank@test.com", password: "test123"
-    expect(user.errors[:sex]).to_not be_empty
+    expect(user.errors[:password]).to_not be_empty
   end
 
 

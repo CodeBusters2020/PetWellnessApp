@@ -42,100 +42,105 @@ RSpec.describe "Pets", type: :request do
             }
         }
         # Send the request to the  server
-        post '/cats', params: cat_params
+        post '/pets', params: pet_params
         # expect an error if the cat_params does not have a name
         expect(response.status).to eq 422
         # Convert the JSON response into a Ruby Hash
         json = JSON.parse(response.body)
         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.
-        expect(json['firstName']).to include "can't be blank"
+        expect(json['name']).to include "can't be blank"
     end
-    it "doesn't create a cat without a last name" do
-        cat_params = {
-            cat: {
-                age: 2,
-                enjoys: 'Walks in the park'
+    it "doesn't create a pet without a dob" do
+        pet_params = {
+            pet: {
+                name: "Buster",
+                breed: 'dragon', 
+                sex: 'Female', 
+                user_id: 1
             }
         }
         # Send the request to the  server
-        post '/cats', params: cat_params
+        post '/pets', params: pet_params
         # expect an error if the cat_params does not have a name
         expect(response.status).to eq 422
         # Convert the JSON response into a Ruby Hash
         json = JSON.parse(response.body)
         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.
-        expect(json['lastName']).to include "can't be blank"
+        expect(json['dob']).to include "can't be blank"
     end
-    it "doesn't create a cat without an age" do
+    it "doesn't create a pet without a breed" do
         cat_params = {
             cat: {
-                firstName: 'Buster',
-                lastName: 'Rhymes',
-                enjoys: 'Walks in the park'
+                name: "Buster",
+                dob: Date.new(2008, 10, 19), 
+                sex: 'Female', 
+                user_id: 1
             }
         }
         # Send the request to the  server
-        post '/cats', params: cat_params
+        post '/pets', params: pet_params
         # expect an error if the cat_params does not have a name
         expect(response.status).to eq 422
         # Convert the JSON response into a Ruby Hash
         json = JSON.parse(response.body)
         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.
-        expect(json['age']).to include "can't be blank"
+        expect(json['breed']).to include "can't be blank"
     end
-    it "doesn't create a cat without an enjoys" do
-        cat_params = {
-            cat: {
-                firstName: 'Buster',
-                lastName: 'Rhymes',
-                age: 4
+    it "doesn't create a pet without a sex" do
+        pet_params = {
+            pet: {
+                name: "Buster",
+                dob: Date.new(2008, 10, 19), 
+                breed: 'dragon', 
+                user_id: 1
             }
         }
         # Send the request to the  server
-        post '/cats', params: cat_params
+        post '/pets', params: pet_params
         # expect an error if the cat_params does not have a name
         expect(response.status).to eq 422
         # Convert the JSON response into a Ruby Hash
         json = JSON.parse(response.body)
         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.
-        expect(json['enjoys']).to include "can't be blank"
+        expect(json['sex']).to include "can't be blank"
     end
-    it "doesn't create a cat without a minimum of 10 characters for enjoys" do
-        cat_params = {
-            cat: {
-                firstName: 'Buster',
-                lastName: 'Rhymes',
-                enjoys: 'walks',
-                age: 4
+    it "doesn't create a cat without a user_id" do
+        pet_params = {
+            pet: {
+                name: "Buster",
+                dob: Date.new(2008, 10, 19), 
+                breed: 'dragon', 
+                sex: 'Female', 
             }
         }
         # Send the request to the  server
-        post '/cats', params: cat_params
+        post '/pets', params: pet_params
         # expect an error if the cat_params does not have a name
         expect(response.status).to eq 422
         # Convert the JSON response into a Ruby Hash
         json = JSON.parse(response.body)
         # Errors are returned as an array because there could be more than one, if there are more than one validation failures on an attribute.
-        expect(json['enjoys']).to include "is too short (minimum is 10 characters)"
+        expect(json['user_id']).to include "can't be blank"
     end
     # update test
-        it "updates a cat" do
+        it "updates a pet" do
             # The params we are going to send with the request
-            cat_params = {
-            cat: {
-                firstName: 'Buster',
-                lastName: 'Rhymes',
-                age: 4,
-                enjoys: 'Meow Mix, and plenty of sunshine.'
+            pet_params = {
+            pet: {
+                name: "Buster",
+                dob: Date.new(2008, 10, 19), 
+                breed: 'dragon', 
+                sex: 'Female', 
+                user_id: 1
             }
             }
             # Send the request to the server
-            put '/cats/:id', params: cat_params
+            put '/pets/:id', params: pet_params
             # Assure that we get a success back
             expect(response).to have_http_status(:ok)
             # Look up the cat we expect to be created in the Database
-            cat = Cat.first
+            pet = Pet.first
             # Assure that the created cat has the correct attributes
-            expect(cat.firstName).to eq 'Buster'
+            expect(pet.fname).to eq 'Buster'
         end
-end
+    end
