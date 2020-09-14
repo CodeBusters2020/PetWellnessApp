@@ -50,7 +50,7 @@ a:hover {
   border-radius: 25px;
 }
  .hero {
-    background-color: #00B4D8;
+  background-color: #118ab2;
     color: white;
     position:relative;
 }
@@ -192,8 +192,8 @@ body {
 }
 
 .pages-header {
-  padding: 20px;
-  color: white;
+  padding: 20px 0px;
+  color: #118ab2;
 }
 
 .full-height {
@@ -216,7 +216,7 @@ body {
   background-color: caf0f8;
 }
 
-#general, #medical, #digestion, #diary, #misc {
+#general, #medical, #digestion, #diary, #misc, #appointment {
   height: 100vh;
 }
 
