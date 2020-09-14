@@ -50,7 +50,7 @@ a:hover {
   border-radius: 25px;
 }
  .hero {
-    background-color: #00B4D8;
+  background-color: #118ab2;
     color: white;
     position:relative;
 }
@@ -65,7 +65,7 @@ a:hover {
   background-color: #00b4d8;
   border: none;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; 
   margin-right: 20px;
   transition-duration: 0.4s;
 }
@@ -73,6 +73,8 @@ a:hover {
 .button1:hover {
   background-color: #0092af !important;
   color: lightcyan !important;
+  padding:7px;
+
 }
 
 .button2 {
@@ -192,8 +194,8 @@ body {
 }
 
 .pages-header {
-  padding: 20px;
-  color: white;
+  padding: 20px 0px;
+  color: #118ab2;
 }
 
 .full-height {
@@ -216,7 +218,7 @@ body {
   background-color: caf0f8;
 }
 
-#general, #medical, #digestion, #diary, #misc {
+#general, #medical, #digestion, #diary, #misc, #appointment {
   height: 100vh;
 }
 
