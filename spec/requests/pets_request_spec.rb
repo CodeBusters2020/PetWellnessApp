@@ -1,8 +1,9 @@
 require 'rails_helper'
 RSpec.describe "Pets", type: :request do
     it "gets a list of Pets" do
+        user = User.create username: "ryank", email: "ryank@test.com", password: "test123", password_confirmation: "test123"
         # Create a new cat in the Test Database (this is not the same one as development)
-        Pet.create(name: 'Buster', dob: Date.new(2008, 10, 19), breed: 'dragon', sex: 'Female', user_id: 1)
+        pet = user.pets.create(name: 'Buster', dob: Date.new(2008, 10, 19), breed: 'dragon', sex: 'Female')
         # Make a request to the API
         get '/pets'
         # Convert the response into a Ruby Hash
@@ -13,18 +14,19 @@ RSpec.describe "Pets", type: :request do
         expect(json.length).to eq 1
     end
     it "creates a pet" do
+        user = User.create username: "ryank", email: "ryank@test.com", password: "test123", password_confirmation: "test123"
         # The params we are going to send with the request
-        cat_params = {
+        pet_params = {
             pet: {
                 name: 'Buster', 
                 dob: Date.new(2008, 10, 19), 
                 breed: 'dragon', 
                 sex: 'Female', 
-                user_id: 1
+                user_id: user.id
             }
         }
         # Send the request to the server
-        post '/pets', params: cat_params
+        post '/pets', params: pet_params
         # Assure that we get a success back
         expect(response).to have_http_status(:ok)
         # Look up the cat we expect to be created in the Database
@@ -32,7 +34,7 @@ RSpec.describe "Pets", type: :request do
         # Assure that the created cat has the correct attributes
         expect(pet.name).to eq 'Buster'
     end
-    it "doesn't create a cat without a name" do
+    it "doesn't create a pet without a name" do
         pet_params = {
             pet: {
                 dob: Date.new(2008, 10, 19), 
@@ -69,8 +71,8 @@ RSpec.describe "Pets", type: :request do
         expect(json['dob']).to include "can't be blank"
     end
     it "doesn't create a pet without a breed" do
-        cat_params = {
-            cat: {
+        pet_params = {
+            pet: {
                 name: "Buster",
                 dob: Date.new(2008, 10, 19), 
                 sex: 'Female', 
@@ -124,23 +126,25 @@ RSpec.describe "Pets", type: :request do
     end
     # update test
         it "updates a pet" do
+            user = User.create(username: "ryank", email: "ryank@test.com", password: "test123", password_confirmation: "test123")
+            pet = Pet.create(name: 'Buster', dob: Date.new(2008, 10, 19), breed: 'dragon', sex: 'Female', user_id: user.id)
             # The params we are going to send with the request
             pet_params = {
-            pet: {
-                name: "Buster",
-                dob: Date.new(2008, 10, 19), 
-                breed: 'dragon', 
-                sex: 'Female', 
-                user_id: 1
+                pet: {
+                    name: "Buster",
+                    dob: Date.new(2008, 10, 19),
+                    breed: 'dragon', 
+                    sex: "Male",
+                    user_id: user.id
+                }
             }
-            }
+            # Assigns pet.id to it's own variable
+            # petid = pet.id
             # Send the request to the server
-            put '/pets/:id', params: pet_params
+            patch "/pets/#{pet.id}", params: pet_params
             # Assure that we get a success back
             expect(response).to have_http_status(:ok)
-            # Look up the cat we expect to be created in the Database
-            pet = Pet.first
             # Assure that the created cat has the correct attributes
-            expect(pet.fname).to eq 'Buster'
+            expect(pet.name).to eq 'Buster'
         end
     end
