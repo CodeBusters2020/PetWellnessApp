@@ -104,8 +104,10 @@ class ShowPet extends Component{
                         </CardTitle>
                     </Card>
                     </Col>
+                    
                     <Col>
                     </Col>
+                    
                     </Row>
                     </Container>
                 { this.state.success && <Redirect to={ `/` }/> }

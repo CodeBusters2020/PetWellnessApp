@@ -55,8 +55,8 @@ class AddPet extends Component{
           <Col>
             <SideBar />
           </Col>
-          <Col>
-          <Form>
+          <Col xs={6}>
+          <Form className="form-size">
             <section id = "general" >
             <h2 className="pages-header">Add A New Pet</h2>
               <FormGroup>
@@ -227,6 +227,10 @@ class AddPet extends Component{
         </Form>
 
         </Col>
+
+        <Col>
+        </Col>
+
         </Row>
       </Container>
       { this.state.success && <Redirect to = "/mypets" /> }

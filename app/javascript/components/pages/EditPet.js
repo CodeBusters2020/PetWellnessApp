@@ -57,9 +57,9 @@ class EditPet extends Component {
                     <SideBar />
                     </Col>
 
-                <Col>
+                <Col xs={6}>
            
-            <Form>
+            <Form className="form-size">
                 <section id = "general">
                 <h2 className="pages-header">Edit Pet</h2>
                 <FormGroup>
@@ -224,6 +224,10 @@ class EditPet extends Component {
                 </section>
             </Form>
             </Col>
+           
+            <Col>
+            </Col>
+
             </Row>
             </Container>
                 { this.state.success && <Redirect to = {`/show/${this.props.pet.id}`} />}
