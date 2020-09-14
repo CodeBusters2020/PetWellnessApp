@@ -75,6 +75,16 @@ a:hover {
   text-decoration: none;
 }
 
+.add-button {
+  background-color: #00b4d8;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .headerh1 {
   color: white;
 }
