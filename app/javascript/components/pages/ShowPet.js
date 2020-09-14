@@ -40,9 +40,10 @@ class ShowPet extends Component{
                         <Col>
                             <SideBar />
                         </Col>
-                    <Col>
+                    
+                    <Col xs={6}>
                 <h3 className="pages-header"> Show Pet </h3>
-                    <Card body>
+                    <Card body className="card-body1">
                         <CardTitle>
                         <section id = "general">
                         <h3> Show Pet </h3>
@@ -95,6 +96,8 @@ class ShowPet extends Component{
                         }
                         </CardTitle>
                     </Card>
+                    </Col>
+                    <Col>
                     </Col>
                     </Row>
                     </Container>
