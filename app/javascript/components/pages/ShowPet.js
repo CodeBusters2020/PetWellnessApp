@@ -58,7 +58,7 @@ class ShowPet extends Component{
                                 <NavLink to = {`/editpet/${this.props.pet.id}`}>
                                     <Button className="button1">Edit Pet</Button>
                                 </NavLink>
-                                <Button onClick = {this.handleClick}>
+                                <Button onClick = {this.handleClick} color="danger" className="hvr-float">
                                     Delete Pet
                                 </Button>
                                 </>
